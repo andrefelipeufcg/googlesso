@@ -1,0 +1,16 @@
+{
+    "name": "glpi-plugin/googlesso",
+    "description": "Login com Google (OAuth2/OpenID Connect) para GLPI 11, coexistindo com a autenticacao local",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.2",
+        "league/oauth2-google": "^4.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "8.2.99"
+        }
+    }
+}

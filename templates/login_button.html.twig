@@ -1,0 +1,25 @@
+{# Injetado via hook DISPLAY_LOGIN abaixo do formulário nativo de login #}
+<div class="mt-3 text-center" id="googlesso-login-container" style="display: none;">
+    <div class="d-flex align-items-center my-2">
+        <hr class="flex-grow-1 m-0">
+        <span class="mx-3 text-secondary text-uppercase small">{{ __('ou', 'googlesso') }}</span>
+        <hr class="flex-grow-1 m-0">
+    </div>
+    <a href="{{ authorize_url }}" class="btn btn-outline-secondary w-100 mt-2">
+        <i class="fab fa-google me-2"></i>
+        {{ __('Entrar com Google', 'googlesso') }}
+    </a>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var ssoContainer = document.getElementById("googlesso-login-container");
+    var formCol = document.querySelector(".col-md-5");
+    if (formCol && ssoContainer) {
+        formCol.appendChild(ssoContainer);
+        ssoContainer.style.display = "block";
+    } else if (ssoContainer) {
+        // Fallback se .col-md-5 não for encontrado, apenas exibe no local original
+        ssoContainer.style.display = "block";
+    }
+});
+</script>

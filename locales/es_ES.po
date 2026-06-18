@@ -1,0 +1,90 @@
+msgid ""
+msgstr "Project-Id-Version: Google SSO 1.0\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2026-06-18 12:00+0000\nLast-Translator: \nLanguage-Team: \nLanguage: es_ES\nMIME-Version: 1.0\nContent-Type: text\/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Configuration updated."
+msgstr "Configuraci\u00f3n actualizada."
+
+msgid "Google login cancelled: %s"
+msgstr "Inicio de sesi\u00f3n en Google cancelado: %s"
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Estado OAuth2 no v\u00e1lido. Int\u00e9ntelo de nuevo desde la p\u00e1gina de inicio de sesi\u00f3n."
+
+msgid "Google response without authorization code."
+msgstr "Respuesta de Google sin c\u00f3digo de autorizaci\u00f3n."
+
+msgid "Google authentication failed: %s"
+msgstr "Error en la autenticaci\u00f3n de Google: %s"
+
+msgid "The Google account does not have a verified email."
+msgstr "La cuenta de Google no tiene un correo electr\u00f3nico verificado."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Solo se aceptan cuentas del dominio %s."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Ning\u00fan usuario de GLPI corresponde a esta cuenta de Google."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Este usuario est\u00e1 desactivado en GLPI."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sesi\u00f3n no inicializada: el usuario no tiene perfil habilitado."
+
+msgid "Failed to create the user in GLPI."
+msgstr "No se pudo crear el usuario en GLPI."
+
+msgid "or"
+msgstr "o"
+
+msgid "Sign in with Google"
+msgstr "Iniciar sesi\u00f3n con Google"
+
+msgid "Google SSO \u2014 Configuration"
+msgstr "Google SSO \u2014 Configuraci\u00f3n"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Registre esta URL de redireccionamiento en Google Cloud Console:"
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Deje en blanco para mantener el secreto actual (almacenado cifrado)."
+
+msgid "Restrict to domain (optional)"
+msgstr "Restringir al dominio (opcional)"
+
+msgid "Automatically create users on first login"
+msgstr "Crear usuarios autom\u00e1ticamente en el primer inicio de sesi\u00f3n"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Reglas de Perfil y Entidad por Dominio"
+
+msgid "Add rules to define which profile and entity the user will receive based on their email domain (Optional)."
+msgstr "Agregue reglas para definir qu\u00e9 perfil y entidad recibir\u00e1 el usuario seg\u00fan su dominio de correo electr\u00f3nico (Opcional)."
+
+msgid "Domain (after @)"
+msgstr "Dominio (despu\u00e9s de @)"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Entity"
+msgstr "Entidad"
+
+msgid "Select..."
+msgstr "Seleccione..."
+
+msgid "Add Rule"
+msgstr "A\u00f1adir Regla"
+
+msgid "Default Rule (Fallback)"
+msgstr "Regla Predeterminada (Fallback)"
+
+msgid "If the user email does not match any of the rules above, this profile and entity will be used. Mandatory if automatic creation is enabled."
+msgstr "Si el correo electr\u00f3nico del usuario no coincide con ninguna de las reglas anteriores, se utilizar\u00e1 este perfil y entidad. Obligatorio si la creaci\u00f3n autom\u00e1tica est\u00e1 habilitada."
+
+msgid "Default profile (ELSE)"
+msgstr "Perfil predeterminado (ELSE)"
+
+msgid "Default entity (ELSE)"
+msgstr "Entidad predeterminada (ELSE)"
+

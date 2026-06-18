@@ -1,0 +1,90 @@
+msgid ""
+msgstr "Project-Id-Version: Google SSO 1.0\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2026-06-18 12:00+0000\nLast-Translator: \nLanguage-Team: \nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text\/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Configuration updated."
+msgstr "Configuration mise \u00e0 jour."
+
+msgid "Google login cancelled: %s"
+msgstr "Connexion Google annul\u00e9e : %s"
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "\u00c9tat OAuth2 invalide. R\u00e9essayez depuis la page de connexion."
+
+msgid "Google response without authorization code."
+msgstr "R\u00e9ponse de Google sans code d'autorisation."
+
+msgid "Google authentication failed: %s"
+msgstr "\u00c9chec de l'authentification Google : %s"
+
+msgid "The Google account does not have a verified email."
+msgstr "Le compte Google n'a pas d'adresse e-mail v\u00e9rifi\u00e9e."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Seuls les comptes du domaine %s sont accept\u00e9s."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Aucun utilisateur GLPI ne correspond \u00e0 ce compte Google."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Cet utilisateur est d\u00e9sactiv\u00e9 dans GLPI."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Session non initialis\u00e9e : l'utilisateur n'a pas de profil activ\u00e9."
+
+msgid "Failed to create the user in GLPI."
+msgstr "\u00c9chec de la cr\u00e9ation de l'utilisateur dans GLPI."
+
+msgid "or"
+msgstr "ou"
+
+msgid "Sign in with Google"
+msgstr "Se connecter avec Google"
+
+msgid "Google SSO \u2014 Configuration"
+msgstr "Google SSO \u2014 Configuration"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Enregistrez cette URI de redirection dans la console Google Cloud :"
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Laissez vide pour conserver le secret actuel (stock\u00e9 chiffr\u00e9)."
+
+msgid "Restrict to domain (optional)"
+msgstr "Restreindre au domaine (facultatif)"
+
+msgid "Automatically create users on first login"
+msgstr "Cr\u00e9er automatiquement les utilisateurs lors de la premi\u00e8re connexion"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "R\u00e8gles de Profil et d'Entit\u00e9 par Domaine"
+
+msgid "Add rules to define which profile and entity the user will receive based on their email domain (Optional)."
+msgstr "Ajoutez des r\u00e8gles pour d\u00e9finir quel profil et quelle entit\u00e9 l'utilisateur recevra en fonction de son domaine de messagerie (Facultatif)."
+
+msgid "Domain (after @)"
+msgstr "Domaine (apr\u00e8s @)"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Entity"
+msgstr "Entit\u00e9"
+
+msgid "Select..."
+msgstr "S\u00e9lectionnez..."
+
+msgid "Add Rule"
+msgstr "Ajouter une R\u00e8gle"
+
+msgid "Default Rule (Fallback)"
+msgstr "R\u00e8gle par D\u00e9faut (Fallback)"
+
+msgid "If the user email does not match any of the rules above, this profile and entity will be used. Mandatory if automatic creation is enabled."
+msgstr "Si l'e-mail de l'utilisateur ne correspond \u00e0 aucune des r\u00e8gles ci-dessus, ce profil et cette entit\u00e9 seront utilis\u00e9s. Obligatoire si la cr\u00e9ation automatique est activ\u00e9e."
+
+msgid "Default profile (ELSE)"
+msgstr "Profil par d\u00e9faut (ELSE)"
+
+msgid "Default entity (ELSE)"
+msgstr "Entit\u00e9 par d\u00e9faut (ELSE)"
+

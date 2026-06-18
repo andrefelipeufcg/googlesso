@@ -50,7 +50,7 @@ function plugin_version_googlesso(): array
         'name'         => 'Google SSO',
         'version'      => PLUGIN_GOOGLESSO_VERSION,
         'author'       => 'Daniel Ramos, Andre Felipe',
-        'license'      => 'GPL-2.0-or-later',
+        'license'      => 'GPL v2+',
         'homepage'     => '',
         'requirements' => [
             'glpi' => [

@@ -25,9 +25,14 @@ if ($config['client_id'] === '' || $config['client_secret'] === '') {
 }
 
 $provider = Provider::create();
-$auth_url = $provider->getAuthorizationUrl([
+$auth_options = [
     'scope' => ['openid', 'email', 'profile'],
-]);
+];
+if ($config['restrict_domain'] !== '') {
+    $auth_options['hd'] = $config['restrict_domain'];
+}
+
+$auth_url = $provider->getAuthorizationUrl($auth_options);
 
 // Anti-CSRF do fluxo OAuth2: o state gerado fica na sessão anônima do GLPI
 // e é conferido no callback (cookie SameSite=Lax sobrevive ao redirect GET).

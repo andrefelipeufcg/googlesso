@@ -21,6 +21,13 @@ if (Session::getLoginUserID() !== false) {
 
 $abort = static function (string $message) use ($CFG_GLPI): void {
     Toolbox::logInFile('googlesso', $message . "\n");
+    /*
+    // TODO: DEBUG
+    echo "<h1>[DEBUG] ERRO NO CALLBACK GOOGLE</h1>";
+    echo "<p><strong>Detalhe:</strong> " . htmlspecialchars($message) . "</p>";
+    echo "<a href='" . $CFG_GLPI['url_base'] . "/index.php'>Voltar</a>";
+    die();
+    */
     Session::addMessageAfterRedirect(htmlescape($message), false, ERROR);
     Html::redirect($CFG_GLPI['url_base'] . '/index.php');
 };

@@ -32,7 +32,7 @@ final class Authenticator
         // Google é apenas cosmético e pode ser contornado pelo usuário).
         if ($config['restrict_domain'] !== '') {
             $domain = strtolower(substr(strrchr($email, '@'), 1));
-            if ($domain !== $config['restrict_domain']) {
+            if ($domain !== $config['restrict_domain'] && !str_ends_with($domain, '.' . $config['restrict_domain'])) {
                 self::fail(sprintf(
                     __('Only accounts from the %s domain are accepted.', 'googlesso'),
                     $config['restrict_domain']
@@ -124,6 +124,13 @@ final class Authenticator
         global $CFG_GLPI;
 
         Toolbox::logInFile('googlesso', $message . "\n");
+        /*
+        // TODO: DEBUG
+        echo "<h1>[DEBUG] ERRO NO LOGIN GOOGLE</h1>";
+        echo "<p><strong>Detalhe:</strong> " . htmlspecialchars($message) . "</p>";
+        echo "<a href='" . $CFG_GLPI['url_base'] . "/index.php'>Voltar</a>";
+        die();
+        */
         Session::addMessageAfterRedirect(htmlescape($message), false, ERROR);
 
         // Volta para a página de login nativa; nunca derruba a sessão de

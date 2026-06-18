@@ -1,0 +1,53 @@
+<root>
+   <name>Google SSO</name>
+   <key>googlesso</key>
+   <state>stable</state>
+   <logo>https://raw.githubusercontent.com/andrefelipeufcg/googlesso/main/logo.png</logo>
+   <description>
+      <short>
+         <en>Alternative login via Google (OAuth2/OIDC).</en>
+         <pt_BR>Login alternativo via Google (OAuth2/OIDC).</pt_BR>
+      </short>
+      <long>
+         <en>GLPI 11 plugin that adds a 'Sign in with Google' button (OAuth2/OIDC), enabling alternative authentication while keeping the native local login 100% functional.</en>
+         <pt_BR>Plugin para GLPI 11 que adiciona a opção de login seguro via Google (SSO com OAuth2/OIDC), mantendo a autenticação local nativa 100% funcional.</pt_BR>
+      </long>
+   </description>
+   <homepage>https://github.com/andrefelipeufcg/googlesso</homepage>
+   <download>https://github.com/andrefelipeufcg/googlesso/releases</download>
+   <issues>https://github.com/andrefelipeufcg/googlesso/issues</issues>
+   <readme>https://github.com/andrefelipeufcg/googlesso/blob/main/README.md</readme>
+   <changelog>https://github.com/andrefelipeufcg/googlesso/releases</changelog>
+   <authors>
+      <author>Daniel Ramos</author>
+      <author>Andre Felipe</author>
+   </authors>
+   <versions>
+      <version>
+         <num>1.0.1</num>
+         <compatibility>&gt;=11.0.0</compatibility>
+         <download_url>https://github.com/andrefelipeufcg/googlesso/archive/refs/tags/v1.0.1.zip</download_url>
+      </version>
+   </versions>
+   <langs>
+      <lang>en_GB</lang>
+      <lang>pt_BR</lang>
+      <lang>es_ES</lang>
+      <lang>fr_FR</lang>
+   </langs>
+   <license>GPL v2+</license>
+   <tags>
+      <en>
+         <tag>authentication</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </en>
+      <pt_BR>
+         <tag>autenticacao</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </pt_BR>
+   </tags>
+</root>

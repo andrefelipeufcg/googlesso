@@ -11,7 +11,7 @@
 use Glpi\Http\Firewall;
 use Glpi\Plugin\Hooks;
 
-define('PLUGIN_GOOGLESSO_VERSION', '1.0.0');
+define('PLUGIN_GOOGLESSO_VERSION', '1.0.1');
 define('PLUGIN_GOOGLESSO_MIN_GLPI', '11.0.0');
 //define('PLUGIN_GOOGLESSO_MAX_GLPI', '11.0.99');
 

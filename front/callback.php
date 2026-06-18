@@ -27,7 +27,7 @@ $abort = static function (string $message) use ($CFG_GLPI): void {
 
 // Usuário cancelou o consentimento ou o Google retornou erro
 if (isset($_GET['error'])) {
-    $abort(sprintf(__('Login Google cancelado: %s', 'googlesso'), $_GET['error']));
+    $abort(sprintf(__('Google login cancelled: %s', 'googlesso'), $_GET['error']));
 }
 
 // Validação do state (anti-CSRF). Consome o valor da sessão em qualquer caso.
@@ -36,11 +36,11 @@ $expected = (string) ($_SESSION['plugin_googlesso_oauth2_state'] ?? '');
 unset($_SESSION['plugin_googlesso_oauth2_state']);
 
 if ($state === '' || $expected === '' || !hash_equals($expected, $state)) {
-    $abort(__('Estado OAuth2 inválido. Tente novamente a partir da página de login.', 'googlesso'));
+    $abort(__('Invalid OAuth2 state. Try again from the login page.', 'googlesso'));
 }
 
 if (empty($_GET['code'])) {
-    $abort(__('Resposta do Google sem código de autorização.', 'googlesso'));
+    $abort(__('Google response without authorization code.', 'googlesso'));
 }
 
 try {
@@ -65,5 +65,5 @@ try {
     $errorMessage = sprintf('%s (File: %s, Line: %d)', $e->getMessage(), $e->getFile(), $e->getLine());
     Toolbox::logInFile('googlesso_errors', "Exceção: " . get_class($e) . "\nMensagem: " . $errorMessage . "\nStack Trace:\n" . $e->getTraceAsString() . "\n");
     
-    $abort(sprintf(__('Falha na autenticação Google: %s', 'googlesso'), $errorMessage));
+    $abort(sprintf(__('Google authentication failed: %s', 'googlesso'), $errorMessage));
 }

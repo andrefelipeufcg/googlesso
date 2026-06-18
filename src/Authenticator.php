@@ -25,7 +25,7 @@ final class Authenticator
 
         $email = strtolower(trim((string) $owner->getEmail()));
         if ($email === '' || empty($claims['email_verified'])) {
-            self::fail(__('A conta Google não possui e-mail verificado.', 'googlesso'));
+            self::fail(__('The Google account does not have a verified email.', 'googlesso'));
         }
 
         // Validação autoritativa do domínio (o parâmetro "hd" enviado ao
@@ -34,7 +34,7 @@ final class Authenticator
             $domain = strtolower(substr(strrchr($email, '@'), 1));
             if ($domain !== $config['restrict_domain']) {
                 self::fail(sprintf(
-                    __('Apenas contas do domínio %s são aceitas.', 'googlesso'),
+                    __('Only accounts from the %s domain are accepted.', 'googlesso'),
                     $config['restrict_domain']
                 ));
             }
@@ -43,13 +43,13 @@ final class Authenticator
         $user = new User();
         if (!$user->getFromDBbyEmail($email)) {
             if (!$config['auto_create_users']) {
-                self::fail(__('Nenhum usuário GLPI corresponde a esta conta Google.', 'googlesso'));
+                self::fail(__('No GLPI user corresponds to this Google account.', 'googlesso'));
             }
             $user = self::createUser($email, $owner, $config);
         }
 
         if ((int) $user->fields['is_deleted'] === 1 || (int) $user->fields['is_active'] !== 1) {
-            self::fail(__('Este usuário está desativado no GLPI.', 'googlesso'));
+            self::fail(__('This user is deactivated in GLPI.', 'googlesso'));
         }
 
         // Autenticação externa padrão do GLPI: marca extauth e delega ao
@@ -64,7 +64,7 @@ final class Authenticator
         Session::init($auth);
 
         if (Session::getLoginUserID() === false) {
-            self::fail(__('Sessão não inicializada: o usuário não possui perfil habilitado.', 'googlesso'));
+            self::fail(__('Session not initialized: user has no enabled profile.', 'googlesso'));
         }
 
         Toolbox::logInFile('googlesso', sprintf("Login Google OK: %s\n", $email));
@@ -112,7 +112,7 @@ final class Authenticator
 
         $users_id = $user->add($input);
         if (!$users_id) {
-            self::fail(__('Falha ao criar o usuário no GLPI.', 'googlesso'));
+            self::fail(__('Failed to create the user in GLPI.', 'googlesso'));
         }
 
         $user->getFromDB($users_id);

@@ -2,11 +2,11 @@
 
 <div class="card col-12 col-lg-8 mx-auto my-4">
     <div class="card-header">
-        <h3 class="card-title">{{ __('Google SSO — Configuração', 'googlesso') }}</h3>
+        <h3 class="card-title">{{ __('Google SSO — Configuration', 'googlesso') }}</h3>
     </div>
     <div class="card-body">
         <div class="alert alert-info">
-            {{ __('Cadastre este Redirect URI no Google Cloud Console:', 'googlesso') }}
+            {{ __('Register this Redirect URI in Google Cloud Console:', 'googlesso') }}
             <code>{{ redirect_uri }}</code>
         </div>
 
@@ -24,11 +24,11 @@
                 <input type="password" class="form-control" id="client_secret" name="client_secret"
                        value="" autocomplete="new-password"
                        placeholder="{{ config.client_secret ? '••••••••••' : '[GOOGLE_CLIENT_SECRET]' }}">
-                <small class="form-hint">{{ __('Deixe em branco para manter o secret atual (armazenado cifrado).', 'googlesso') }}</small>
+                <small class="form-hint">{{ __('Leave blank to keep current secret (stored encrypted).', 'googlesso') }}</small>
             </div>
 
             <div class="mb-3">
-                <label class="form-label" for="restrict_domain">{{ __('Restringir ao domínio (opcional)', 'googlesso') }}</label>
+                <label class="form-label" for="restrict_domain">{{ __('Restrict to domain (optional)', 'googlesso') }}</label>
                 <input type="text" class="form-control" id="restrict_domain" name="restrict_domain"
                        value="{{ config.restrict_domain }}" placeholder="empresa.com.br">
             </div>
@@ -38,22 +38,22 @@
                     <input type="hidden" name="auto_create_users" value="0">
                     <input class="form-check-input" type="checkbox" name="auto_create_users" value="1"
                            {{ config.auto_create_users ? 'checked' : '' }}>
-                    <span class="form-check-label">{{ __('Criar usuários automaticamente no primeiro login', 'googlesso') }}</span>
+                    <span class="form-check-label">{{ __('Automatically create users on first login', 'googlesso') }}</span>
                 </label>
             </div>
 
             <hr class="my-4">
-            <h4>{{ __('Regras de Perfil e Entidade por Domínio', 'googlesso') }}</h4>
+            <h4>{{ __('Profile and Entity Rules by Domain', 'googlesso') }}</h4>
             <div class="alert alert-secondary">
-                {{ __('Adicione regras para definir qual perfil e entidade o usuário receberá com base no domínio de seu e-mail (Opcional).', 'googlesso') }}
+                {{ __('Add rules to define which profile and entity the user will receive based on their email domain (Optional).', 'googlesso') }}
             </div>
             
             <table class="table table-sm table-bordered" id="domain-rules-table">
                 <thead>
                     <tr>
-                        <th>{{ __('Domínio (após o @)', 'googlesso') }}</th>
-                        <th>{{ __('Perfil', 'googlesso') }}</th>
-                        <th>{{ __('Entidade', 'googlesso') }}</th>
+                        <th>{{ __('Domain (after @)', 'googlesso') }}</th>
+                        <th>{{ __('Profile', 'googlesso') }}</th>
+                        <th>{{ __('Entity', 'googlesso') }}</th>
                         <th style="width: 50px;"></th>
                     </tr>
                 </thead>
@@ -65,7 +65,7 @@
                             </td>
                             <td>
                                 <select name="domain_rule_profile_id[]" class="form-select" required>
-                                    <option value="">{{ __('Selecione...', 'googlesso') }}</option>
+                                    <option value="">{{ __('Select...', 'googlesso') }}</option>
                                     {% for id, name in profiles %}
                                         <option value="{{ id }}" {{ id == rule.profile_id ? 'selected' : '' }}>{{ name }}</option>
                                     {% endfor %}
@@ -73,7 +73,7 @@
                             </td>
                             <td>
                                 <select name="domain_rule_entity_id[]" class="form-select" required>
-                                    <option value="">{{ __('Selecione...', 'googlesso') }}</option>
+                                    <option value="">{{ __('Select...', 'googlesso') }}</option>
                                     {% for id, name in entities %}
                                         <option value="{{ id }}" {{ id == rule.entity_id ? 'selected' : '' }}>{{ name }}</option>
                                     {% endfor %}
@@ -87,7 +87,7 @@
                 </tbody>
             </table>
             <button type="button" class="btn btn-outline-primary btn-sm mb-4" id="btn-add-rule">
-                <i class="ti ti-plus me-1"></i> {{ __('Adicionar Regra', 'googlesso') }}
+                <i class="ti ti-plus me-1"></i> {{ __('Add Rule', 'googlesso') }}
             </button>
 
             <table style="display:none;">
@@ -98,7 +98,7 @@
                         </td>
                         <td>
                             <select name="domain_rule_profile_id[]" class="form-select" required disabled>
-                                <option value="">{{ __('Selecione...', 'googlesso') }}</option>
+                                <option value="">{{ __('Select...', 'googlesso') }}</option>
                                 {% for id, name in profiles %}
                                     <option value="{{ id }}">{{ name }}</option>
                                 {% endfor %}
@@ -106,7 +106,7 @@
                         </td>
                         <td>
                             <select name="domain_rule_entity_id[]" class="form-select" required disabled>
-                                <option value="">{{ __('Selecione...', 'googlesso') }}</option>
+                                <option value="">{{ __('Select...', 'googlesso') }}</option>
                                 {% for id, name in entities %}
                                     <option value="{{ id }}">{{ name }}</option>
                                 {% endfor %}
@@ -120,16 +120,16 @@
             </table>
 
             <hr class="my-4">
-            <h4>{{ __('Regra Padrão (Fallback)', 'googlesso') }}</h4>
+            <h4>{{ __('Default Rule (Fallback)', 'googlesso') }}</h4>
             <div class="alert alert-secondary">
-                {{ __('Se o e-mail do usuário não corresponder a nenhuma das regras acima, este perfil e entidade serão utilizados. Obrigatório caso a criação automática esteja ativada.', 'googlesso') }}
+                {{ __('If the user email does not match any of the rules above, this profile and entity will be used. Mandatory if automatic creation is enabled.', 'googlesso') }}
             </div>
 
             {{ fields.dropdownField('Profile', 'default_profile_id', config.default_profile_id,
-                __('Perfil padrão (ELSE)', 'googlesso')) }}
+                __('Default profile (ELSE)', 'googlesso')) }}
 
             {{ fields.dropdownField('Entity', 'default_entity_id', config.default_entity_id,
-                __('Entidade padrão (ELSE)', 'googlesso')) }}
+                __('Default entity (ELSE)', 'googlesso')) }}
 
             <div class="mt-4 text-end">
                 <button type="submit" name="update" value="1" class="btn btn-primary">

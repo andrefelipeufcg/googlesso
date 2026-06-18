@@ -16,7 +16,7 @@ Session::checkRight('config', UPDATE);
 
 if (isset($_POST['update'])) {
     Config::saveConfig($_POST);
-    Session::addMessageAfterRedirect(htmlescape(__('Configuração atualizada.', 'googlesso')), false, INFO);
+    Session::addMessageAfterRedirect(htmlescape(__('Configuration updated.', 'googlesso')), false, INFO);
     Html::back();
 }
 

@@ -1,5 +1,5 @@
 <div align="right">
-  🇬🇧 <a href="#english">English</a> | 🇫🇷 <a href="#français">Français</a> | 🇧🇷 <a href="#português">Português</a>
+  🇬🇧 <a href="#english">English</a> | 🇪🇸 <a href="#español">Español</a> | 🇫🇷 <a href="#français">Français</a> | 🇧🇷 <a href="#português">Português</a>
 </div>
 
 <a id="english"></a>
@@ -48,6 +48,57 @@ Then: **Setup > Plugins** → install and activate "Google SSO".
 ## Authors / Contributors
 
 This plugin was developed together by:
+* **Daniel Ramos** - [@danielrramos](https://github.com/danielrramos)
+* **Andre Felipe** - [@andrefelipeufcg](https://github.com/andrefelipeufcg)
+
+---
+
+<a id="español"></a>
+# Google SSO para GLPI 11
+
+Inicio de sesión alternativo a través de Google (OAuth2/OpenID Connect). El formulario de inicio de sesión
+local de GLPI permanece 100% funcional — el plugin solo agrega un botón
+"Iniciar sesión con Google" en la página de inicio de sesión.
+
+## Instalación
+
+```bash
+cd <GLPI>/plugins
+cp -r googlesso .
+cd googlesso
+composer install --no-dev
+```
+
+Luego: **Configuración > Plugins** → instale y active "Google SSO".
+
+## Google Cloud Console
+
+1. Cree un proyecto en https://console.cloud.google.com/
+2. **APIs y Servicios > Credenciales > Crear Credenciales > ID de cliente OAuth** (tipo *Aplicación web*).
+3. En *URI de redireccionamiento autorizados*, registre exactamente:
+   `https://SU_GLPI/plugins/googlesso/front/callback.php`
+   (la URL exacta se muestra en la pantalla de configuración del plugin).
+4. Copie el [GOOGLE_CLIENT_ID] y el [GOOGLE_CLIENT_SECRET] en la configuración
+   del plugin en GLPI (**Configuración > Plugins > Google SSO**).
+
+## Comportamiento
+
+- Usuario existente (correo electrónico GLPI = correo electrónico de Google verificado): se autentica a través del
+  mecanismo de autenticación externa del core (`Auth::EXTERNAL` + `Session::init`).
+- Usuario inexistente: se crea automáticamente si la opción está habilitada,
+  con el perfil/entidad predeterminado configurado.
+- Los errores del flujo OAuth2 se registran en `files/_log/googlesso.log` y el
+  usuario es devuelto a la página de inicio de sesión nativa.
+
+## Requisitos
+
+- GLPI >= 11.0
+- PHP >= 8.2
+- `url_base` configurado correctamente en **Configuración > General**
+
+## Autores / Colaboradores
+
+Este plugin fue desarrollado conjuntamente por:
 * **Daniel Ramos** - [@danielrramos](https://github.com/danielrramos)
 * **Andre Felipe** - [@andrefelipeufcg](https://github.com/andrefelipeufcg)
 

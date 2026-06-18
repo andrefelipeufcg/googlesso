@@ -91,7 +91,7 @@ final class Authenticator
         $entity_id  = 0;
         
         foreach ($config['domain_rules'] as $rule) {
-            if (str_ends_with($domain, $rule['domain'])) {
+            if ($domain === $rule['domain'] || str_ends_with($domain, '.' . $rule['domain'])) {
                 $profile_id = $rule['profile_id'];
                 $entity_id  = $rule['entity_id'];
                 break;

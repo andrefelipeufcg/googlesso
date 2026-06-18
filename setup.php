@@ -13,7 +13,7 @@ use Glpi\Plugin\Hooks;
 
 define('PLUGIN_GOOGLESSO_VERSION', '1.0.0');
 define('PLUGIN_GOOGLESSO_MIN_GLPI', '11.0.0');
-define('PLUGIN_GOOGLESSO_MAX_GLPI', '11.0.99');
+//define('PLUGIN_GOOGLESSO_MAX_GLPI', '11.0.99');
 
 function plugin_init_googlesso(): void
 {
@@ -55,7 +55,7 @@ function plugin_version_googlesso(): array
         'requirements' => [
             'glpi' => [
                 'min' => PLUGIN_GOOGLESSO_MIN_GLPI,
-                'max' => PLUGIN_GOOGLESSO_MAX_GLPI,
+                //'max' => PLUGIN_GOOGLESSO_MAX_GLPI,
             ],
             'php'  => [
                 'min' => '8.2',

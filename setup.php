@@ -11,7 +11,7 @@
 use Glpi\Http\Firewall;
 use Glpi\Plugin\Hooks;
 
-define('PLUGIN_GOOGLESSO_VERSION', '1.0.1');
+define('PLUGIN_GOOGLESSO_VERSION', '1.0.2');
 define('PLUGIN_GOOGLESSO_MIN_GLPI', '11.0.0');
 //define('PLUGIN_GOOGLESSO_MAX_GLPI', '11.0.99');
 
@@ -47,7 +47,7 @@ function plugin_init_googlesso(): void
 function plugin_version_googlesso(): array
 {
     return [
-        'name'         => 'Google SSO',
+        'name'         => __('Google SSO', 'googlesso'),
         'version'      => PLUGIN_GOOGLESSO_VERSION,
         'author'       => 'Daniel Ramos, Andre Felipe',
         'license'      => 'GPL v2+',

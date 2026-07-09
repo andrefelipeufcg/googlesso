@@ -1,0 +1,181 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "ルールを追加"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr "メールのドメインに基づいて、ユーザーが受け取るプロファイルとエンティティを定義するルールを追加します（オプション）。"
+
+msgid "Automatically create users on first login"
+msgstr "初回ログイン時にユーザーを自動作成する"
+
+msgid "Configuration updated."
+msgstr "設定が更新されました。"
+
+msgid "Default Rule (Fallback)"
+msgstr "デフォルトのルール（フォールバック）"
+
+msgid "Default entity (ELSE)"
+msgstr "デフォルトのエンティティ（ELSE）"
+
+msgid "Default profile (ELSE)"
+msgstr "デフォルトのプロファイル（ELSE）"
+
+msgid "Domain (after @)"
+msgstr "ドメイン（@の後）"
+
+msgid "Entity"
+msgstr "エンティティ"
+
+msgid "Failed to create the user in GLPI."
+msgstr "GLPIでのユーザー作成に失敗しました。"
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — 設定"
+
+msgid "Google authentication failed: %s"
+msgstr "Google認証に失敗しました：%s"
+
+msgid "Google login cancelled: %s"
+msgstr "Googleログインがキャンセルされました：%s"
+
+msgid "Google response without authorization code."
+msgstr "承認コードのないGoogle応答。"
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"ユーザーのメールアドレスが上記のどのルールとも一致しない場合、このプロファイルとエンティティが使用されます。自動作成が有効な場合は必須です。"
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "無効なOAuth2状態です。ログインページからもう一度やり直してください。"
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "現在のシークレット（暗号化されて保存）を保持するには空白のままにしてください。"
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "このGoogleアカウントに対応するGLPIユーザーはいません。"
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "%s ドメインのアカウントのみ受け付けられます。"
+
+msgid "Profile"
+msgstr "プロファイル"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "ドメイン別のプロファイルとエンティティのルール"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Google Cloud ConsoleでこのリダイレクトURIを登録してください："
+
+msgid "Restrict to domain (optional)"
+msgstr "ドメインに制限（オプション）"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Select..."
+msgstr "選択..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "セッションが初期化されていません：ユーザーに有効なプロファイルがありません。"
+
+msgid "Sign in with Google"
+msgstr "Googleでログイン"
+
+msgid "The Google account does not have a verified email."
+msgstr "Googleアカウントに確認済みのメールアドレスがありません。"
+
+msgid "This user is deactivated in GLPI."
+msgstr "このユーザーはGLPIで非アクティブ化されています。"
+
+msgid "or"
+msgstr "または"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"オプション<strong>「フォームlogin@domainのログインのドメインを削除」</strong>は<strong>いいえ</strong>のままにしておきます。有効にすると、異なるプロバイダー"
+" (admin@gmail.com と admin@institution.edu.br など) "
+"で同じプレフィックスを持つユーザーにアカウントの重複が発生します。"
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"以下の [<strong>[Google でログイン] ボタンを有効にする</strong>] "
+"オプションをオンにし、[<strong>保存</strong>] をクリックします。"
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"[<strong>外部認証ソースからユーザーを自動的に追加する</strong>] フィールドを [<strong>はい</strong>] "
+"に変更します。"
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "ステップ 1: Google Cloud の準備"
+
+msgid "Critical Warning:"
+msgstr "重大な警告:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Google SSO 統合を有効にするにはどうすればよいですか?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google は<strong>クライアント ID</strong> と<strong>クライアント "
+"シークレット</strong>を生成します。このフォームのフィールドにこれらのキーを入力します。"
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"<a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google Cloud"
+" コンソール</a> にアクセスし、新しい<strong>プロジェクト</strong>を作成します。"
+
+msgid "Redirect URI:"
+msgstr "リダイレクト URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "「Google でサインイン」ボタンを有効にする"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"次に、<strong>[認証情報] > [認証情報] に移動します。認証情報の作成 > OAuth クライアント "
+"ID</strong>、<strong>Web アプリケーション</strong>タイプを選択します。"
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "ステップ 2: GLPI 認証の準備"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"<strong>API と API に移動します。サービス＞ OAuth "
+"同意画面</strong>を表示し、アプリを設定します（スコープ<code>email</code>、<code>profile</code>、および<code>openid</code>を追加します）。"
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr "GLPI で、<strong>[設定] > [設定] に移動します。認証＞セットアップ</strong>します。"
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr "[<strong>承認されたリダイレクト URI</strong>] で、以下の戻り URL を正確にコピーして貼り付けます。"

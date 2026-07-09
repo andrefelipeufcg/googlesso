@@ -1,0 +1,191 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Bæta við Reglu"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Bættu við reglum til að skilgreina hvaða prófíl og einingu notandinn fær út "
+"frá tölvupóstléni þeirra (Valfrjálst)."
+
+msgid "Automatically create users on first login"
+msgstr "Búa notendur sjálfkrafa til við fyrstu innskráningu"
+
+msgid "Configuration updated."
+msgstr "Stillingar uppfærðar."
+
+msgid "Default Rule (Fallback)"
+msgstr "Sjálfgefin Regla (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Sjálfgefin eining (ANNARS)"
+
+msgid "Default profile (ELSE)"
+msgstr "Sjálfgefinn prófíll (ANNARS)"
+
+msgid "Domain (after @)"
+msgstr "Lén (á eftir @)"
+
+msgid "Entity"
+msgstr "Eining"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Mistókst að búa til notandann í GLPI."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Stillingar"
+
+msgid "Google authentication failed: %s"
+msgstr "Google auðkenning mistókst: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Hætt við Google innskráningu: %s"
+
+msgid "Google response without authorization code."
+msgstr "Svar frá Google án heimildarkóða."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Ef tölvupóstur notandans passar ekki við neina af reglunum hér að ofan verða"
+" þessi prófíll og eining notuð. Skylda ef sjálfvirk stofnun er virk."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Ógild OAuth2 staða. Reyndu aftur frá innskráningarsíðunni."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Skildu eftir autt til að halda núverandi leyndarmáli (geymt dulkóðað)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Enginn GLPI notandi samsvarar þessum Google reikningi."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Aðeins reikningar frá léninu %s eru samþykktir."
+
+msgid "Profile"
+msgstr "Prófíl"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Reglur um Prófíl og Einingu eftir léni"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Skráðu þetta áframsendingar URI í Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Takmarka við lén (valfrjálst)"
+
+msgid "Save"
+msgstr "Vista"
+
+msgid "Select..."
+msgstr "Veldu..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Lotu ekki hafin: notandinn hefur ekki virkjaðan prófíl."
+
+msgid "Sign in with Google"
+msgstr "Skráðu þig inn með Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google reikningurinn hefur ekki staðfesta tölvupóstfang."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Þessi notandi er óvirkur í GLPI."
+
+msgid "or"
+msgstr "eða"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Skildu eftir valkostinn <strong>\"Fjarlægja innskráningarlén á formi "
+"login@lén\"</strong> sem <strong>Nei</strong>. Ef það er virkt munu notendur"
+" með sama forskeyti í mismunandi veitum (t.d. admin@gmail.com og "
+"admin@institution.edu.br) verða fyrir skarun á reikningum."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Merktu við <strong>Virkja „Skráðu þig inn með Google“ hnappinn</strong> "
+"fyrir neðan og smelltu á <strong>Vista</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Breyttu reitnum <strong>Bæta notendum sjálfkrafa við úr ytri "
+"auðkenningaruppsprettu</strong> í <strong>Já</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Skref 1: Google Cloud Undirbúningur"
+
+msgid "Critical Warning:"
+msgstr "Mikilvæg viðvörun:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Hvernig á að virkja Google SSO samþættingu?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google mun búa til <strong>Client ID</strong> og <strong>Client "
+"Secret</strong>. Fylltu út reitina á þessu eyðublaði með þessum lyklum."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Fáðu aðgang að <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> og búðu til nýtt "
+"<strong>verkefni</strong>."
+
+msgid "Redirect URI:"
+msgstr "Tilvísunarvefslóð:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Virkjaðu „Skráðu þig inn með Google“ hnappinn"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Farðu síðan í <strong>Skírteini &gt; Búa til skilríki &gt; OAuth "
+"biðlaraauðkenni</strong>, með því að velja <strong>vefforrit</strong> gerð."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Skref 2: GLPI Authentication Undirbúningur"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Farðu í <strong>API &amp; Þjónusta &gt; OAuth samþykkisskjár</strong> og "
+"stilltu forritið þitt (bættu við <code>netfangi</code>, <code>prófíl</code> "
+"og <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"Í GLPI, farðu í <strong>Uppsetning &gt; Auðkenning &gt; Uppsetning</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Afritaðu og límdu nákvæmlega skilavefslóðina hér að neðan undir "
+"<strong>Heimiluð tilvísunarvefslóð</strong>:"

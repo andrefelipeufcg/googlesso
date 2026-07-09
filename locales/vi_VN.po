@@ -1,0 +1,190 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Thêm Quy tắc"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Thêm quy tắc để xác định người dùng sẽ nhận được hồ sơ và thực thể nào dựa "
+"trên miền email của họ (Tùy chọn)."
+
+msgid "Automatically create users on first login"
+msgstr "Tự động tạo người dùng trong lần đăng nhập đầu tiên"
+
+msgid "Configuration updated."
+msgstr "Cấu hình đã được cập nhật."
+
+msgid "Default Rule (Fallback)"
+msgstr "Quy tắc Mặc định (Dự phòng)"
+
+msgid "Default entity (ELSE)"
+msgstr "Thực thể mặc định (NẾU KHÔNG)"
+
+msgid "Default profile (ELSE)"
+msgstr "Hồ sơ mặc định (NẾU KHÔNG)"
+
+msgid "Domain (after @)"
+msgstr "Miền (sau @)"
+
+msgid "Entity"
+msgstr "Thực thể"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Không thể tạo người dùng trong GLPI."
+
+msgid "Google SSO"
+msgstr "SSO của Google"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Cấu hình"
+
+msgid "Google authentication failed: %s"
+msgstr "Xác thực Google không thành công: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Đăng nhập Google đã bị hủy: %s"
+
+msgid "Google response without authorization code."
+msgstr "Phản hồi của Google không có mã ủy quyền."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Nếu email người dùng không khớp với bất kỳ quy tắc nào ở trên, hồ sơ và thực"
+" thể này sẽ được sử dụng. Bắt buộc nếu bật tự động tạo."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Trạng thái OAuth2 không hợp lệ. Hãy thử lại từ trang đăng nhập."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Để trống để giữ bí mật hiện tại (được lưu trữ mã hóa)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Không có người dùng GLPI nào tương ứng với tài khoản Google này."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Chỉ chấp nhận các tài khoản từ miền %s."
+
+msgid "Profile"
+msgstr "Hồ sơ"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Quy tắc Hồ sơ và Thực thể theo Miền"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Đăng ký URI chuyển hướng này trong Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Giới hạn theo miền (tùy chọn)"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Select..."
+msgstr "Chọn..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Phiên chưa được khởi tạo: người dùng không có hồ sơ được kích hoạt."
+
+msgid "Sign in with Google"
+msgstr "Đăng nhập bằng Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Tài khoản Google không có email đã được xác minh."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Người dùng này đã bị vô hiệu hóa trong GLPI."
+
+msgid "or"
+msgstr "hoặc"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Để lại tùy chọn <strong>\"Xóa miền đăng nhập ở dạng login@domain\"</strong> "
+"là <strong>Không</strong>. Nếu được bật, những người dùng có cùng tiền tố ở "
+"các nhà cung cấp khác nhau (ví dụ: admin@gmail.com và "
+"admin@institution.edu.br) sẽ bị chồng chéo tài khoản."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Chọn tùy chọn <strong>Kích hoạt nút \"Đăng nhập bằng Google\"</strong> bên "
+"dưới và nhấp vào <strong>Lưu</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Thay đổi trường <strong>Tự động thêm người dùng từ nguồn xác thực bên "
+"ngoài</strong> thành <strong>Có</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Bước 1: Chuẩn bị cho Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "Cảnh báo quan trọng:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Làm cách nào để kích hoạt tích hợp Google SSO?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google sẽ tạo <strong>ID khách hàng</strong> và <strong>Bí mật khách "
+"hàng</strong>. Điền vào các trường trong biểu mẫu này bằng các phím đó."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Truy cập <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> và tạo một <strong>Dự án</strong>"
+" mới."
+
+msgid "Redirect URI:"
+msgstr "URI chuyển hướng:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Kích hoạt nút \"Đăng nhập bằng Google\""
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Sau đó đi tới <strong>Thông tin xác thực &gt; Tạo thông tin xác thực &gt; ID"
+" ứng dụng khách OAuth</strong>, chọn loại <strong>Ứng dụng web</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Bước 2: Chuẩn bị xác thực GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Đi tới <strong>API &amp; Dịch vụ &gt; Màn hình đồng ý OAuth</strong> và định"
+" cấu hình ứng dụng của bạn (thêm phạm vi <code>email</code>, <code>hồ "
+"sơ</code> và <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"Trong GLPI, đi tới <strong>Cài đặt &gt; Xác thực &gt; Thiết lập</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Trong <strong>URI chuyển hướng được ủy quyền</strong>, hãy sao chép và dán "
+"chính xác URL trả về bên dưới:"

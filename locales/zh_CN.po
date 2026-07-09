@@ -1,0 +1,174 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "添加规则"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr "添加规则，根据用户的电子邮件域定义用户将收到的配置文件和实体（可选）。"
+
+msgid "Automatically create users on first login"
+msgstr "首次登录时自动创建用户"
+
+msgid "Configuration updated."
+msgstr "配置已更新。"
+
+msgid "Default Rule (Fallback)"
+msgstr "默认规则（后备）"
+
+msgid "Default entity (ELSE)"
+msgstr "默认实体（ELSE）"
+
+msgid "Default profile (ELSE)"
+msgstr "默认配置文件（ELSE）"
+
+msgid "Domain (after @)"
+msgstr "域（@之后）"
+
+msgid "Entity"
+msgstr "实体"
+
+msgid "Failed to create the user in GLPI."
+msgstr "在GLPI中创建用户失败。"
+
+msgid "Google SSO"
+msgstr "谷歌单点登录"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — 配置"
+
+msgid "Google authentication failed: %s"
+msgstr "Google身份验证失败：%s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google登录已取消：%s"
+
+msgid "Google response without authorization code."
+msgstr "没有授权码的Google响应。"
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr "如果用户的电子邮件不匹配上述任何规则，将使用此配置文件和实体。如果启用自动创建，则是必填项。"
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "无效的OAuth2状态。请从登录页面重试。"
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "留空以保持当前密钥（加密存储）。"
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "没有与此Google帐户对应的GLPI用户。"
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "仅接受 %s 域的帐户。"
+
+msgid "Profile"
+msgstr "配置文件"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "基于域的配置文件和实体规则"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "在Google Cloud Console中注册此重定向URI："
+
+msgid "Restrict to domain (optional)"
+msgstr "限制域（可选）"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Select..."
+msgstr "选择..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "会话未初始化：用户没有启用的配置文件。"
+
+msgid "Sign in with Google"
+msgstr "使用Google登录"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google帐户没有经过验证的电子邮件。"
+
+msgid "This user is deactivated in GLPI."
+msgstr "此用户在GLPI中已停用。"
+
+msgid "or"
+msgstr "或"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"将选项<strong>“删除login@domain "
+"表单中的登录域”</strong>保留为<strong>否</strong>。如果启用，在不同提供商（例如 admin@gmail.com 和 "
+"admin@institution.edu.br）中具有相同前缀的用户将遭受帐户重叠。"
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr "选中下面的<strong>激活“使用 Google 登录”按钮</strong>选项，然后点击<strong>保存</strong>。"
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr "将<strong>自动从外部身份验证源添加用户</strong>字段更改为<strong>是</strong>。"
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "第 1 步：Google Cloud 准备"
+
+msgid "Critical Warning:"
+msgstr "严重警告："
+
+msgid "How to enable Google SSO integration?"
+msgstr "如何启用 Google SSO 集成？"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google 将生成<strong>客户端 ID</strong> 和<strong>客户端密钥</strong>。使用这些键填写此表单中的字段。"
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"访问 <a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google "
+"Cloud Console</a> 并创建一个新的<strong>项目</strong>。"
+
+msgid "Redirect URI:"
+msgstr "重定向 URI："
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "激活“使用 Google 登录”按钮"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"然后转到<strong>凭据>创建凭证> OAuth 客户端 ID</strong>，选择<strong>Web 应用程序</strong>类型。"
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "步骤 2：GLPI 身份验证准备"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"转到 API 和 API服务> OAuth "
+"同意屏幕</strong>并配置您的应用（添加范围<code>电子邮件</code>、<code>个人资料</code>和<code>openid</code>）。"
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr "在 GLPI 中，转到<strong>设置>认证>设置。"
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr "在<strong>授权重定向 URI</strong> 下，准确复制并粘贴以下返回 URL："

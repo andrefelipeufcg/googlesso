@@ -1,0 +1,193 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Adaugă Regulă"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Adăugați reguli pentru a defini ce profil și entitate va primi utilizatorul "
+"pe baza domeniului de e-mail (Opțional)."
+
+msgid "Automatically create users on first login"
+msgstr "Creați automat utilizatori la prima conectare"
+
+msgid "Configuration updated."
+msgstr "Configurație actualizată."
+
+msgid "Default Rule (Fallback)"
+msgstr "Regulă implicită (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Entitate implicită (ALTFEL)"
+
+msgid "Default profile (ELSE)"
+msgstr "Profil implicit (ALTFEL)"
+
+msgid "Domain (after @)"
+msgstr "Domeniu (după @)"
+
+msgid "Entity"
+msgstr "Entitate"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Crearea utilizatorului în GLPI a eșuat."
+
+msgid "Google SSO"
+msgstr "SSO Google"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Configurație"
+
+msgid "Google authentication failed: %s"
+msgstr "Autentificarea Google a eșuat: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Conectarea Google a fost anulată: %s"
+
+msgid "Google response without authorization code."
+msgstr "Răspuns Google fără cod de autorizare."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Dacă e-mailul utilizatorului nu corespunde niciunei reguli de mai sus, se "
+"vor folosi acest profil și entitate. Obligatoriu dacă crearea automată este "
+"activată."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Stare OAuth2 nevalidă. Încercați din nou de la pagina de conectare."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Lăsați necompletat pentru a păstra secretul actual (stocat criptat)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Niciun utilizator GLPI nu corespunde acestui cont Google."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Sunt acceptate doar conturile din domeniul %s."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Reguli de Profil și Entitate după Domeniu"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Înregistrați acest URI de redirecționare în Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Restricționați la domeniu (opțional)"
+
+msgid "Save"
+msgstr "Salvează"
+
+msgid "Select..."
+msgstr "Selectați..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sesiune neinițializată: utilizatorul nu are un profil activat."
+
+msgid "Sign in with Google"
+msgstr "Conectați-vă cu Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Contul Google nu are un e-mail verificat."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Acest utilizator este dezactivat în GLPI."
+
+msgid "or"
+msgstr "sau"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Lăsați opțiunea <strong>„Eliminați domeniul de conectare din formularul "
+"login@domain”</strong> ca <strong>Nu</strong>. Dacă este activată, "
+"utilizatorii cu același prefix în diferiți furnizori (de exemplu, "
+"admin@gmail.com și admin@institution.edu.br) vor suferi suprapunerea "
+"contului."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Bifați opțiunea <strong>Activați butonul „Conectați-vă cu Google”</strong> "
+"de mai jos și faceți clic pe <strong>Salvați</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Schimbați câmpul <strong>Adăugați automat utilizatori dintr-o sursă externă "
+"de autentificare</strong> la <strong>Da</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Pasul 1: Pregătirea Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "Avertisment critic:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Cum se activează integrarea Google SSO?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google va genera un <strong>ID de client</strong> și un <strong>Secret de "
+"client</strong>. Completați câmpurile din acest formular cu acele chei."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Accesați <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> și creați un nou "
+"<strong>Proiect</strong>."
+
+msgid "Redirect URI:"
+msgstr "URI de redirecționare:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Activați butonul „Conectați-vă cu Google”."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Apoi accesați <strong>Acreditări &gt; Creați acreditări &gt; ID client "
+"OAuth</strong>, alegând tipul de <strong>aplicație web</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Pasul 2: Pregătirea autentificării GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Accesați <strong>API-uri și amp; Servicii &gt; Ecranul de consimțământ "
+"OAuth</strong> și configurați aplicația (adăugați domeniile "
+"<code>e-mail</code>, <code>profil</code> și <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"În GLPI, accesați <strong>Configurare &gt; Autentificare &gt; "
+"Configurare</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Sub <strong>URI de redirecționare autorizate</strong>, copiați și inserați "
+"exact adresa URL de returnare de mai jos:"

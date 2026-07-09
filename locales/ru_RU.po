@@ -1,0 +1,196 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Добавить правило"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Добавьте правила для определения профиля и организации, которые пользователь"
+" получит в зависимости от его почтового домена (Необязательно)."
+
+msgid "Automatically create users on first login"
+msgstr "Автоматически создавать пользователей при первом входе"
+
+msgid "Configuration updated."
+msgstr "Настройки обновлены."
+
+msgid "Default Rule (Fallback)"
+msgstr "Правило по умолчанию (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Организация по умолчанию (ИНАЧЕ)"
+
+msgid "Default profile (ELSE)"
+msgstr "Профиль по умолчанию (ИНАЧЕ)"
+
+msgid "Domain (after @)"
+msgstr "Домен (после @)"
+
+msgid "Entity"
+msgstr "Организация"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Не удалось создать пользователя в GLPI."
+
+msgid "Google SSO"
+msgstr "Система единого входа Google"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Настройки"
+
+msgid "Google authentication failed: %s"
+msgstr "Ошибка аутентификации Google: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Вход через Google отменен: %s"
+
+msgid "Google response without authorization code."
+msgstr "Ответ Google без кода авторизации."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Если электронная почта пользователя не совпадает ни с одним из правил выше, "
+"будут использованы этот профиль и организация. Обязательно, если включено "
+"автоматическое создание."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Недействительный статус OAuth2. Попробуйте еще раз со страницы входа."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Оставьте пустым, чтобы сохранить текущий секрет (хранится в зашифрованном "
+"виде)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Ни один пользователь GLPI не соответствует этому аккаунту Google."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Принимаются только аккаунты из домена %s."
+
+msgid "Profile"
+msgstr "Профиль"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Правила профиля и организации по домену"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Зарегистрируйте этот URI перенаправления в Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Ограничить доменом (необязательно)"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Select..."
+msgstr "Выбрать..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Сессия не инициализирована: у пользователя нет активного профиля."
+
+msgid "Sign in with Google"
+msgstr "Войти через Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "У аккаунта Google нет подтвержденного адреса электронной почты."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Этот пользователь деактивирован в GLPI."
+
+msgid "or"
+msgstr "или"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Оставьте для параметра <strong>\"Удалять домен логинов в форме "
+"логин@домен\"</strong> значение <strong>Нет</strong>. Если этот параметр "
+"включен, учетные записи пользователей с одним и тем же префиксом в разных "
+"провайдерах (например, admin@gmail.com и admin@institution.edu.br) будут "
+"дублироваться."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Установите флажок <strong>Активировать кнопку «Войти через Google»</strong> "
+"ниже и нажмите <strong>Сохранить</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Измените поле <strong>Автоматически добавлять пользователей из внешнего "
+"источника аутентификации</strong> на <strong>Да</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Шаг 1. Подготовка к облаку Google"
+
+msgid "Critical Warning:"
+msgstr "Критическое предупреждение:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Как включить интеграцию Google SSO?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google сгенерирует <strong>Идентификатор клиента</strong> и <strong>Секрет "
+"клиента</strong>. Заполните поля этой формы этими ключами."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Откройте <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> и создайте новый "
+"<strong>Проект</strong>."
+
+msgid "Redirect URI:"
+msgstr "URI перенаправления:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Активируйте кнопку «Войти через Google»."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Затем перейдите в раздел <strong>Учетные данные &gt; Создать учетные данные "
+"&gt; Идентификатор клиента OAuth</strong>, выбрав тип <strong>Веб-"
+"приложение</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Шаг 2. Подготовка аутентификации GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Перейдите в раздел <strong>API &amp; Услуги &gt; Экран согласия "
+"OAuth</strong> и настройте свое приложение (добавьте области "
+"<code>email</code>, <code>profile</code> и <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"В GLPI перейдите в <strong>Setup &gt; Аутентификация &gt; "
+"Настройка</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"В разделе <strong>URI авторизованного перенаправления</strong> скопируйте и "
+"вставьте указанный ниже URL возврата:"

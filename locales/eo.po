@@ -1,0 +1,190 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Aldoni Regulon"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Aldonu regulojn por difini, kiun profilon kaj enton la uzanto ricevos "
+"surbaze de ilia retpoŝta domajno (Maldeviga)."
+
+msgid "Automatically create users on first login"
+msgstr "Aŭtomate krei uzantojn ĉe unua saluto"
+
+msgid "Configuration updated."
+msgstr "Agordoj ĝisdatigitaj."
+
+msgid "Default Rule (Fallback)"
+msgstr "Defaŭlta Regulo (Rezerva)"
+
+msgid "Default entity (ELSE)"
+msgstr "Defaŭlta ento (ALIE)"
+
+msgid "Default profile (ELSE)"
+msgstr "Defaŭlta profilo (ALIE)"
+
+msgid "Domain (after @)"
+msgstr "Domajno (post @)"
+
+msgid "Entity"
+msgstr "Ento"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Malsukcesis krei la uzanton en GLPI."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Agordoj"
+
+msgid "Google authentication failed: %s"
+msgstr "Google-aŭtentikigo malsukcesis: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google-saluto nuligita: %s"
+
+msgid "Google response without authorization code."
+msgstr "Google-respondo sen rajtiga kodo."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Se la retpoŝto de la uzanto ne kongruas kun iuj ajn el la reguloj supre, ĉi "
+"tiuj profilo kaj ento estos uzataj. Deviga se aŭtomata kreado estas "
+"ebligita."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Nevalida OAuth2-stato. Provu denove de la saluta paĝo."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Lasu malplena por konservi nunan sekreton (konservitan ĉifrita)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Neniu GLPI-uzanto korespondas al ĉi tiu Google-konto."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Nur kontoj de la domajno %s estas akceptitaj."
+
+msgid "Profile"
+msgstr "Profilo"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Profilaj kaj Entaj Reguloj laŭ Domajno"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Registru ĉi tiun alidirektan URI en Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Limigi al domajno (maldeviga)"
+
+msgid "Save"
+msgstr "Konservi"
+
+msgid "Select..."
+msgstr "Elektu..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sesiigo ne komencita: uzanto ne havas ebligitan profilon."
+
+msgid "Sign in with Google"
+msgstr "Ensalutu per Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "La Google-konto ne havas kontrolitan retpoŝton."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Ĉi tiu uzanto estas malaktivigita en GLPI."
+
+msgid "or"
+msgstr "aŭ"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Lasu la opcion <strong>\"Forigi domajnon de ensalutoj en formo "
+"login@domain\"</strong> kiel <strong>Ne</strong>. Se ĝi estas ebligita, "
+"uzantoj kun la sama prefikso en malsamaj provizantoj (ekz., admin@gmail.com "
+"kaj admin@institution.edu.br) suferos kontinterkovron."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Kontrolu la suban opcion <strong>Aktivigi \"Ensalutu kun Google\" "
+"butonon</strong> kaj alklaku <strong>Konservi</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Ŝanĝu la kampon <strong>Aŭtomate aldonu uzantojn de ekstera "
+"aŭtentikigfonto</strong> al <strong>Jes</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Paŝo 1: Preparado de Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "Kritika Averto:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Kiel ebligi Google SSO-integriĝon?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google generos <strong>Klienta ID</strong> kaj <strong>Klienta "
+"Sekreto</strong>. Plenigu la kampojn en ĉi tiu formularo per tiuj ŝlosiloj."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Aliru la <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> kaj kreu novan "
+"<strong>Projekton</strong>."
+
+msgid "Redirect URI:"
+msgstr "Redirekta URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktivigu la butonon \"Ensalutu kun Google\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Poste iru al <strong>Akreditaĵoj &gt; Krei akreditaĵojn &gt; OAuth-kliento-"
+"identigilo</strong>, elektante la tipon de <strong>Reta aplikaĵo</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Paŝo 2: GLPI-Aŭtentikiga Preparo"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Iru al <strong>API-oj &amp; Servoj &gt; Ekrano de konsento de OAuth</strong>"
+" kaj agordu vian apon (aldonu la mediojn <code>retpoŝto</code>, "
+"<code>profilo</code> kaj <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr "En GLPI, iru al <strong>Agordu &gt; Aŭtentikigo &gt; Agordo</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Sub <strong>rajtigitaj alidirektaj URIoj</strong>, kopiu kaj algluu ĝuste la"
+" revenan URL sube:"

@@ -1,0 +1,194 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Legg til regel"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Legg til regler for å definere hvilken profil og enhet brukeren skal få "
+"basert på e-postdomenet deres (valgfritt)."
+
+msgid "Automatically create users on first login"
+msgstr "Opprett brukere automatisk ved første pålogging"
+
+msgid "Configuration updated."
+msgstr "Konfigurasjonen ble oppdatert."
+
+msgid "Default Rule (Fallback)"
+msgstr "Standardregel (Reserve)"
+
+msgid "Default entity (ELSE)"
+msgstr "Standardenhet (ELLERS)"
+
+msgid "Default profile (ELSE)"
+msgstr "Standardprofil (ELLERS)"
+
+msgid "Domain (after @)"
+msgstr "Domene (etter @)"
+
+msgid "Entity"
+msgstr "Enhet"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Kunne ikke opprette brukeren i GLPI."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfigurasjon"
+
+msgid "Google authentication failed: %s"
+msgstr "Google-autentisering mislyktes: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google-pålogging avbrutt: %s"
+
+msgid "Google response without authorization code."
+msgstr "Google-svar uten autorisasjonskode."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Hvis brukerens e-postadresse ikke samsvarer med noen av reglene ovenfor, vil"
+" denne profilen og enheten bli brukt. Obligatorisk hvis automatisk "
+"oppretting er aktivert."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Ugyldig OAuth2-status. Prøv igjen fra påloggingssiden."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "La stå tomt for å beholde gjeldende hemmelighet (lagres kryptert)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Ingen GLPI-bruker samsvarer med denne Google-kontoen."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Bare kontoer fra domenet %s godtas."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Profil- og enhetsregler etter domene"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Registrer denne omdirigerings-URI-en i Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Begrens til domene (valgfritt)"
+
+msgid "Save"
+msgstr "Lagre"
+
+msgid "Select..."
+msgstr "Velg..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Økten er ikke initialisert: brukeren har ingen aktivert profil."
+
+msgid "Sign in with Google"
+msgstr "Logg på med Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google-kontoen har ikke en bekreftet e-postadresse."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Denne brukeren er deaktivert i GLPI."
+
+msgid "or"
+msgstr "eller"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"La alternativet <strong>\"Fjern domene for pålogginger i form "
+"login@domain\"</strong> være <strong>Nei</strong>. Hvis aktivert, vil "
+"brukere med samme prefiks i forskjellige leverandører (f.eks. "
+"admin@gmail.com og admin@institution.edu.br) lide over kontooverlapping."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Merk av for <strong>Aktiver «Logg på med "
+"Google»-knappen</strong>-alternativet nedenfor, og klikk på "
+"<strong>Lagre</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Endre feltet <strong>Legg til brukere automatisk fra en ekstern "
+"autentiseringskilde</strong> til <strong>Ja</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Trinn 1: Google Cloud-forberedelse"
+
+msgid "Critical Warning:"
+msgstr "Kritisk advarsel:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Hvordan aktiverer jeg Google SSO-integrasjon?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google genererer en <strong>klient-ID</strong> og en "
+"<strong>klienthemmelighet</strong>. Fyll ut feltene i dette skjemaet med "
+"disse nøklene."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Gå til <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> og opprett et nytt "
+"<strong>prosjekt</strong>."
+
+msgid "Redirect URI:"
+msgstr "Omdirigerings-URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktiver «Logg på med Google»-knappen"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Gå deretter til <strong>Påloggingsinformasjon &gt; Opprett legitimasjon &gt;"
+" OAuth-klient-ID</strong>, ved å velge typen "
+"<strong>Nettapplikasjon</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Trinn 2: Klargjøring av GLPI-autentisering"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Gå til <strong>APIer &amp; Tjenester &gt; OAuth-samtykkeskjermen</strong> og"
+" konfigurer appen din (legg til omfangene <code>e-post</code>, "
+"<code>profil</code> og <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"I GLPI går du til <strong>Oppsett &gt; Autentisering &gt; Oppsett</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Under <strong>Autoriserte omdirigerings-URIer</strong> kopierer og limer du "
+"inn nøyaktig retur-URI-en nedenfor:"

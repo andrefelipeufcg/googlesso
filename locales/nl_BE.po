@@ -1,0 +1,196 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Regel toevoegen"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Voeg regels toe om te bepalen welk profiel en welke entiteit de gebruiker "
+"ontvangt op basis van hun e-maildomein (optioneel)."
+
+msgid "Automatically create users on first login"
+msgstr "Gebruikers automatisch aanmaken bij eerste keer inloggen"
+
+msgid "Configuration updated."
+msgstr "Configuratie bijgewerkt."
+
+msgid "Default Rule (Fallback)"
+msgstr "Standaardregel (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Standaardentiteit (ANDERS)"
+
+msgid "Default profile (ELSE)"
+msgstr "Standaardprofiel (ANDERS)"
+
+msgid "Domain (after @)"
+msgstr "Domein (na @)"
+
+msgid "Entity"
+msgstr "Entiteit"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Maken van gebruiker in GLPI is mislukt."
+
+msgid "Google SSO"
+msgstr "Google-SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Configuratie"
+
+msgid "Google authentication failed: %s"
+msgstr "Google-authenticatie is mislukt: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google-login geannuleerd: %s"
+
+msgid "Google response without authorization code."
+msgstr "Google-antwoord zonder autorisatiecode."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Als het e-mailadres van de gebruiker niet overeenkomt met een van de "
+"bovenstaande regels, worden dit profiel en deze entiteit gebruikt. Verplicht"
+" als automatisch aanmaken is ingeschakeld."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Ongeldige OAuth2-status. Probeer het opnieuw vanaf de inlogpagina."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Laat leeg om het huidige geheim te behouden (versleuteld opgeslagen)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Er is geen GLPI-gebruiker die overeenkomt met dit Google-account."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Alleen accounts uit het domein %s worden geaccepteerd."
+
+msgid "Profile"
+msgstr "Profiel"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Profiel- en entiteitsregels op domein"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Registreer deze omleidings-URI in Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Beperken tot domein (optioneel)"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Select..."
+msgstr "Selecteren..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr ""
+"Sessie niet geïnitialiseerd: gebruiker heeft geen ingeschakeld profiel."
+
+msgid "Sign in with Google"
+msgstr "Inloggen met Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Het Google-account heeft geen geverifieerd e-mailadres."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Deze gebruiker is gedeactiveerd in GLPI."
+
+msgid "or"
+msgstr "of"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Laat de optie <strong>\"Verwijder domein van logins in formulier "
+"login@domein\"</strong> staan ​​op <strong>Nee</strong>. Indien "
+"ingeschakeld, zullen gebruikers met hetzelfde voorvoegsel bij verschillende "
+"providers (bijvoorbeeld admin@gmail.com en admin@institution.edu.br) te "
+"maken krijgen met accountoverlapping."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Vink hieronder de optie <strong>Activeer 'Aanmelden met Google'</strong> aan"
+" en klik op <strong>Opslaan</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Wijzig het veld <strong>Gebruikers automatisch toevoegen vanuit een externe "
+"authenticatiebron</strong> in <strong>Ja</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Stap 1: Google Cloud-voorbereiding"
+
+msgid "Critical Warning:"
+msgstr "Kritieke waarschuwing:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Hoe schakel ik Google SSO-integratie in?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google genereert een <strong>Client-ID</strong> en een "
+"<strong>Clientgeheim</strong>. Vul de velden in dit formulier in met die "
+"sleutels."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Ga naar de <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> en maak een nieuw "
+"<strong>project</strong>."
+
+msgid "Redirect URI:"
+msgstr "Omleidings-URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Activeer de knop 'Inloggen met Google'"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Ga vervolgens naar <strong>Inloggegevens &gt; Inloggegevens aanmaken &gt; "
+"OAuth-client-ID</strong>, waarbij u het type <strong>webapplicatie</strong> "
+"kiest."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Stap 2: Voorbereiding voor GLPI-authenticatie"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Ga naar <strong>API's &amp; Diensten &gt; OAuth-toestemmingsscherm</strong> "
+"en configureer uw app (voeg de bereiken <code>email</code>, "
+"<code>profiel</code> en <code>openid</code> toe)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"Ga in GLPI naar <strong>Instellingen &gt; Authenticatie &gt; "
+"Instellen</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Kopieer en plak onder <strong>Geautoriseerde omleidings-URI's</strong> "
+"precies de onderstaande retour-URL:"

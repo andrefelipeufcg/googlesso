@@ -1,0 +1,193 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Дүрэм Нэмэх"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Хэрэглэгчийн имэйл домэйноос хамаарч ямар профайл болон байгууллагыг авахыг "
+"тодорхойлох дүрмүүд нэмнэ үү (Сонголттой)."
+
+msgid "Automatically create users on first login"
+msgstr "Анх нэвтрэхэд хэрэглэгчдийг автоматаар үүсгэх"
+
+msgid "Configuration updated."
+msgstr "Тохиргоог шинэчиллээ."
+
+msgid "Default Rule (Fallback)"
+msgstr "Анхдагч Дүрэм (Нөөц)"
+
+msgid "Default entity (ELSE)"
+msgstr "Анхдагч байгууллага (ҮГҮЙ БОЛ)"
+
+msgid "Default profile (ELSE)"
+msgstr "Анхдагч профайл (ҮГҮЙ БОЛ)"
+
+msgid "Domain (after @)"
+msgstr "Домэйн (@ тэмдгийн дараах)"
+
+msgid "Entity"
+msgstr "Байгууллага"
+
+msgid "Failed to create the user in GLPI."
+msgstr "GLPI дээр хэрэглэгчийг үүсгэхэд алдаа гарлаа."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Тохиргоо"
+
+msgid "Google authentication failed: %s"
+msgstr "Google баталгаажуулалт амжилтгүй боллоо: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google нэвтрэлтийг цуцалсан: %s"
+
+msgid "Google response without authorization code."
+msgstr "Баталгаажуулах кодгүй Google-н хариу."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Хэрвээ хэрэглэгчийн имэйл дээрх дүрмүүдийн аль нэгэнд нь тохирохгүй бол энэ "
+"профайл болон байгууллагыг ашиглана. Автоматаар үүсгэх тохиргоо идэвхжсэн "
+"үед заавал шаардлагатай."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "OAuth2 төлөв буруу байна. Нэвтрэх хуудаснаас дахин оролдоно уу."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Одоогийн нууцыг хадгалахын тулд (шифрлэгдсэн хэлбэрээр хадгалагддаг) хоосон "
+"орхино уу."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Энэ Google бүртгэлд тохирох GLPI хэрэглэгч алга байна."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Зөвхөн %s домэйны бүртгэлүүдийг хүлээн зөвшөөрнө."
+
+msgid "Profile"
+msgstr "Профайл"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Домэйны дагуу Профайл ба Байгууллагын дүрэм"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Энэхүү шилжүүлэх URI-г Google Cloud Console-д бүртгүүлнэ үү:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Домэйноор хязгаарлах (Сонголттой)"
+
+msgid "Save"
+msgstr "Хадгалах"
+
+msgid "Select..."
+msgstr "Сонгох..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Сесс эхлээгүй байна: хэрэглэгч идэвхжүүлсэн профайлгүй байна."
+
+msgid "Sign in with Google"
+msgstr "Google-ээр нэвтрэх"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google бүртгэл баталгаажсан имэйлгүй байна."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Энэ хэрэглэгчийг GLPI дээр идэвхгүй болгосон байна."
+
+msgid "or"
+msgstr "эсвэл"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"<strong>\"login@domain маягтын нэвтрэх домэйныг устгах\"</strong> сонголтыг "
+"<strong>Үгүй</strong> гэж үлдээгээрэй. Идэвхжүүлсэн тохиолдолд өөр үйлчилгээ"
+" үзүүлэгчийн ижил угтвартай хэрэглэгчид (жишээ нь, admin@gmail.com болон "
+"admin@institution.edu.br) бүртгэл давхцах болно."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Доорх <strong>\"Google-ээр нэвтрэх\" товчийг идэвхжүүлэх</strong> сонголтыг "
+"шалгаад <strong>Хадгалах</strong> дээр дарна уу."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"<strong>Гадаад баталгаажуулалтын эх сурвалжаас хэрэглэгчдийг автоматаар "
+"нэмэх</strong> талбарыг <strong>Тийм</strong> болгож өөрчил."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Алхам 1: Google Cloud бэлтгэх"
+
+msgid "Critical Warning:"
+msgstr "Чухал сэрэмжлүүлэг:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Google SSO интеграцийг хэрхэн идэвхжүүлэх вэ?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google нь <strong>Үйлчлүүлэгчийн ID</strong> болон <strong>Үйлчлүүлэгчийн "
+"нууц</strong> үүсгэх болно. Эдгээр түлхүүрүүдээр энэ маягтын талбаруудыг "
+"бөглөнө үү."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"<a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google Cloud"
+" Console</a> руу нэвтэрч, шинэ <strong>Төсөл</strong> үүсгэнэ үү."
+
+msgid "Redirect URI:"
+msgstr "URI дахин чиглүүлэх:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "\"Google-ээр нэвтрэх\" товчийг идэвхжүүлнэ үү"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Дараа нь<strong>Итгэмжлэл &gt; Итгэмжлэл үүсгэх &gt; OAuth клиент "
+"ID</strong>, <strong>Вэб програм</strong>-ын төрлийг сонгоно."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Алхам 2: GLPI баталгаажуулалтын бэлтгэл"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"<strong>API &amp; Үйлчилгээ &gt; OAuth зөвшөөрлийн дэлгэц</strong> болон "
+"өөрийн програмыг тохируулна уу (<code>email</code>, <code>profile</code> "
+"болон <code>openid</code> хүрээг нэмнэ үү)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"GLPI-д <strong>Тохиргоо &gt; Баталгаажуулалт &gt; Тохируулга</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"<strong>Эрх бүхий дахин чиглүүлэх URI</strong>-н доор яг буцах URL-г хуулж "
+"буулгана уу:"

@@ -1,0 +1,197 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Afegeix una regla"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Afegiu regles per definir quin perfil i entitat rebrà l'usuari en funció del"
+" seu domini de correu (Opcional)."
+
+msgid "Automatically create users on first login"
+msgstr "Crear usuaris automàticament en el primer inici de sessió"
+
+msgid "Configuration updated."
+msgstr "Configuració actualitzada."
+
+msgid "Default Rule (Fallback)"
+msgstr "Regla predeterminada (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Entitat predeterminada (SI NO)"
+
+msgid "Default profile (ELSE)"
+msgstr "Perfil predeterminat (SI NO)"
+
+msgid "Domain (after @)"
+msgstr "Domini (després d'@)"
+
+msgid "Entity"
+msgstr "Entitat"
+
+msgid "Failed to create the user in GLPI."
+msgstr "No s'ha pogut crear l'usuari a GLPI."
+
+msgid "Google SSO"
+msgstr "SSO de Google"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Configuració"
+
+msgid "Google authentication failed: %s"
+msgstr "L'autenticació de Google ha fallat: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Inici de sessió de Google cancel·lat: %s"
+
+msgid "Google response without authorization code."
+msgstr "Resposta de Google sense codi d'autorització."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Si el correu de l'usuari no coincideix amb cap de les regles anteriors, "
+"s'utilitzaran aquest perfil i entitat. Obligatori si la creació automàtica "
+"està habilitada."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr ""
+"Estat d'OAuth2 no vàlid. Torneu a intentar-ho des de la pàgina d'inici de "
+"sessió."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Deixeu-ho en blanc per mantenir el secret actual (emmagatzemat encriptat)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Cap usuari de GLPI correspon a aquest compte de Google."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Només s'accepten comptes del domini %s."
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Regles de Perfil i Entitat per Domini"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Registreu aquest URI de redirecció a Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Restringir al domini (opcional)"
+
+msgid "Save"
+msgstr "Desa"
+
+msgid "Select..."
+msgstr "Seleccioneu..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sessió no inicialitzada: l'usuari no té cap perfil habilitat."
+
+msgid "Sign in with Google"
+msgstr "Inicieu la sessió amb Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "El compte de Google no té un correu electrònic verificat."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Aquest usuari està desactivat a GLPI."
+
+msgid "or"
+msgstr "o"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Deixeu l'opció <strong>\"Elimina el domini dels inicis de sessió del "
+"formulari login@domain\"</strong> com a <strong>No</strong>. Si s'activa, "
+"els usuaris amb el mateix prefix en diferents proveïdors (p. ex., "
+"admin@gmail.com i admin@institution.edu.br) patiran la superposició del "
+"compte."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Marqueu l'opció <strong>Activa el botó \"Inicia la sessió amb "
+"Google\"</strong> a continuació i fes clic a <strong>Desa</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Canvieu el camp <strong>Afegeix automàticament usuaris des d'una font "
+"d'autenticació externa</strong> a <strong>Sí</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Pas 1: preparació de Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "Avís crític:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Com habilitar la integració de Google SSO?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google generarà un <strong>ID de client</strong> i un <strong>secret de "
+"client</strong>. Ompliu els camps d'aquest formulari amb aquestes claus."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Accediu a <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> i creeu un "
+"<strong>Projecte</strong> nou."
+
+msgid "Redirect URI:"
+msgstr "URI de redirecció:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Activa el botó \"Iniciar sessió amb Google\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"A continuació, aneu a <strong>Credencials &gt; Crea credencials &gt; "
+"Identificador de client OAuth</strong>, escollint el tipus "
+"d'<strong>aplicació web</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Pas 2: Preparació de l'autenticació GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Vés a <strong>APIs &amp; Serveis &gt; Pantalla de consentiment "
+"d'OAuth</strong> i configureu la vostra aplicació (afegiu els àmbits "
+"<code>correu electrònic</code>, <code>perfil</code> i <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"A GLPI, aneu a <strong>Configuració &gt; Autenticació &gt; "
+"Configuració</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"A <strong>URI de redirecció autoritzats</strong>, copieu i enganxeu "
+"exactament l'URL de retorn a continuació:"

@@ -1,0 +1,196 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Shto Rregull"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Shtoni rregulla për të përcaktuar cilin profil dhe entitet do të marrë "
+"përdoruesi bazuar në domenin e emailit të tij (Opsionale)."
+
+msgid "Automatically create users on first login"
+msgstr "Krijo përdorues automatikisht në hyrjen e parë"
+
+msgid "Configuration updated."
+msgstr "Konfigurimi u përditësua."
+
+msgid "Default Rule (Fallback)"
+msgstr "Rregulli i Parazgjedhur (Zëvendësues)"
+
+msgid "Default entity (ELSE)"
+msgstr "Entiteti i parazgjedhur (PËRNDRYSHE)"
+
+msgid "Default profile (ELSE)"
+msgstr "Profili i parazgjedhur (PËRNDRYSHE)"
+
+msgid "Domain (after @)"
+msgstr "Domeni (pas @)"
+
+msgid "Entity"
+msgstr "Entiteti"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Krijimi i përdoruesit në GLPI dështoi."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfigurimi"
+
+msgid "Google authentication failed: %s"
+msgstr "Autentifikimi i Google dështoi: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Hyrja në Google u anulua: %s"
+
+msgid "Google response without authorization code."
+msgstr "Përgjigjja e Google pa kod autorizimi."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Nëse emaili i përdoruesit nuk përputhet me asnjë nga rregullat më sipër, do "
+"të përdoren ky profil dhe entitet. E detyrueshme nëse është aktivizuar "
+"krijimi automatik."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Gjendje e pavlefshme e OAuth2. Provoni përsëri nga faqja e hyrjes."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Lëreni bosh për të mbajtur sekretin aktual (i ruajtur i koduar)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Asnjë përdorues i GLPI nuk përputhet me këtë llogari Google."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Pranohen vetëm llogaritë nga domeni %s."
+
+msgid "Profile"
+msgstr "Profili"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Rregullat e Profilit dhe Entitetit sipas Domenit"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Regjistroni këtë URI ridrejtimi në Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Kufizo në domen (opsionale)"
+
+msgid "Save"
+msgstr "Ruaj"
+
+msgid "Select..."
+msgstr "Zgjidh..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr ""
+"Sesioni nuk është inicializuar: përdoruesi nuk ka profil të aktivizuar."
+
+msgid "Sign in with Google"
+msgstr "Hyni me Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Llogaria Google nuk ka një email të verifikuar."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Ky përdorues është i çaktivizuar në GLPI."
+
+msgid "or"
+msgstr "ose"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Lëreni opsionin <strong>\"Hiq domenin e hyrjeve në formën "
+"login@domain\"</strong> si <strong>Jo</strong>. Nëse aktivizohet, "
+"përdoruesit me të njëjtin prefiks në ofrues të ndryshëm (p.sh., "
+"admin@gmail.com dhe admin@institution.edu.br) do të pësojnë mbivendosje të "
+"llogarisë."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Kontrolloni opsionin <strong>Aktivizo butonin \"Identifikohu me "
+"Google\"</strong> më poshtë dhe kliko <strong>Ruaj</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Ndrysho fushën <strong>Shto automatikisht përdorues nga një burim i jashtëm "
+"vërtetimi</strong> në <strong>Po</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Hapi 1: Përgatitja e Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "Paralajmërim Kritik:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Si të aktivizoni integrimin e Google SSO?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google do të gjenerojë një <strong>ID-në e klientit</strong> dhe një "
+"<strong>Sekret të klientit</strong>. Plotësoni fushat në këtë formë me këto "
+"çelësa."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Hyni në <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> dhe krijoni një "
+"<strong>Projekt</strong> të ri."
+
+msgid "Redirect URI:"
+msgstr "Ridrejto URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktivizo butonin \"Identifikohu me Google\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Më pas shkoni te <strong>Kredencialet &gt; Krijo Kredencialet &gt; ID-ja e "
+"klientit OAuth</strong>, duke zgjedhur llojin <strong>Aplikacioni "
+"ueb</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Hapi 2: Përgatitja e Autentifikimit GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Shkoni te <strong>API-të &amp; Shërbimet &gt; Ekrani i pëlqimit të "
+"OAuth</strong> dhe konfiguro aplikacionin tënd (shtoni fushëveprimin "
+"<code>email</code>, <code>profilin</code> dhe <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"Në GLPI, shko te <strong>Konfigurimi &gt; Autentifikimi &gt; "
+"Konfigurimi</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Në <strong>URI-të e autorizuara të ridrejtimit</strong>, kopjoni dhe ngjisni"
+" saktësisht URL-në e kthimit më poshtë:"

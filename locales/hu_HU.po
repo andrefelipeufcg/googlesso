@@ -1,0 +1,198 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Szabály hozzáadása"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Szabályok hozzáadása annak meghatározására, hogy a felhasználó melyik "
+"profilt és entitást kapja meg az e-mail domainje alapján (Opcionális)."
+
+msgid "Automatically create users on first login"
+msgstr "Felhasználók automatikus létrehozása az első bejelentkezéskor"
+
+msgid "Configuration updated."
+msgstr "A konfiguráció frissítve."
+
+msgid "Default Rule (Fallback)"
+msgstr "Alapértelmezett szabály (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Alapértelmezett entitás (KÜLÖNBEN)"
+
+msgid "Default profile (ELSE)"
+msgstr "Alapértelmezett profil (KÜLÖNBEN)"
+
+msgid "Domain (after @)"
+msgstr "Domain (@ után)"
+
+msgid "Entity"
+msgstr "Entitás"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Nem sikerült létrehozni a felhasználót a GLPI-ben."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfiguráció"
+
+msgid "Google authentication failed: %s"
+msgstr "A Google hitelesítés sikertelen: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "A Google bejelentkezés megszakítva: %s"
+
+msgid "Google response without authorization code."
+msgstr "Google válasz engedélyezési kód nélkül."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Ha a felhasználó e-mailje egyik fenti szabálynak sem felel meg, ez a profil "
+"és entitás lesz használva. Kötelező, ha az automatikus létrehozás "
+"engedélyezve van."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Érvénytelen OAuth2 állapot. Próbálja újra a bejelentkezési oldalról."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Hagyja üresen az aktuális titok megőrzéséhez (titkosítva tárolva)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Ehhez a Google fiókhoz nem tartozik GLPI felhasználó."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Csak a %s domainből származó fiókokat fogadjuk el."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Profil- és entitásszabályok domain szerint"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Regisztrálja ezt az átirányítási URI-t a Google Cloud Console-ban:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Korlátozás domainre (opcionális)"
+
+msgid "Save"
+msgstr "Mentés"
+
+msgid "Select..."
+msgstr "Kiválasztás..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr ""
+"A munkamenet nem inicializálva: a felhasználónak nincs engedélyezett "
+"profilja."
+
+msgid "Sign in with Google"
+msgstr "Bejelentkezés Google-fiókkal"
+
+msgid "The Google account does not have a verified email."
+msgstr "A Google fiókhoz nem tartozik ellenőrzött e-mail cím."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Ez a felhasználó inaktív a GLPI-ben."
+
+msgid "or"
+msgstr "vagy"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Hagyja a <strong>\"A bejelentkezés domainjének eltávolítása a login@domain "
+"formátumban\"</strong> lehetőséget <strong>Nem</strong>ként. Ha engedélyezve"
+" van, a különböző szolgáltatóknál (pl. admin@gmail.com és "
+"admin@institution.edu.br) azonos előtaggal rendelkező felhasználók "
+"fiókátfedésben szenvednek majd."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Jelölje be az alábbi <strong>A \"Bejelentkezés Google-fiókkal\" gomb "
+"aktiválása</strong> lehetőséget, majd kattintson a <strong>Mentés</strong> "
+"gombra."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Módosítsa a <strong>Felhasználók automatikus hozzáadása külső hitelesítési "
+"forrásból</strong> mezőt <strong>Igen</strong> értékre."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "1. lépés: A Google Cloud előkészítése"
+
+msgid "Critical Warning:"
+msgstr "Kritikus figyelmeztetés:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Hogyan lehet engedélyezni a Google SSO integrációt?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"A Google létrehoz egy <strong>ügyfélazonosítót</strong> és egy "
+"<strong>ügyféltitkot</strong>. Töltse ki az űrlap mezőit ezekkel a "
+"kulcsokkal."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Nyissa meg a <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console-t</a>, és hozzon létre egy új "
+"<strong>projektet</strong>."
+
+msgid "Redirect URI:"
+msgstr "Átirányítási URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktiválja a \"Bejelentkezés Google-fiókkal\" gombot"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Ezután lépjen a <strong>Hitelesítési adatok &gt; Hitelesítési adatok "
+"létrehozása &gt; OAuth-ügyfélazonosító</strong>, válassza ki a <strong>Webes"
+" alkalmazás</strong> típusát."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "2. lépés: GLPI-hitelesítés előkészítése"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Lépjen az <strong>API-k és amp; Szolgáltatások &gt; Az OAuth hozzájárulási "
+"képernyő</strong> és az alkalmazás konfigurálása (adja hozzá az "
+"<code>e-mail</code>, <code>profil</code> és <code>openid</code> hatókört)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"A GLPI-ben lépjen a <strong>Beállítás &gt; Hitelesítés &gt; "
+"Beállítás</strong>ra."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Az <strong>Engedélyezett átirányítási URI-k</strong> alatt másolja ki és "
+"illessze be pontosan az alábbi visszatérési URL-t:"

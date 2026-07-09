@@ -5,6 +5,31 @@
         <h3 class="card-title">{{ __('Google SSO — Configuration', 'googlesso') }}</h3>
     </div>
     <div class="card-body">
+        <div style="background: #eef9fd; border-left: 4px solid #178abb; padding: 1rem; margin-bottom: 1.5rem; border-radius: 4px;">
+            <h3 style="margin-top: 0; font-size: 1.2rem; color: #178abb;">{{ __('How to enable Google SSO integration?', 'googlesso') }}</h3>
+            
+            <p style="margin-bottom: 0.5rem;"><strong>{{ __('Step 1: Google Cloud Preparation', 'googlesso') }}</strong></p>
+            <ol style="line-height: 1.6; margin-bottom: 1rem; padding-left: 1.2rem;">
+                <li>{{ __('Access the <a href="https://console.cloud.google.com/" target="_blank">Google Cloud Console</a> and create a new <strong>Project</strong>.', 'googlesso')|raw }}</li>
+                <li>{{ __('Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and configure your app (add the scopes <code>email</code>, <code>profile</code>, and <code>openid</code>).', 'googlesso')|raw }}</li>
+                <li>{{ __('Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client ID</strong>, choosing the <strong>Web application</strong> type.', 'googlesso')|raw }}</li>
+                <li>{{ __('Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the return URL below:', 'googlesso')|raw }}
+                    <ul style="margin-top: 0.5rem; margin-bottom: 0.5rem; list-style-type: disc;">
+                        <li><strong>{{ __('Redirect URI:', 'googlesso') }}</strong> <code>{{ redirect_uri }}</code></li>
+                    </ul>
+                </li>
+                <li>{{ __('Google will generate a <strong>Client ID</strong> and a <strong>Client Secret</strong>. Fill in the fields in this form with those keys.', 'googlesso')|raw }}</li>
+            </ol>
+
+            <p style="margin-bottom: 0.5rem;"><strong>{{ __('Step 2: GLPI Authentication Preparation', 'googlesso') }}</strong></p>
+            <ol style="line-height: 1.6; margin-bottom: 0; padding-left: 1.2rem;">
+                <li>{{ __('In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>.', 'googlesso')|raw }}</li>
+                <li>{{ __('Change the <strong>Automatically add users from an external authentication source</strong> field to <strong>Yes</strong>.', 'googlesso')|raw }}</li>
+                <li><strong style="color: #d32f2f;">{{ __('Critical Warning:', 'googlesso') }}</strong> {{ __('Leave the option <strong>"Remove domain of logins in form login@domain"</strong> as <strong>No</strong>. If enabled, users with the same prefix in different providers (e.g., admin@gmail.com and admin@institution.edu.br) will suffer account overlap.', 'googlesso')|raw }}</li>
+                <li>{{ __('Check the <strong>Activate "Sign in with Google" button</strong> option below and click <strong>Save</strong>.', 'googlesso')|raw }}</li>
+            </ol>
+        </div>
+
         <div class="alert alert-info">
             {{ __('Register this Redirect URI in Google Cloud Console:', 'googlesso') }}
             <code>{{ redirect_uri }}</code>
@@ -139,7 +164,7 @@
                     <input type="hidden" name="is_active" value="0">
                     <input class="form-check-input" type="checkbox" name="is_active" value="1"
                            {{ config.is_active ? 'checked' : '' }}>
-                    <span class="form-check-label">Ativar o botão "Entrar com o Google"</span>
+                    <span class="form-check-label">{{ __('Activate "Sign in with Google" button', 'googlesso') }}</span>
                 </label>
             </div>
 

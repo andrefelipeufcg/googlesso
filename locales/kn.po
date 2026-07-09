@@ -1,0 +1,192 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "ನಿಯಮ ಸೇರಿಸಿ"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"ಬಳಕೆದಾರರ ಇಮೇಲ್ ಡೊಮೇನ್ ಆಧಾರದ ಮೇಲೆ ಅವರು ಯಾವ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅಸ್ತಿತ್ವವನ್ನು "
+"ಪಡೆಯುತ್ತಾರೆ ಎಂಬುದನ್ನು ವಿವರಿಸಲು ನಿಯಮಗಳನ್ನು ಸೇರಿಸಿ (ಐಚ್ಛಿಕ)."
+
+msgid "Automatically create users on first login"
+msgstr "ಮೊದಲ ಲಾಗಿನ್‌ನಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಬಳಕೆದಾರರನ್ನು ರಚಿಸಿ"
+
+msgid "Configuration updated."
+msgstr "ಕಾನ್ಫಿಗರೇಶನ್ ಅನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ."
+
+msgid "Default Rule (Fallback)"
+msgstr "ಡೀಫಾಲ್ಟ್ ನಿಯಮ (ಫಾಲ್‌ಬ್ಯಾಕ್)"
+
+msgid "Default entity (ELSE)"
+msgstr "ಡೀಫಾಲ್ಟ್ ಅಸ್ತಿತ್ವ (ಇಲ್ಲದಿದ್ದರೆ)"
+
+msgid "Default profile (ELSE)"
+msgstr "ಡೀಫಾಲ್ಟ್ ಪ್ರೊಫೈಲ್ (ಇಲ್ಲದಿದ್ದರೆ)"
+
+msgid "Domain (after @)"
+msgstr "ಡೊಮೇನ್ (@ ನಂತರ)"
+
+msgid "Entity"
+msgstr "ಅಸ್ತಿತ್ವ"
+
+msgid "Failed to create the user in GLPI."
+msgstr "GLPI ನಲ್ಲಿ ಬಳಕೆದಾರರನ್ನು ರಚಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — ಕಾನ್ಫಿಗರೇಶನ್"
+
+msgid "Google authentication failed: %s"
+msgstr "Google ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google ಲಾಗಿನ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ: %s"
+
+msgid "Google response without authorization code."
+msgstr "ಅಧಿಕೃತ ಕೋಡ್ ಇಲ್ಲದ Google ಪ್ರತಿಕ್ರಿಯೆ."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"ಬಳಕೆದಾರರ ಇಮೇಲ್ ಮೇಲಿನ ಯಾವುದೇ ನಿಯಮಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗದಿದ್ದರೆ, ಈ ಪ್ರೊಫೈಲ್ ಮತ್ತು "
+"ಅಸ್ತಿತ್ವವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಸ್ವಯಂಚಾಲಿತ ರಚನೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ ಇದು "
+"ಕಡ್ಡಾಯವಾಗಿದೆ."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "ಅಮಾನ್ಯ OAuth2 ಸ್ಥಿತಿ. ಲಾಗಿನ್ ಪುಟದಿಂದ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"ಪ್ರಸ್ತುತ ರಹಸ್ಯವನ್ನು (ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ) ಉಳಿಸಿಕೊಳ್ಳಲು ಖಾಲಿ "
+"ಬಿಡಿ."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "ಯಾವುದೇ GLPI ಬಳಕೆದಾರರು ಈ Google ಖಾತೆಗೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "ಕೇವಲ %s ಡೊಮೇನ್‌ನಿಂದ ಖಾತೆಗಳನ್ನು ಮಾತ್ರ ಸ್ವೀಕರಿಸಲಾಗುತ್ತದೆ."
+
+msgid "Profile"
+msgstr "ಪ್ರೊಫೈಲ್"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "ಡೊಮೇನ್ ಮೂಲಕ ಪ್ರೊಫೈಲ್ ಮತ್ತು ಅಸ್ತಿತ್ವದ ನಿಯಮಗಳು"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Google Cloud Console ನಲ್ಲಿ ಈ ಮರುನಿರ್ದೇಶನ URI ಅನ್ನು ನೋಂದಾಯಿಸಿ:"
+
+msgid "Restrict to domain (optional)"
+msgstr "ಡೊಮೇನ್‌ಗೆ ಸೀಮಿತಗೊಳಿಸಿ (ಐಚ್ಛಿಕ)"
+
+msgid "Save"
+msgstr "ಉಳಿಸಿ"
+
+msgid "Select..."
+msgstr "ಆಯ್ಕೆ ಮಾಡಿ..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "ಅಧಿವೇಶನ ಪ್ರಾರಂಭವಾಗಿಲ್ಲ: ಬಳಕೆದಾರರು ಯಾವುದೇ ಸಕ್ರಿಯ ಪ್ರೊಫೈಲ್ ಹೊಂದಿಲ್ಲ."
+
+msgid "Sign in with Google"
+msgstr "Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google ಖಾತೆಯು ಪರಿಶೀಲಿಸಲಾದ ಇಮೇಲ್ ಅನ್ನು ಹೊಂದಿಲ್ಲ."
+
+msgid "This user is deactivated in GLPI."
+msgstr "ಈ ಬಳಕೆದಾರರನ್ನು GLPI ನಲ್ಲಿ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ."
+
+msgid "or"
+msgstr "ಅಥವಾ"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"<strong>\"ಫಾರ್ಮ್ login@domain ನಲ್ಲಿ ಲಾಗಿನ್‌ಗಳ ಡೊಮೇನ್ ತೆಗೆದುಹಾಕಿ\"</strong> "
+"ಆಯ್ಕೆಯನ್ನು <strong>ಇಲ್ಲ</strong> ಎಂದು ಬಿಡಿ. ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ, ವಿಭಿನ್ನ "
+"ಪೂರೈಕೆದಾರರಲ್ಲಿ ಒಂದೇ ಪೂರ್ವಪ್ರತ್ಯಯ ಹೊಂದಿರುವ ಬಳಕೆದಾರರು (ಉದಾ., admin@gmail.com "
+"ಮತ್ತು admin@institution.edu.br) ಖಾತೆಯ ಅತಿಕ್ರಮಣವನ್ನು ಅನುಭವಿಸುತ್ತಾರೆ."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"ಕೆಳಗಿನ <strong>\"Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್\" ಬಟನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</strong> "
+"ಆಯ್ಕೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು <strong>ಉಳಿಸು</strong> ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"<strong>ಬಾಹ್ಯ ದೃಢೀಕರಣ ಮೂಲದಿಂದ ಬಳಕೆದಾರರನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸೇರಿಸಿ</strong> "
+"ಕ್ಷೇತ್ರವನ್ನು <strong>ಹೌದು</strong> ಗೆ ಬದಲಾಯಿಸಿ."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "ಹಂತ 1: Google ಮೇಘ ತಯಾರಿ"
+
+msgid "Critical Warning:"
+msgstr "ನಿರ್ಣಾಯಕ ಎಚ್ಚರಿಕೆ:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Google SSO ಏಕೀಕರಣವನ್ನು ಹೇಗೆ ಸಕ್ರಿಯಗೊಳಿಸುವುದು?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google <strong>ಕ್ಲೈಂಟ್ ಐಡಿ</strong> ಮತ್ತು <strong>ಕ್ಲೈಂಟ್ ರಹಸ್ಯ</strong> "
+"ಅನ್ನು ರಚಿಸುತ್ತದೆ. ಆ ಕೀಗಳೊಂದಿಗೆ ಈ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"<a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google Cloud"
+" Console</a> ಅನ್ನು ಪ್ರವೇಶಿಸಿ ಮತ್ತು ಹೊಸ <strong>ಪ್ರಾಜೆಕ್ಟ್</strong> ಅನ್ನು "
+"ರಚಿಸಿ."
+
+msgid "Redirect URI:"
+msgstr "URI ಮರುನಿರ್ದೇಶನ:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "\"Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್\" ಬಟನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"ನಂತರ ಹೋಗಿ <strong>ರುಜುವಾತುಗಳು &gt; ರುಜುವಾತುಗಳನ್ನು ರಚಿಸಿ &gt; OAuth ಕ್ಲೈಂಟ್ "
+"ಐಡಿ</strong>, <strong>ವೆಬ್ ಅಪ್ಲಿಕೇಶನ್</strong> ಪ್ರಕಾರವನ್ನು ಆರಿಸಿಕೊಳ್ಳುವುದು."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "ಹಂತ 2: GLPI ದೃಢೀಕರಣ ತಯಾರಿ"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"<strong>API ಗಳಿಗೆ ಹೋಗಿ &amp; ಸೇವೆಗಳು &gt; OAuth ಸಮ್ಮತಿ ಪರದೆ</strong> ಮತ್ತು "
+"ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ (ಸ್ಕೋಪ್‌ಗಳನ್ನು <code>ಇಮೇಲ್</code>, "
+"<code>ಪ್ರೊಫೈಲ್</code> ಮತ್ತು <code>openid</code> ಸೇರಿಸಿ)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr "GLPI ನಲ್ಲಿ, <strong>ಸೆಟಪ್ &gt; ದೃಢೀಕರಣ &gt; ಸೆಟಪ್</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"<strong>ಅಧಿಕೃತ ಮರುನಿರ್ದೇಶನ URI ಗಳು</strong> ಅಡಿಯಲ್ಲಿ, ಕೆಳಗಿನ ರಿಟರ್ನ್ URL "
+"ಅನ್ನು ನಿಖರವಾಗಿ ನಕಲಿಸಿ ಮತ್ತು ಅಂಟಿಸಿ:"

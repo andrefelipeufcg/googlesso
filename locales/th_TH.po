@@ -1,0 +1,191 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "เพิ่มกฎ"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"เพิ่มกฎเพื่อกำหนดว่าผู้ใช้จะได้รับโปรไฟล์และเอนทิตีใดตามโดเมนอีเมล "
+"(ไม่บังคับ)"
+
+msgid "Automatically create users on first login"
+msgstr "สร้างผู้ใช้โดยอัตโนมัติในการเข้าสู่ระบบครั้งแรก"
+
+msgid "Configuration updated."
+msgstr "อัปเดตการกำหนดค่าแล้ว"
+
+msgid "Default Rule (Fallback)"
+msgstr "กฎเริ่มต้น (ทางเลือก)"
+
+msgid "Default entity (ELSE)"
+msgstr "เอนทิตีเริ่มต้น (มิฉะนั้น)"
+
+msgid "Default profile (ELSE)"
+msgstr "โปรไฟล์เริ่มต้น (มิฉะนั้น)"
+
+msgid "Domain (after @)"
+msgstr "โดเมน (หลัง @)"
+
+msgid "Entity"
+msgstr "เอนทิตี"
+
+msgid "Failed to create the user in GLPI."
+msgstr "ไม่สามารถสร้างผู้ใช้ใน GLPI"
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — การกำหนดค่า"
+
+msgid "Google authentication failed: %s"
+msgstr "การรับรองความถูกต้องของ Google ล้มเหลว: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "ยกเลิกการเข้าสู่ระบบ Google แล้ว: %s"
+
+msgid "Google response without authorization code."
+msgstr "การตอบสนองจาก Google โดยไม่มีรหัสการอนุญาต"
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"หากอีเมลผู้ใช้ไม่ตรงกับกฎด้านบน โปรไฟล์และเอนทิตีนี้จะถูกใช้ "
+"บังคับหากเปิดใช้งานการสร้างอัตโนมัติ"
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "สถานะ OAuth2 ไม่ถูกต้อง โปรดลองอีกครั้งจากหน้าเข้าสู่ระบบ"
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "เว้นว่างไว้เพื่อเก็บรหัสผ่านปัจจุบัน (จัดเก็บแบบเข้ารหัส)"
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "ไม่มีผู้ใช้ GLPI ที่สอดคล้องกับบัญชี Google นี้"
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "ยอมรับเฉพาะบัญชีจากโดเมน %s เท่านั้น"
+
+msgid "Profile"
+msgstr "โปรไฟล์"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "กฎโปรไฟล์และเอนทิตีตามโดเมน"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "ลงทะเบียน URI การเปลี่ยนเส้นทางนี้ใน Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "จำกัดเฉพาะโดเมน (ไม่บังคับ)"
+
+msgid "Save"
+msgstr "บันทึก"
+
+msgid "Select..."
+msgstr "เลือก..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "ไม่ได้เริ่มเซสชัน: ผู้ใช้ไม่มีโปรไฟล์ที่เปิดใช้งาน"
+
+msgid "Sign in with Google"
+msgstr "ลงชื่อเข้าใช้ด้วย Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "บัญชี Google ไม่มีอีเมลที่ยืนยันแล้ว"
+
+msgid "This user is deactivated in GLPI."
+msgstr "ผู้ใช้นี้ถูกปิดใช้งานใน GLPI"
+
+msgid "or"
+msgstr "หรือ"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"ปล่อยให้ตัวเลือก <strong>\"ลบโดเมนของการเข้าสู่ระบบในรูปแบบ "
+"login@domain\"</strong> เป็น <strong>ไม่</strong> หากเปิดใช้งาน "
+"ผู้ใช้ที่มีคำนำหน้าเหมือนกันในผู้ให้บริการที่แตกต่างกัน (เช่น "
+"admin@gmail.com และ admin@institution.edu.br) จะประสบปัญหาบัญชีทับซ้อนกัน"
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"ทำเครื่องหมายที่ตัวเลือก <strong>เปิดใช้งานปุ่ม \"ลงชื่อเข้าใช้ด้วย "
+"Google\"</strong> ด้านล่าง และคลิก <strong>บันทึก</strong>"
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"เปลี่ยนช่อง "
+"<strong>เพิ่มผู้ใช้โดยอัตโนมัติจากแหล่งการตรวจสอบสิทธิ์ภายนอก</strong> เป็น "
+"<strong>ใช่</strong>"
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "ขั้นตอนที่ 1: การเตรียม Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "คำเตือนที่สำคัญ:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "จะเปิดใช้งานการรวม Google SSO ได้อย่างไร"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google จะสร้าง <strong>รหัสไคลเอ็นต์</strong> และ "
+"<strong>รหัสลับไคลเอ็นต์</strong> กรอกข้อมูลลงในแบบฟอร์มนี้ด้วยคีย์เหล่านั้น"
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"เข้าถึง <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> "
+"และสร้าง<strong>โปรเจ็กต์</strong>ใหม่"
+
+msgid "Redirect URI:"
+msgstr "URI เปลี่ยนเส้นทาง:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "เปิดใช้งานปุ่ม \"ลงชื่อเข้าใช้ด้วย Google\""
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"จากนั้นไปที่ <strong>ข้อมูลรับรอง &gt; สร้างข้อมูลประจำตัว &gt; "
+"รหัสไคลเอ็นต์ OAuth</strong> โดยเลือกประเภท <strong>เว็บแอปพลิเคชัน</strong>"
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "ขั้นตอนที่ 2: การเตรียมการรับรองความถูกต้อง GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"ไปที่ <strong>API &amp; บริการ &gt; หน้าจอคำยินยอม OAuth</strong> "
+"และกำหนดค่าแอปของคุณ (เพิ่มขอบเขต <code>อีเมล</code>, <code>โปรไฟล์</code> "
+"และ <code>openid</code>)"
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"ใน GLPI ให้ไปที่ <strong>ตั้งค่า &gt; การตรวจสอบสิทธิ์ &gt; ตั้งค่า</strong>"
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"ใต้ <strong>URI การเปลี่ยนเส้นทางที่ได้รับอนุญาต</strong> ให้คัดลอกและวาง "
+"URL ที่ส่งคืนด้านล่างทุกประการ:"

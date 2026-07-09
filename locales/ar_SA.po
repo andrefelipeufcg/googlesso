@@ -1,0 +1,190 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "إضافة قاعدة"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"أضف قواعد لتحديد الملف الشخصي والكيان الذي سيتلقاه المستخدم بناءً على نطاق "
+"بريده الإلكتروني (اختياري)."
+
+msgid "Automatically create users on first login"
+msgstr "إنشاء مستخدمين تلقائيًا عند تسجيل الدخول الأول"
+
+msgid "Configuration updated."
+msgstr "تم تحديث التكوين."
+
+msgid "Default Rule (Fallback)"
+msgstr "القاعدة الافتراضية (احتياطي)"
+
+msgid "Default entity (ELSE)"
+msgstr "الكيان الافتراضي (إلا)"
+
+msgid "Default profile (ELSE)"
+msgstr "الملف الشخصي الافتراضي (إلا)"
+
+msgid "Domain (after @)"
+msgstr "النطاق (بعد @)"
+
+msgid "Entity"
+msgstr "الكيان"
+
+msgid "Failed to create the user in GLPI."
+msgstr "فشل إنشاء المستخدم في GLPI."
+
+msgid "Google SSO"
+msgstr "جوجل تسجيل الدخول الموحد"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — التكوين"
+
+msgid "Google authentication failed: %s"
+msgstr "فشلت مصادقة Google: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "تم إلغاء تسجيل الدخول إلى Google: %s"
+
+msgid "Google response without authorization code."
+msgstr "رد Google بدون رمز التفويض."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"إذا كان البريد الإلكتروني للمستخدم لا يتطابق مع أي من القواعد أعلاه، فسيتم "
+"استخدام هذا الملف الشخصي والكيان. إلزامي إذا تم تمكين الإنشاء التلقائي."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "حالة OAuth2 غير صالحة. حاول مرة أخرى من صفحة تسجيل الدخول."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "اتركه فارغًا للاحتفاظ بالسر الحالي (مخزن مشفر)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "لا يوجد مستخدم GLPI يتوافق مع حساب Google هذا."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "يتم قبول الحسابات من نطاق %s فقط."
+
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "قواعد الملف الشخصي والكيان حسب النطاق"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "سجل URI إعادة التوجيه هذا في Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "تقييد بالنطاق (اختياري)"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Select..."
+msgstr "تحديد..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "لم يتم تهيئة الجلسة: لا يوجد ملف تعريف ممكن للمستخدم."
+
+msgid "Sign in with Google"
+msgstr "تسجيل الدخول باستخدام Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "حساب Google ليس لديه بريد إلكتروني تم التحقق منه."
+
+msgid "This user is deactivated in GLPI."
+msgstr "تم إلغاء تنشيط هذا المستخدم في GLPI."
+
+msgid "or"
+msgstr "أو"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"اترك الخيار <strong>\"إزالة مجال تسجيلات الدخول في النموذج "
+"login@domain\"</strong> كـ <strong>لا</strong>. إذا تم تمكينه، فسيعاني "
+"المستخدمون الذين لديهم نفس البادئة في مقدمي خدمات مختلفين (على سبيل المثال، "
+"admin@gmail.com وadmin@institution.edu.br) من تداخل الحساب."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"حدد خيار <strong>تنشيط زر \"تسجيل الدخول باستخدام Google\"</strong> أدناه "
+"وانقر على <strong>حفظ</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"قم بتغيير الحقل <strong>إضافة المستخدمين تلقائيًا من مصدر مصادقة "
+"خارجي</strong> إلى <strong>نعم</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "الخطوة 1: إعداد Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "تحذير خطير:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "كيفية تمكين التكامل جوجل SSO؟"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"ستقوم Google بإنشاء <strong>معرف العميل</strong> و<strong>سر "
+"العميل</strong>. املأ الحقول في هذا النموذج بهذه المفاتيح."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"يمكنك الوصول إلى <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> وإنشاء <strong>مشروع</strong> "
+"جديد."
+
+msgid "Redirect URI:"
+msgstr "إعادة توجيه عنوان URL:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "تفعيل زر \"تسجيل الدخول باستخدام Google\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"ثم انتقل إلى <strong>بيانات الاعتماد &gt; إنشاء بيانات الاعتماد &gt; معرف "
+"عميل OAuth</strong>، واختيار نوع <strong>تطبيق الويب</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "الخطوة 2: إعداد مصادقة GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"انتقل إلى <strong>واجهات برمجة التطبيقات &amp; الخدمات &gt; شاشة موافقة "
+"OAuth</strong> وقم بتكوين تطبيقك (أضف النطاقات <code>البريد "
+"الإلكتروني</code>، و<code>الملف الشخصي</code>، و<code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"في GLPI، انتقل إلى <strong>الإعداد &gt; المصادقة &gt; الإعداد</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"ضمن <strong>عناوين URI لإعادة التوجيه المعتمدة</strong>، انسخ والصق عنوان "
+"URL للإرجاع بالضبط أدناه:"

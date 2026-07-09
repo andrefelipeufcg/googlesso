@@ -1,0 +1,193 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Gehitu araua"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Gehitu arauak erabiltzaileak zein profil eta entitate jasoko dituen posta "
+"elektronikoaren domeinuaren arabera definitzeko (Aukerakoa)."
+
+msgid "Automatically create users on first login"
+msgstr "Sortu erabiltzaileak automatikoki lehenengo saio-hasieran"
+
+msgid "Configuration updated."
+msgstr "Konfigurazioa eguneratu da."
+
+msgid "Default Rule (Fallback)"
+msgstr "Arau Lehenetsia (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Entitate lehenetsia (BESTELA)"
+
+msgid "Default profile (ELSE)"
+msgstr "Profil lehenetsia (BESTELA)"
+
+msgid "Domain (after @)"
+msgstr "Domeinua (@ ondoren)"
+
+msgid "Entity"
+msgstr "Entitatea"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Ezin izan da erabiltzailea GLPIn sortu."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfigurazioa"
+
+msgid "Google authentication failed: %s"
+msgstr "Google autentifikazioak huts egin du: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google saio-hasiera bertan behera utzi da: %s"
+
+msgid "Google response without authorization code."
+msgstr "Google-ren erantzuna baimen-koderik gabe."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Erabiltzailearen helbide elektronikoa aurreko arauekin bat ez badator, "
+"profil eta entitate hau erabiliko dira. Derrigorrezkoa sorrera automatikoa "
+"gaituta badago."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "OAuth2 egoera baliogabea. Saiatu berriro saio-hasiera orritik."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Utzi hutsik uneko sekretua mantentzeko (enkriptatuta gordeta)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Ez dago GLPI erabiltzailerik Google kontu honi dagokiona."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "%s domeinuko kontuak soilik onartzen dira."
+
+msgid "Profile"
+msgstr "Profila"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Profil eta Entitate Arauak Domeinuaren arabera"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Erregistratu birbideratze-URI hau Google Cloud Console-n:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Mugatu domeinura (aukerakoa)"
+
+msgid "Save"
+msgstr "Gorde"
+
+msgid "Select..."
+msgstr "Hautatu..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Saioa ez da hasi: erabiltzaileak ez du gaitutako profilik."
+
+msgid "Sign in with Google"
+msgstr "Hasi saioa Google-rekin"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google kontuak ez du egiaztatutako posta elektronikorik."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Erabiltzaile hau GLPIn desgaituta dago."
+
+msgid "or"
+msgstr "edo"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Utzi <strong>\"Kendu saio-hasieraren domeinua login@domain "
+"formularioan\"</strong> aukera <strong>Ez</strong> gisa. Gaituta badago, "
+"hornitzaile ezberdinetan aurrizki bera duten erabiltzaileek (adibidez, "
+"admin@gmail.com eta admin@institution.edu.br) kontua gainjartzea jasango "
+"dute."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Egiaztatu beheko <strong>Aktibatu \"Hasi saioa Google-rekin\" "
+"botoia</strong> aukera eta sakatu <strong>Gorde</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Aldatu <strong>Gehitu erabiltzaileak automatikoki kanpoko autentifikazio-"
+"iturburu batetik</strong> eremua <strong>Bai</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "1. urratsa: Google Cloud prestatzea"
+
+msgid "Critical Warning:"
+msgstr "Abisu kritikoa:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Nola gaitu Google SSO integrazioa?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google-k <strong>Bezero IDa</strong> eta <strong>Bezeroaren "
+"sekretua</strong> sortuko ditu. Bete formulario honetako eremuak gako "
+"horiekin."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Sartu <a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google"
+" Cloud Console</a> eta sortu <strong>Proiektu</strong> berri bat."
+
+msgid "Redirect URI:"
+msgstr "Birbideratzeko URIa:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktibatu \"Hasi saioa Google-rekin\" botoia"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Ondoren, joan <strong>Kredentzialak &gt; Sortu kredentzialak &gt; OAuth "
+"bezero ID</strong>, <strong>Web aplikazioa</strong> mota aukeratuz."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "2. urratsa: GLPI autentifikazioa prestatzea"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Joan <strong>APIak &amp; Zerbitzuak &gt; OAuth baimenaren pantaila</strong> "
+"eta konfiguratu aplikazioa (gehitu esparruak <code>posta "
+"elektronikoa</code>, <code>profila</code> eta <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"GLPIn, joan <strong>Konfigurazioa &gt; Autentifikazioa &gt; "
+"Konfigurazioa</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"<strong>Baimendutako birbideratze URIak</strong> atalean, kopiatu eta "
+"itsatsi zehatz-mehatz itzultzeko URLa behean:"

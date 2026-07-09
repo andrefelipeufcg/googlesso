@@ -1,0 +1,190 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Kural Ekle"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Kullanıcının e-posta etki alanına göre hangi profili ve varlığı alacağını "
+"tanımlamak için kurallar ekleyin (İsteğe bağlı)."
+
+msgid "Automatically create users on first login"
+msgstr "İlk girişte kullanıcıları otomatik olarak oluştur"
+
+msgid "Configuration updated."
+msgstr "Yapılandırma güncellendi."
+
+msgid "Default Rule (Fallback)"
+msgstr "Varsayılan Kural (Geri Çekilme)"
+
+msgid "Default entity (ELSE)"
+msgstr "Varsayılan varlık (AKSİ HALDE)"
+
+msgid "Default profile (ELSE)"
+msgstr "Varsayılan profil (AKSİ HALDE)"
+
+msgid "Domain (after @)"
+msgstr "Etki alanı (@ işaretinden sonra)"
+
+msgid "Entity"
+msgstr "Varlık"
+
+msgid "Failed to create the user in GLPI."
+msgstr "GLPI'de kullanıcı oluşturulamadı."
+
+msgid "Google SSO"
+msgstr "Google TOA"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Yapılandırma"
+
+msgid "Google authentication failed: %s"
+msgstr "Google kimlik doğrulaması başarısız oldu: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google ile giriş iptal edildi: %s"
+
+msgid "Google response without authorization code."
+msgstr "Yetkilendirme kodu olmayan Google yanıtı."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Kullanıcı e-postası yukarıdaki kurallardan hiçbiriyle eşleşmezse, bu profil "
+"ve varlık kullanılacaktır. Otomatik oluşturma etkinleştirilmişse zorunludur."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Geçersiz OAuth2 durumu. Giriş sayfasından tekrar deneyin."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Geçerli sırrı (şifrelenmiş olarak saklanır) korumak için boş bırakın."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Bu Google hesabına karşılık gelen bir GLPI kullanıcısı yok."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Yalnızca %s etki alanındaki hesaplar kabul edilir."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Etki Alanına Göre Profil ve Varlık Kuralları"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Bu Yönlendirme URI'sini Google Cloud Console'a kaydedin:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Etki alanıyla sınırla (isteğe bağlı)"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Select..."
+msgstr "Seçiniz..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Oturum başlatılamadı: kullanıcının etkin profili yok."
+
+msgid "Sign in with Google"
+msgstr "Google ile oturum açın"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google hesabının doğrulanmış bir e-posta adresi yok."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Bu kullanıcı GLPI'de devre dışı bırakıldı."
+
+msgid "or"
+msgstr "veya"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"<strong>\"Giriş@alan adı formundaki girişlerin etki alanını "
+"kaldır\"</strong> seçeneğini <strong>Hayır</strong> olarak bırakın. "
+"Etkinleştirilirse, farklı sağlayıcılarda (ör. admin@gmail.com ve "
+"admin@institution.edu.br) aynı ön eke sahip olan kullanıcılar hesap "
+"çakışmasına maruz kalacaktır."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Aşağıdaki <strong>\"Google ile Oturum Aç\" düğmesini etkinleştirin</strong> "
+"seçeneğini işaretleyin ve <strong>Kaydet</strong>'i tıklayın."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"<strong>Kullanıcıları harici bir kimlik doğrulama kaynağından otomatik "
+"olarak ekle</strong> alanını <strong>Evet</strong> olarak değiştirin."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "1. Adım: Google Cloud Hazırlığı"
+
+msgid "Critical Warning:"
+msgstr "Kritik Uyarı:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Google SSO entegrasyonu nasıl etkinleştirilir?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google bir <strong>Müşteri Kimliği</strong> ve bir <strong>Müşteri "
+"Sırrı</strong> oluşturacaktır. Bu formdaki alanları bu tuşlarla doldurun."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"<a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google Cloud"
+" Console</a>'a erişin ve yeni bir <strong>Proje</strong> oluşturun."
+
+msgid "Redirect URI:"
+msgstr "Yönlendirme URI'si:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "\"Google ile Oturum Aç\" düğmesini etkinleştirin"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Ardından <strong>Kimlik Bilgileri &gt; Kimlik Bilgileri Oluştur &gt; OAuth "
+"istemci kimliği</strong>, <strong>Web uygulaması</strong> türünü seçin."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Adım 2: GLPI Kimlik Doğrulamasına Hazırlık"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"<strong>API'ler ve amp; Hizmetler > OAuth izin ekranına</strong> gidin ve "
+"uygulamanızı yapılandırın (<code>e-posta</code>, <code>profil</code> ve "
+"<code>openid</code> kapsamlarını ekleyin)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"GLPI'de <strong>Kurulum &gt; Kimlik doğrulama > Kurulum</strong>'u seçin."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"<strong>Yetkili yönlendirme URI'leri</strong> altında, aşağıdaki dönüş "
+"URL'sini tam olarak kopyalayıp yapıştırın:"

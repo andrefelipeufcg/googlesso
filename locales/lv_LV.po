@@ -1,0 +1,195 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Pievienot Noteikumu"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Pievienojiet noteikumus, lai definētu, kuru profilu un entītiju lietotājs "
+"saņems, pamatojoties uz e-pasta domēnu (Neobligāti)."
+
+msgid "Automatically create users on first login"
+msgstr "Automātiski izveidot lietotājus pirmajā pieteikšanās reizē"
+
+msgid "Configuration updated."
+msgstr "Konfigurācija ir atjaunināta."
+
+msgid "Default Rule (Fallback)"
+msgstr "Noklusējuma Noteikums (Rezerves)"
+
+msgid "Default entity (ELSE)"
+msgstr "Noklusējuma entītija (CITĀDI)"
+
+msgid "Default profile (ELSE)"
+msgstr "Noklusējuma profils (CITĀDI)"
+
+msgid "Domain (after @)"
+msgstr "Domēns (aiz @)"
+
+msgid "Entity"
+msgstr "Entītija"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Neizdevās izveidot lietotāju GLPI sistēmā."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfigurācija"
+
+msgid "Google authentication failed: %s"
+msgstr "Google autentifikācija neizdevās: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google pieteikšanās atcelta: %s"
+
+msgid "Google response without authorization code."
+msgstr "Google atbilde bez autorizācijas koda."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Ja lietotāja e-pasts neatbilst nevienam no iepriekš minētajiem noteikumiem, "
+"tiks izmantots šis profils un entītija. Obligāti, ja ir iespējota "
+"automātiskā izveide."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Nederīgs OAuth2 stāvoklis. Mēģiniet vēlreiz no pieteikšanās lapas."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Atstājiet tukšu, lai saglabātu pašreizējo noslēpumu (tiek glabāts šifrēts)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Neviens GLPI lietotājs neatbilst šim Google kontam."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Tiek pieņemti tikai konti no domēna %s."
+
+msgid "Profile"
+msgstr "Profils"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Profila un Entītijas Noteikumi Pēc Domēna"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Reģistrējiet šo novirzīšanas URI pakalpojumā Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Ierobežot līdz domēnam (neobligāti)"
+
+msgid "Save"
+msgstr "Saglabāt"
+
+msgid "Select..."
+msgstr "Izvēlieties..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sesija nav inicializēta: lietotājam nav iespējota profila."
+
+msgid "Sign in with Google"
+msgstr "Pierakstīties ar Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google kontam nav verificēta e-pasta."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Šis lietotājs GLPI sistēmā ir deaktivizēts."
+
+msgid "or"
+msgstr "vai"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Atstājiet opciju <strong>\"Noņemt pieteikšanās domēnu formā "
+"login@domain\"</strong> kā <strong>Nē</strong>. Ja iespējots, lietotāji ar "
+"vienu un to pašu prefiksu dažādos pakalpojumu sniedzējos (piem., "
+"admin@gmail.com un admin@institution.edu.br) saskarsies ar kontu "
+"pārklāšanos."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Tālāk atzīmējiet opciju <strong>Aktivizēt pogu Pierakstīties, izmantojot "
+"Google</strong> un noklikšķiniet uz <strong>Saglabāt</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Mainiet lauku <strong>Automātiski pievienot lietotājus no ārēja "
+"autentifikācijas avota</strong> uz <strong>Jā</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "1. darbība. Google mākoņa sagatavošana"
+
+msgid "Critical Warning:"
+msgstr "Kritisks brīdinājums:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Kā iespējot Google SSO integrāciju?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google ģenerēs <strong>klienta ID</strong> un <strong>klienta "
+"noslēpumu</strong>. Aizpildiet šīs veidlapas laukus ar šiem taustiņiem."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Piekļūstiet <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> un izveidojiet jaunu "
+"<strong>projektu</strong>."
+
+msgid "Redirect URI:"
+msgstr "Novirzīt URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktivizējiet pogu \"Pierakstīties ar Google\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Pēc tam dodieties uz <strong>Akreditācijas dati &gt; Izveidot akreditācijas "
+"datus &gt; OAuth klienta ID</strong>, izvēloties <strong>Tīmekļa "
+"lietojumprogrammas</strong> veidu."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "2. darbība: GLPI autentifikācijas sagatavošana"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Dodieties uz <strong>API &amp; Pakalpojumi &gt; OAuth piekrišanas "
+"ekrāns</strong> un konfigurējiet savu lietotni (pievienojiet tvērumus "
+"<code>e-pasts</code>, <code>profils</code> un <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"GLPI atveriet sadaļu <strong>Iestatīšana &gt; Autentifikācija &gt; "
+"Iestatīšana</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Sadaļā <strong>Atļautie novirzīšanas URI</strong> kopējiet un ielīmējiet "
+"tieši tālāk norādīto atgriešanas URL:"

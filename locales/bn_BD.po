@@ -1,0 +1,189 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "নিয়ম যুক্ত করুন"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"ব্যবহারকারী তাদের ইমেইল ডোমেইনের উপর ভিত্তি করে কোন প্রোফাইল এবং সত্তা পাবেন"
+" তা সংজ্ঞায়িত করতে নিয়ম যুক্ত করুন (ঐচ্ছিক)।"
+
+msgid "Automatically create users on first login"
+msgstr "প্রথম লগইনে স্বয়ংক্রিয়ভাবে ব্যবহারকারী তৈরি করুন"
+
+msgid "Configuration updated."
+msgstr "কনফিগারেশন আপডেট করা হয়েছে।"
+
+msgid "Default Rule (Fallback)"
+msgstr "ডিফল্ট নিয়ম (ফলব্যাক)"
+
+msgid "Default entity (ELSE)"
+msgstr "ডিফল্ট সত্তা (নতুবা)"
+
+msgid "Default profile (ELSE)"
+msgstr "ডিফল্ট প্রোফাইল (নতুবা)"
+
+msgid "Domain (after @)"
+msgstr "ডোমেইন (@ এর পর)"
+
+msgid "Entity"
+msgstr "সত্তা"
+
+msgid "Failed to create the user in GLPI."
+msgstr "GLPI-তে ব্যবহারকারী তৈরি করতে ব্যর্থ হয়েছে।"
+
+msgid "Google SSO"
+msgstr "গুগল এসএসও"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — কনফিগারেশন"
+
+msgid "Google authentication failed: %s"
+msgstr "Google অথেন্টিকেশন ব্যর্থ হয়েছে: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google লগইন বাতিল করা হয়েছে: %s"
+
+msgid "Google response without authorization code."
+msgstr "অথোরাইজেশন কোড ছাড়াই Google এর প্রতিক্রিয়া।"
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"যদি ব্যবহারকারীর ইমেইল ওপরের কোনো নিয়মের সাথে না মেলে, তবে এই প্রোফাইল এবং "
+"সত্তা ব্যবহৃত হবে। স্বয়ংক্রিয় তৈরি চালু থাকলে এটি বাধ্যতামূলক।"
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "অবৈধ OAuth2 অবস্থা। লগইন পৃষ্ঠা থেকে আবার চেষ্টা করুন।"
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "বর্তমান গোপন কোডটি (এনক্রিপ্ট করে সংরক্ষিত) রাখতে এটি ফাঁকা ছেড়ে দিন।"
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "এই Google অ্যাকাউন্টের সাথে কোনো GLPI ব্যবহারকারীর মিল নেই।"
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "শুধুমাত্র %s ডোমেইন থেকে অ্যাকাউন্টগুলো গ্রহণ করা হয়।"
+
+msgid "Profile"
+msgstr "প্রোফাইল"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "ডোমেইন অনুসারে প্রোফাইল এবং সত্তার নিয়মাবলি"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Google Cloud Console-এ এই রিডাইরেক্ট URI-টি নিবন্ধন করুন:"
+
+msgid "Restrict to domain (optional)"
+msgstr "ডোমেইনে সীমাবদ্ধ রাখুন (ঐচ্ছিক)"
+
+msgid "Save"
+msgstr "সংরক্ষণ করুন"
+
+msgid "Select..."
+msgstr "নির্বাচন করুন..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "সেশন শুরু করা হয়নি: ব্যবহারকারীর কোনো সক্রিয় প্রোফাইল নেই।"
+
+msgid "Sign in with Google"
+msgstr "Google দিয়ে সাইন ইন করুন"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google অ্যাকাউন্টে কোনো যাচাইকৃত ইমেইল নেই।"
+
+msgid "This user is deactivated in GLPI."
+msgstr "এই ব্যবহারকারীটি GLPI-তে নিস্ক্রিয় করা হয়েছে।"
+
+msgid "or"
+msgstr "বা"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"<strong>না</strong> হিসাবে <strong>\"লগইন এর ডোমেন সরান login@domain "
+"ফর্মে\"</strong> বিকল্পটি ছেড়ে দিন। যদি সক্ষম করা হয়, বিভিন্ন প্রদানকারীতে"
+" একই উপসর্গ সহ ব্যবহারকারীরা (যেমন, admin@gmail.com এবং "
+"admin@institution.edu.br) অ্যাকাউন্ট ওভারল্যাপের শিকার হবে৷"
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"নিচে <strong>\"Google দিয়ে সাইন ইন\" বোতাম সক্রিয় করুন</strong> বিকল্পটি "
+"চেক করুন এবং <strong>সংরক্ষণ করুন</strong> এ ক্লিক করুন৷"
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"<strong>একটি বহিরাগত প্রমাণীকরণ উত্স থেকে স্বয়ংক্রিয়ভাবে ব্যবহারকারীদের "
+"যোগ করুন</strong> ক্ষেত্রটিকে <strong>হ্যাঁ</strong> এ পরিবর্তন করুন৷"
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "ধাপ 1: গুগল ক্লাউড প্রস্তুতি"
+
+msgid "Critical Warning:"
+msgstr "গুরুতর সতর্কতা:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "কিভাবে Google SSO ইন্টিগ্রেশন সক্ষম করবেন?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google একটি <strong>ক্লায়েন্ট আইডি</strong> এবং একটি <strong>ক্লায়েন্ট "
+"সিক্রেট</strong> তৈরি করবে৷ এই কীগুলি দিয়ে এই ফর্মের ক্ষেত্রগুলি পূরণ করুন।"
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"<a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google Cloud"
+" Console</a> অ্যাক্সেস করুন এবং একটি নতুন <strong>প্রকল্প</strong> তৈরি "
+"করুন৷"
+
+msgid "Redirect URI:"
+msgstr "রিডাইরেক্ট ইউআরআই:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "\"Google দিয়ে সাইন ইন করুন\" বোতাম সক্রিয় করুন"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"তারপর <strong>শংসাপত্র &gt; শংসাপত্র তৈরি করুন &gt; OAuth ক্লায়েন্ট "
+"আইডি</strong>, <strong>ওয়েব অ্যাপ্লিকেশন</strong> প্রকার নির্বাচন করে।"
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "ধাপ 2: GLPI প্রমাণীকরণ প্রস্তুতি"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"<strong>এপিআই &amp; পরিষেবা &gt; OAuth সম্মতি স্ক্রীন</strong> এবং আপনার "
+"অ্যাপ কনফিগার করুন (স্কোপগুলি <code>ইমেল</code>, <code>প্রোফাইল</code> এবং "
+"<code>openid</code> যোগ করুন)।"
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr "GLPI-তে, <strong>সেটআপ &gt; প্রমাণীকরণ &gt; সেটআপ</strong>"
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"<strong>অনুমোদিত পুনঃনির্দেশ URIs</strong>-এর অধীনে, নীচের রিটার্ন URLটি ঠিক"
+" কপি এবং পেস্ট করুন:"

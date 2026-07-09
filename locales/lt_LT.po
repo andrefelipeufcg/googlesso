@@ -1,0 +1,194 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Pridėti taisyklę"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Pridėkite taisyklių, nurodančių, kokį profilį ir objektą vartotojas gaus "
+"pagal savo el. pašto domeną (Neprivaloma)."
+
+msgid "Automatically create users on first login"
+msgstr "Automatiškai kurti vartotojus pirmojo prisijungimo metu"
+
+msgid "Configuration updated."
+msgstr "Konfigūracija atnaujinta."
+
+msgid "Default Rule (Fallback)"
+msgstr "Numatytoji taisyklė (Atsarginė)"
+
+msgid "Default entity (ELSE)"
+msgstr "Numatytasis objektas (KITAIP)"
+
+msgid "Default profile (ELSE)"
+msgstr "Numatytasis profilis (KITAIP)"
+
+msgid "Domain (after @)"
+msgstr "Domenas (po @)"
+
+msgid "Entity"
+msgstr "Objektas"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Nepavyko sukurti vartotojo GLPI sistemoje."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfigūracija"
+
+msgid "Google authentication failed: %s"
+msgstr "„Google“ autentifikavimas nepavyko: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "„Google“ prisijungimas atšauktas: %s"
+
+msgid "Google response without authorization code."
+msgstr "„Google“ atsakymas be autorizacijos kodo."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Jei vartotojo el. paštas neatitinka nė vienos iš aukščiau nurodytų "
+"taisyklių, bus naudojamas šis profilis ir objektas. Privaloma, jei įjungtas "
+"automatinis kūrimas."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Neteisinga OAuth2 būsena. Bandykite dar kartą prisijungimo puslapyje."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Palikite tuščią, kad išsaugotumėte dabartinę paslaptį (saugoma užšifruota)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Nė vienas GLPI vartotojas neatitinka šios „Google“ paskyros."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Priimamos tik %s domeno paskyros."
+
+msgid "Profile"
+msgstr "Profilis"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Profilio ir Objekto Taisyklės Pagal Domeną"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Užregistruokite šį peradresavimo URI „Google Cloud Console“:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Apriboti iki domeno (neprivaloma)"
+
+msgid "Save"
+msgstr "Išsaugoti"
+
+msgid "Select..."
+msgstr "Pasirinkite..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sesija neinicijuota: vartotojas neturi įgalinto profilio."
+
+msgid "Sign in with Google"
+msgstr "Prisijungti su „Google“"
+
+msgid "The Google account does not have a verified email."
+msgstr "„Google“ paskyra neturi patvirtinto el. pašto adreso."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Šis vartotojas yra deaktyvuotas GLPI sistemoje."
+
+msgid "or"
+msgstr "arba"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Parinktį <strong>„Pašalinti prisijungimų domeną formoje "
+"login@domain“</strong> palikite kaip <strong>Ne</strong>. Jei įjungta, "
+"naudotojai, turintys tą patį priešdėlį skirtinguose teikėjuose (pvz., "
+"admin@gmail.com ir admin@institution.edu.br), susidurs su paskyros "
+"persidengimu."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Pažymėkite toliau pateiktą parinktį <strong>Suaktyvinti mygtuką „Prisijungti"
+" naudojant „Google“</strong> ir spustelėkite <strong>Išsaugoti</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Pakeiskite lauką <strong>Automatiškai pridėti naudotojų iš išorinio "
+"autentifikavimo šaltinio</strong> į <strong>Taip</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "1 veiksmas: „Google Cloud“ paruošimas"
+
+msgid "Critical Warning:"
+msgstr "Kritinis įspėjimas:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Kaip įjungti Google SSO integraciją?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"„Google“ sugeneruos <strong>kliento ID</strong> ir <strong>kliento "
+"paslaptį</strong>. Šiais raktais užpildykite šios formos laukus."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Pasiekite <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">„Google Cloud Console“</a> ir sukurkite naują "
+"<strong>projektą</strong>."
+
+msgid "Redirect URI:"
+msgstr "Peradresuoti URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Suaktyvinkite mygtuką „Prisijungti naudojant Google“."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Tada eikite į <strong>Kredencialai &gt; Kurti kredencialus &gt; „OAuth“ "
+"kliento ID</strong>, pasirinkdami <strong>žiniatinklio programos</strong> "
+"tipą."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "2 veiksmas: GLPI autentifikavimo paruošimas"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Eikite į <strong>API &amp; Paslaugos &gt; OAuth sutikimo ekraną</strong> ir "
+"sukonfigūruokite programą (pridėkite apimtis <code>el. paštas</code>, "
+"<code>profilis</code> ir <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"GLPI eikite į <strong>Sąranka &gt; Autentifikavimas &gt; Sąranka</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Dalyje <strong>Įgalioti peradresavimo URI</strong> nukopijuokite ir "
+"įklijuokite tiksliai toliau pateiktą grąžinimo URL:"

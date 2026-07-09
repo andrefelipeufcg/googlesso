@@ -1,0 +1,189 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "افزودن قانون"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"قوانینی اضافه کنید تا تعیین شود کاربر براساس دامنه ایمیل خود کدام نمایه و "
+"موجودیت را دریافت می‌کند (اختیاری)."
+
+msgid "Automatically create users on first login"
+msgstr "ایجاد خودکار کاربران در اولین ورود"
+
+msgid "Configuration updated."
+msgstr "پیکربندی به‌روزرسانی شد."
+
+msgid "Default Rule (Fallback)"
+msgstr "قانون پیش‌فرض (بازگشت)"
+
+msgid "Default entity (ELSE)"
+msgstr "موجودیت پیش‌فرض (در غیر این صورت)"
+
+msgid "Default profile (ELSE)"
+msgstr "نمایه پیش‌فرض (در غیر این صورت)"
+
+msgid "Domain (after @)"
+msgstr "دامنه (بعد از @)"
+
+msgid "Entity"
+msgstr "موجودیت"
+
+msgid "Failed to create the user in GLPI."
+msgstr "ایجاد کاربر در GLPI انجام نشد."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — پیکربندی"
+
+msgid "Google authentication failed: %s"
+msgstr "احراز هویت Google با شکست مواجه شد: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "ورود به سیستم Google لغو شد: %s"
+
+msgid "Google response without authorization code."
+msgstr "پاسخ Google بدون کد تایید."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"اگر ایمیل کاربر با هیچ یک از قوانین بالا مطابقت نداشته باشد، از این نمایه و "
+"موجودیت استفاده خواهد شد. در صورت فعال بودن ایجاد خودکار، الزامی است."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "وضعیت OAuth2 نامعتبر است. دوباره از صفحه ورود امتحان کنید."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "خالی بگذارید تا رمز فعلی (به صورت رمزنگاری شده ذخیره شده) حفظ شود."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "هیچ کاربر GLPI با این حساب Google مطابقت ندارد."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "تنها حساب‌های دامنه %s پذیرفته می‌شوند."
+
+msgid "Profile"
+msgstr "نمایه"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "قوانین نمایه و موجودیت براساس دامنه"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "این URI تغییر مسیر را در Google Cloud Console ثبت کنید:"
+
+msgid "Restrict to domain (optional)"
+msgstr "محدود به دامنه (اختیاری)"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Select..."
+msgstr "انتخاب..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "جلسه مقداردهی نشد: کاربر هیچ نمایه فعالی ندارد."
+
+msgid "Sign in with Google"
+msgstr "با Google وارد شوید"
+
+msgid "The Google account does not have a verified email."
+msgstr "حساب Google فاقد ایمیل تایید شده است."
+
+msgid "This user is deactivated in GLPI."
+msgstr "این کاربر در GLPI غیرفعال شده است."
+
+msgid "or"
+msgstr "یا"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"گزینه <strong>\"حذف دامنه ورود به فرم login@domain\"</strong> را به عنوان "
+"<strong>خیر</strong> بگذارید. اگر فعال شود، کاربران با پیشوند یکسان در ارائه"
+" دهندگان مختلف (مانند admin@gmail.com و admin@institution.edu.br) دچار "
+"همپوشانی حساب خواهند شد."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"گزینه <strong>فعال کردن دکمه \"Sign in with Google\"</strong> در زیر را "
+"علامت بزنید و روی <strong>ذخیره</strong> کلیک کنید."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"فیلد <strong>افزودن خودکار کاربران از منبع احراز هویت خارجی</strong> را به "
+"<strong>بله</strong> تغییر دهید."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "مرحله 1: آماده سازی Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "هشدار بحرانی:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "چگونه یکپارچه سازی Google SSO را فعال کنیم؟"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google یک <strong>Client ID</strong> و یک <strong>Client Secret</strong> "
+"ایجاد خواهد کرد. فیلدهای این فرم را با آن کلیدها پر کنید."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"به <a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google "
+"Cloud Console</a> دسترسی پیدا کنید و یک <strong>پروژه</strong> جدید ایجاد "
+"کنید."
+
+msgid "Redirect URI:"
+msgstr "تغییر مسیر URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "دکمه \"Sign in with Google\" را فعال کنید"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"سپس به <strong>Credentials &gt; ایجاد اعتبارنامه &gt; شناسه مشتری "
+"OAuth</strong>، نوع <strong>برنامه وب</strong> را انتخاب کنید."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "مرحله 2: آماده سازی احراز هویت GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"به <strong>APIs &amp; خدمات &gt; صفحه رضایت OAuth</strong> و برنامه خود را "
+"پیکربندی کنید (محدوده‌های <code>ایمیل</code>، <code>نمایه</code> و "
+"<code>openid</code> را اضافه کنید)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr "در GLPI، به <strong>Setup &gt; احراز هویت &gt; راه اندازی</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"در بخش <strong>URIهای تغییر مسیر مجاز</strong>، دقیقاً URL بازگشتی زیر را "
+"کپی و جای‌گذاری کنید:"

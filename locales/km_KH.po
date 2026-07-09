@@ -1,0 +1,195 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "បន្ថែមច្បាប់"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"បន្ថែមច្បាប់ដើម្បីកំណត់ទម្រង់និងអង្គភាពដែលអ្នកប្រើប្រាស់នឹងទទួលបានដោយផ្អែកលើដែនអ៊ីមែលរបស់ពួកគេ"
+" (ជាជម្រើស)។"
+
+msgid "Automatically create users on first login"
+msgstr "បង្កើតអ្នកប្រើប្រាស់ដោយស្វ័យប្រវត្តិនៅពេលចូលលើកដំបូង"
+
+msgid "Configuration updated."
+msgstr "ការកំណត់រចនាសម្ព័ន្ធត្រូវបានធ្វើបច្ចុប្បន្នភាព។"
+
+msgid "Default Rule (Fallback)"
+msgstr "ច្បាប់លំនាំដើម (ត្រឡប់វិញ)"
+
+msgid "Default entity (ELSE)"
+msgstr "អង្គភាពលំនាំដើម (បើមិនដូច្នោះទេ)"
+
+msgid "Default profile (ELSE)"
+msgstr "ទម្រង់លំនាំដើម (បើមិនដូច្នោះទេ)"
+
+msgid "Domain (after @)"
+msgstr "ដែន (បន្ទាប់ពី @)"
+
+msgid "Entity"
+msgstr "អង្គភាព"
+
+msgid "Failed to create the user in GLPI."
+msgstr "បរាជ័យក្នុងការបង្កើតអ្នកប្រើប្រាស់នៅក្នុង GLPI ។"
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — ការកំណត់រចនាសម្ព័ន្ធ"
+
+msgid "Google authentication failed: %s"
+msgstr "ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ Google បានបរាជ័យ៖ %s"
+
+msgid "Google login cancelled: %s"
+msgstr "ការចូល Google ត្រូវបានបោះបង់៖ %s"
+
+msgid "Google response without authorization code."
+msgstr "ការឆ្លើយតបពី Google ដោយគ្មានលេខកូដអនុញ្ញាត។"
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"ប្រសិនបើអ៊ីមែលអ្នកប្រើប្រាស់មិនត្រូវគ្នានឹងច្បាប់ណាមួយខាងលើ "
+"ទម្រង់និងអង្គភាពនេះនឹងត្រូវបានប្រើ។ "
+"កាតព្វកិច្ចប្រសិនបើការបង្កើតដោយស្វ័យប្រវត្តិត្រូវបានបើក។"
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "ស្ថានភាព OAuth2 មិនត្រឹមត្រូវ។ សូមព្យាយាមម្តងទៀតពីទំព័រចូល។"
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"ទុកឱ្យនៅទទេដើម្បីរក្សាការសម្ងាត់បច្ចុប្បន្ន (រក្សាទុកដោយបានអ៊ិនគ្រីប)។"
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "មិនមានអ្នកប្រើប្រាស់ GLPI ដែលត្រូវគ្នានឹងគណនី Google នេះទេ។"
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "មានតែគណនីពីដែន %s ប៉ុណ្ណោះដែលត្រូវបានទទួលយក។"
+
+msgid "Profile"
+msgstr "ទម្រង់"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "ច្បាប់ទម្រង់និងអង្គភាពតាមដែន"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "ចុះឈ្មោះ URI បញ្ជូនបន្តនេះនៅក្នុង Google Cloud Console ៖"
+
+msgid "Restrict to domain (optional)"
+msgstr "កម្រិតត្រឹមដែន (ជាជម្រើស)"
+
+msgid "Save"
+msgstr "រក្សាទុក"
+
+msgid "Select..."
+msgstr "ជ្រើសរើស..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "វគ្គមិនត្រូវបានចាប់ផ្តើមទេ៖ អ្នកប្រើប្រាស់មិនមានទម្រង់ដែលបានបើកទេ។"
+
+msgid "Sign in with Google"
+msgstr "ចូលជាមួយ Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "គណនី Google មិនមានអ៊ីមែលដែលបានបញ្ជាក់ទេ។"
+
+msgid "This user is deactivated in GLPI."
+msgstr "អ្នកប្រើប្រាស់នេះត្រូវបានបិទដំណើរការនៅក្នុង GLPI ។"
+
+msgid "or"
+msgstr "ឬ"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"ទុកជម្រើស <strong>\"លុបដែននៃការចូលក្នុងទម្រង់ login@domain\"</strong> ជា "
+"<strong>ទេ</strong>។ ប្រសិនបើបើកដំណើរការ "
+"អ្នកប្រើប្រាស់ដែលមានបុព្វបទដូចគ្នានៅក្នុងក្រុមហ៊ុនផ្តល់សេវាផ្សេងៗគ្នា (ឧ. "
+"admin@gmail.com និង admin@institution.edu.br) នឹងទទួលរងការត្រួតគ្នាលើគណនី។"
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"សូមពិនិត្យមើលជម្រើស <strong>ធ្វើឱ្យសកម្ម \"ចូលដោយប្រើប៊ូតុង "
+"Google\"</strong> ខាងក្រោម ហើយចុច <strong>រក្សាទុក</strong>។"
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"ផ្លាស់ប្តូរវាល "
+"<strong>បន្ថែមអ្នកប្រើប្រាស់ដោយស្វ័យប្រវត្តិពីប្រភពផ្ទៀងផ្ទាត់ខាងក្រៅ</strong>"
+" ទៅ <strong>បាទ/ចាស</strong>។"
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "ជំហានទី 1៖ ការរៀបចំ Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "ការ​ព្រមាន​សំខាន់៖"
+
+msgid "How to enable Google SSO integration?"
+msgstr "តើធ្វើដូចម្តេចដើម្បីបើកការរួមបញ្ចូល Google SSO?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google នឹងបង្កើត <strong>លេខសម្គាល់អតិថិជន</strong> និង "
+"<strong>សម្ងាត់អតិថិជន</strong>។ បំពេញវាលក្នុងទម្រង់នេះដោយប្រើសោទាំងនោះ។"
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"ចូលប្រើ <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> ហើយបង្កើត <strong>គម្រោង</strong>"
+" ថ្មី។"
+
+msgid "Redirect URI:"
+msgstr "ប្តូរទិស URI៖"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "ធ្វើឱ្យប៊ូតុង \"ចូលដោយប្រើ Google\" សកម្ម"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"បន្ទាប់មកចូលទៅកាន់ <strong>Creddentials &gt; បង្កើតលិខិតសម្គាល់ &gt; "
+"លេខសម្គាល់អតិថិជន OAuth</strong> ដោយជ្រើសរើសប្រភេទ "
+"<strong>កម្មវិធីគេហទំព័រ</strong>។"
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "ជំហានទី 2៖ ការរៀបចំការផ្ទៀងផ្ទាត់ GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"ចូលទៅកាន់ <strong>APIs &amp; សេវាកម្ម &gt; អេក្រង់យល់ព្រម OAuth</strong> "
+"និងកំណត់រចនាសម្ព័ន្ធកម្មវិធីរបស់អ្នក (បន្ថែមវិសាលភាព <code>email</code>, "
+"<code>profile</code> និង <code>openid</code>)។"
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"នៅក្នុង GLPI សូមចូលទៅកាន់ <strong>Setup &gt; ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ "
+"&gt; ដំឡើង</strong>។"
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"នៅក្រោម <strong>URIs បញ្ជូនបន្តដែលមានការអនុញ្ញាត</strong> ចម្លង និងបិទភ្ជាប់"
+" URL ត្រឡប់មកវិញខាងក្រោម៖"

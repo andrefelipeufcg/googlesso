@@ -1,0 +1,193 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Přidat pravidlo"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Přidejte pravidla pro určení, jaký profil a entitu uživatel obdrží na "
+"základě jeho e-mailové domény (Volitelné)."
+
+msgid "Automatically create users on first login"
+msgstr "Automaticky vytvářet uživatele při prvním přihlášení"
+
+msgid "Configuration updated."
+msgstr "Konfigurace byla aktualizována."
+
+msgid "Default Rule (Fallback)"
+msgstr "Výchozí pravidlo (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Výchozí entita (JINAK)"
+
+msgid "Default profile (ELSE)"
+msgstr "Výchozí profil (JINAK)"
+
+msgid "Domain (after @)"
+msgstr "Doména (za @)"
+
+msgid "Entity"
+msgstr "Entita"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Vytvoření uživatele v GLPI selhalo."
+
+msgid "Google SSO"
+msgstr "Jednotné přihlášení Google"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfigurace"
+
+msgid "Google authentication failed: %s"
+msgstr "Autentizace Google selhala: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Přihlášení přes Google zrušeno: %s"
+
+msgid "Google response without authorization code."
+msgstr "Odpověď Google bez autorizačního kódu."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Pokud e-mail uživatele neodpovídá žádnému z výše uvedených pravidel, použijí"
+" se tento profil a entita. Povinné, pokud je povoleno automatické vytváření."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Neplatný stav OAuth2. Zkuste to znovu z přihlašovací stránky."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Ponechte prázdné pro zachování aktuálního tajného klíče (uložen "
+"zašifrovaně)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Tomuto účtu Google neodpovídá žádný uživatel GLPI."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Jsou přijímány pouze účty z domény %s."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Pravidla profilu a entity podle domény"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Zaregistrujte tento URI přesměrování v Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Omezit na doménu (volitelné)"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Select..."
+msgstr "Vybrat..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Relace nebyla inicializována: uživatel nemá aktivní profil."
+
+msgid "Sign in with Google"
+msgstr "Přihlásit se pomocí Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Účet Google nemá ověřený e-mail."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Tento uživatel je v GLPI deaktivován."
+
+msgid "or"
+msgstr "nebo"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Ponechte možnost <strong>Odstranit doménu přihlášení ve tvaru "
+"login@doména</strong> jako <strong>Ne</strong>. Pokud je tato možnost "
+"povolena, uživatelé se stejnou předponou u různých poskytovatelů (např. "
+"admin@gmail.com a admin@institution.edu.br) se budou překrývat."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Zaškrtněte níže možnost <strong>Aktivovat tlačítko „Přihlásit se pomocí "
+"Google“</strong> a klikněte na tlačítko <strong>Uložit</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Změňte pole <strong>Automaticky přidávat uživatele z externího zdroje "
+"ověření</strong> na <strong>Ano</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Krok 1: Příprava Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "Kritické varování:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Jak povolit integraci jednotného přihlášení Google?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google vygeneruje <strong>ID klienta</strong> a <strong>tajný klíč "
+"klienta</strong>. Vyplňte pole v tomto formuláři těmito klíči."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Přejděte do <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> a vytvořte nový "
+"<strong>projekt</strong>."
+
+msgid "Redirect URI:"
+msgstr "URI přesměrování:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktivujte tlačítko „Přihlásit se pomocí Google“."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Poté přejděte na <strong>Přihlašovací údaje &gt; Vytvořit přihlašovací údaje"
+" &gt; ID klienta OAuth</strong>, vyberte typ <strong>Webová "
+"aplikace</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Krok 2: Příprava autentizace GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Přejděte na <strong>API &amp; Služby &gt; obrazovka souhlasu OAuth</strong> "
+"a nakonfigurujte aplikaci (přidejte rozsahy <code>e-mail</code>, "
+"<code>profil</code> a <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"V GLPI přejděte na <strong>Nastavení &gt; Ověření &gt; Nastavení</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"V části <strong>URI autorizovaného přesměrování</strong> zkopírujte a vložte"
+" přesně návratovou adresu URL níže:"

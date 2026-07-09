@@ -1,0 +1,197 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Προσθήκη Κανόνα"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Προσθέστε κανόνες για να καθορίσετε ποιο προφίλ και οντότητα θα λάβει ο "
+"χρήστης με βάση τον τομέα email του (Προαιρετικό)."
+
+msgid "Automatically create users on first login"
+msgstr "Αυτόματη δημιουργία χρηστών κατά την πρώτη σύνδεση"
+
+msgid "Configuration updated."
+msgstr "Η διαμόρφωση ενημερώθηκε."
+
+msgid "Default Rule (Fallback)"
+msgstr "Προεπιλεγμένος Κανόνας (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Προεπιλεγμένη οντότητα (ΑΛΛΙΩΣ)"
+
+msgid "Default profile (ELSE)"
+msgstr "Προεπιλεγμένο προφίλ (ΑΛΛΙΩΣ)"
+
+msgid "Domain (after @)"
+msgstr "Τομέας (μετά το @)"
+
+msgid "Entity"
+msgstr "Οντότητα"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Αποτυχία δημιουργίας του χρήστη στο GLPI."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Διαμόρφωση"
+
+msgid "Google authentication failed: %s"
+msgstr "Η ταυτοποίηση Google απέτυχε: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Η σύνδεση Google ακυρώθηκε: %s"
+
+msgid "Google response without authorization code."
+msgstr "Απάντηση Google χωρίς κωδικό εξουσιοδότησης."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Εάν το email του χρήστη δεν ταιριάζει με κανέναν από τους παραπάνω κανόνες, "
+"θα χρησιμοποιηθεί αυτό το προφίλ και η οντότητα. Υποχρεωτικό εάν είναι "
+"ενεργοποιημένη η αυτόματη δημιουργία."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Μη έγκυρη κατάσταση OAuth2. Δοκιμάστε ξανά από τη σελίδα σύνδεσης."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Αφήστε το κενό για να διατηρήσετε το τρέχον μυστικό (αποθηκεύεται "
+"κρυπτογραφημένο)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Κανένας χρήστης GLPI δεν αντιστοιχεί σε αυτόν τον λογαριασμό Google."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Γίνονται δεκτοί μόνο λογαριασμοί από τον τομέα %s."
+
+msgid "Profile"
+msgstr "Προφίλ"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Κανόνες Προφίλ και Οντότητας ανά Τομέα"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Καταχωρίστε αυτό το URI ανακατεύθυνσης στο Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Περιορισμός σε τομέα (προαιρετικό)"
+
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgid "Select..."
+msgstr "Επιλογή..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr ""
+"Η συνεδρία δεν έχει αρχικοποιηθεί: ο χρήστης δεν έχει ενεργοποιημένο προφίλ."
+
+msgid "Sign in with Google"
+msgstr "Συνδεθείτε με Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Ο λογαριασμός Google δεν έχει επαληθευμένο email."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Αυτός ο χρήστης είναι απενεργοποιημένος στο GLPI."
+
+msgid "or"
+msgstr "ή"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Αφήστε την επιλογή <strong>\"Κατάργηση τομέα συνδέσεων στη φόρμα "
+"login@domain\"</strong> ως <strong>Όχι</strong>. Εάν ενεργοποιηθεί, οι "
+"χρήστες με το ίδιο πρόθεμα σε διαφορετικούς παρόχους (π.χ. admin@gmail.com "
+"και admin@institution.edu.br) θα υποστούν επικάλυψη λογαριασμού."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Επιλέξτε την επιλογή <strong>Ενεργοποίηση του κουμπιού \"Σύνδεση με "
+"Google\"</strong> παρακάτω και κάντε κλικ στην <strong>Αποθήκευση</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Αλλάξτε το πεδίο <strong>Αυτόματη προσθήκη χρηστών από μια εξωτερική πηγή "
+"ελέγχου ταυτότητας</strong> σε <strong>Ναι</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Βήμα 1: Προετοιμασία Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "Κρίσιμη προειδοποίηση:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Πώς να ενεργοποιήσετε την ενσωμάτωση Google SSO;"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Η Google θα δημιουργήσει ένα <strong>Αναγνωριστικό πελάτη</strong> και ένα "
+"<strong>Μυστικό πελάτη</strong>. Συμπληρώστε τα πεδία αυτής της φόρμας με "
+"αυτά τα κλειδιά."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Αποκτήστε πρόσβαση στο <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> και δημιουργήστε ένα νέο "
+"<strong>Έργο</strong>."
+
+msgid "Redirect URI:"
+msgstr "URI ανακατεύθυνσης:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Ενεργοποιήστε το κουμπί \"Σύνδεση με Google\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Στη συνέχεια, μεταβείτε στα <strong>Διαπιστευτήρια &gt; Δημιουργία "
+"διαπιστευτηρίων &gt; Αναγνωριστικό πελάτη OAuth</strong>, επιλέγοντας τον "
+"τύπο <strong>εφαρμογή Ιστού</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Βήμα 2: Προετοιμασία ελέγχου ταυτότητας GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Μεταβείτε στα <strong>API &amp; Υπηρεσίες &gt; Οθόνη συναίνεσης "
+"OAuth</strong> και διαμορφώστε την εφαρμογή σας (προσθέστε τα πεδία "
+"<code>email</code>, <code>προφίλ</code> και <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"Στο GLPI, μεταβείτε στο <strong>Ρύθμιση &gt; Έλεγχος ταυτότητας &gt; "
+"Ρύθμιση</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Στην ενότητα <strong>Εξουσιοδοτημένα URI ανακατεύθυνσης</strong>, αντιγράψτε"
+" και επικολλήστε ακριβώς τη διεύθυνση URL επιστροφής παρακάτω:"

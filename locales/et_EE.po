@@ -1,0 +1,193 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Lisa Reegel"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Lisage reeglid, et määratleda, millise profiili ja üksuse kasutaja oma "
+"e-posti domeeni põhjal saab (Valikuline)."
+
+msgid "Automatically create users on first login"
+msgstr "Loo kasutajad automaatselt esimesel sisselogimisel"
+
+msgid "Configuration updated."
+msgstr "Konfiguratsioon on värskendatud."
+
+msgid "Default Rule (Fallback)"
+msgstr "Vaikereegel (Varuvariant)"
+
+msgid "Default entity (ELSE)"
+msgstr "Vaikimisi üksus (MUIDU)"
+
+msgid "Default profile (ELSE)"
+msgstr "Vaikimisi profiil (MUIDU)"
+
+msgid "Domain (after @)"
+msgstr "Domeen (pärast @ märk)"
+
+msgid "Entity"
+msgstr "Üksus"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Kasutaja loomine GLPI-s ebaõnnestus."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfiguratsioon"
+
+msgid "Google authentication failed: %s"
+msgstr "Google'i autentimine ebaõnnestus: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google'i sisselogimine tühistatud: %s"
+
+msgid "Google response without authorization code."
+msgstr "Google'i vastus ilma autoriseerimiskoodita."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Kui kasutaja e-posti aadress ei vasta ühelegi ülaltoodud reeglile, "
+"kasutatakse seda profiili ja üksust. Kohustuslik, kui automaatne loomine on "
+"lubatud."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Kehtetu OAuth2 olek. Proovige sisselogimislehelt uuesti."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Jätke tühjaks, et säilitada praegune saladus (salvestatud krüpteeritult)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Sellele Google'i kontole ei vasta ükski GLPI kasutaja."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Vastu võetakse ainult domeeni %s kontod."
+
+msgid "Profile"
+msgstr "Profiil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Profiili ja Üksuse Reeglid Domeeni Järgi"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Registreerige see ümbersuunamise URI Google Cloud Console'is:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Piirata domeeniga (valikuline)"
+
+msgid "Save"
+msgstr "Salvesta"
+
+msgid "Select..."
+msgstr "Vali..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Seanssi ei ole initsialiseeritud: kasutajal puudub aktiivne profiil."
+
+msgid "Sign in with Google"
+msgstr "Logi sisse Google'iga"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google'i kontol puudub kinnitatud e-kiri."
+
+msgid "This user is deactivated in GLPI."
+msgstr "See kasutaja on GLPI-s deaktiveeritud."
+
+msgid "or"
+msgstr "või"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Jätke valik <strong>„Eemalda sisselogimiste domeen kujul "
+"login@domeen”</strong> väärtuseks <strong>Ei</strong>. Kui see on lubatud, "
+"kattuvad kasutajad, kellel on eri pakkujatel sama eesliide (nt "
+"admin@gmail.com ja admin@institution.edu.br)."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Märkige allpool valik <strong>Aktiveeri nupp „Logi sisse "
+"Google'iga”</strong> ja klõpsake käsul <strong>Salvesta</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Muutke välja <strong>Lisa automaatselt kasutajad välisest "
+"autentimisallikast</strong> väärtuseks <strong>Jah</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "1. samm: Google'i pilve ettevalmistamine"
+
+msgid "Critical Warning:"
+msgstr "Kriitiline hoiatus:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Kuidas lubada Google'i SSO-integratsiooni?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google loob <strong>kliendi ID</strong> ja <strong>kliendi "
+"saladuse</strong>. Täitke selle vormi väljad nende võtmetega."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Juurdepääs <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console'ile</a> ja looge uus "
+"<strong>projekt</strong>."
+
+msgid "Redirect URI:"
+msgstr "Ümbersuunamise URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktiveerige nupp \"Logi sisse Google'iga\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Seejärel avage <strong>Mandaat &gt; Loo mandaadid &gt; OAuthi kliendi "
+"ID</strong>, valides tüübi <strong>Veebirakenduse</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "2. samm: GLPI autentimise ettevalmistamine"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Avage <strong>API-d &amp; Teenused &gt; OAuthi nõusoleku kuva</strong> ja "
+"seadistage oma rakendus (lisage ulatused <code>e-post</code>, "
+"<code>profiil</code> ja <code>avatud</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"Avage GLPI-s <strong>Seadistamine &gt; Autentimine &gt; "
+"Seadistamine</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Kopeerige ja kleepige jaotises <strong>Lubatud ümbersuunamise URI-d</strong>"
+" täpselt allolev tagastus-URL:"

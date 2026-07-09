@@ -1,0 +1,179 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "규칙 추가"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr "이메일 도메인을 기반으로 사용자가 받을 프로필과 엔티티를 정의하는 규칙을 추가하세요(선택 사항)."
+
+msgid "Automatically create users on first login"
+msgstr "첫 로그인 시 사용자 자동 생성"
+
+msgid "Configuration updated."
+msgstr "구성이 업데이트되었습니다."
+
+msgid "Default Rule (Fallback)"
+msgstr "기본 규칙(대체)"
+
+msgid "Default entity (ELSE)"
+msgstr "기본 엔티티(ELSE)"
+
+msgid "Default profile (ELSE)"
+msgstr "기본 프로필(ELSE)"
+
+msgid "Domain (after @)"
+msgstr "도메인(@ 이후)"
+
+msgid "Entity"
+msgstr "엔티티"
+
+msgid "Failed to create the user in GLPI."
+msgstr "GLPI에서 사용자를 생성하지 못했습니다."
+
+msgid "Google SSO"
+msgstr "구글 SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — 구성"
+
+msgid "Google authentication failed: %s"
+msgstr "Google 인증 실패: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google 로그인이 취소됨: %s"
+
+msgid "Google response without authorization code."
+msgstr "인증 코드가 없는 Google 응답입니다."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr "사용자 이메일이 위 규칙과 일치하지 않으면 이 프로필과 엔티티가 사용됩니다. 자동 생성이 활성화된 경우 필수입니다."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "잘못된 OAuth2 상태입니다. 로그인 페이지에서 다시 시도하세요."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "현재 비밀(암호화되어 저장됨)을 유지하려면 비워 두세요."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "이 Google 계정에 해당하는 GLPI 사용자가 없습니다."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "%s 도메인의 계정만 허용됩니다."
+
+msgid "Profile"
+msgstr "프로필"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "도메인별 프로필 및 엔티티 규칙"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Google Cloud Console에 이 리디렉션 URI를 등록하세요:"
+
+msgid "Restrict to domain (optional)"
+msgstr "도메인으로 제한(선택 사항)"
+
+msgid "Save"
+msgstr "저장"
+
+msgid "Select..."
+msgstr "선택..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "세션이 초기화되지 않음: 사용자에게 활성화된 프로필이 없습니다."
+
+msgid "Sign in with Google"
+msgstr "Google로 로그인"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google 계정에 확인된 이메일이 없습니다."
+
+msgid "This user is deactivated in GLPI."
+msgstr "이 사용자는 GLPI에서 비활성화되었습니다."
+
+msgid "or"
+msgstr "또는"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"<strong>'login@domain 형식의 로그인 도메인 제거'</strong> 옵션을 <strong>아니요</strong>로 "
+"둡니다. 활성화하면 다른 제공업체(예: admin@gmail.com 및 admin@institution.edu.br)에서 동일한 접두어를"
+" 사용하는 사용자에게 계정 중복이 발생합니다."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"아래의 <strong>'Google로 로그인' 버튼 활성화</strong> 옵션을 선택하고 <strong>저장</strong>을 "
+"클릭하세요."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"<strong>외부 인증 소스에서 사용자를 자동으로 추가</strong> 필드를 <strong>예</strong>로 변경합니다."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "1단계: Google Cloud 준비"
+
+msgid "Critical Warning:"
+msgstr "심각한 경고:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Google SSO 통합을 활성화하는 방법은 무엇입니까?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google은 <strong>클라이언트 ID</strong>와 <strong>클라이언트 비밀번호</strong>를 생성합니다. 해당 키로"
+" 이 양식의 필드를 채우세요."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"<a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google Cloud"
+" Console</a>에 액세스하고 새 <strong>프로젝트</strong>를 만듭니다."
+
+msgid "Redirect URI:"
+msgstr "리디렉션 URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "'Google로 로그인' 버튼 활성화"
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"그런 다음 <strong>자격 증명 &gt; 자격 증명 만들기 &gt; OAuth 클라이언트 ID</strong>(<strong>웹 "
+"애플리케이션</strong> 유형 선택)"
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "2단계: GLPI 인증 준비"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"<strong>API 및amp; 서비스 &gt; OAuth 동의 화면</strong>을 수행하고 앱을 "
+"구성합니다(<code>email</code>, <code>profile</code> 및 <code>openid</code> 범위 추가)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr "GLPI에서 <strong>설정 &gt; 인증 &gt; 설정</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr "<strong>승인된 리디렉션 URI</strong>에서 아래 반환 URL을 정확하게 복사하여 붙여넣습니다."

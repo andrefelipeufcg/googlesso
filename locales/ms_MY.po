@@ -1,0 +1,192 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Tambah Peraturan"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Tambahkan peraturan untuk menentukan profil dan entiti mana yang pengguna "
+"akan terima berdasarkan domain e-mel mereka (Pilihan)."
+
+msgid "Automatically create users on first login"
+msgstr "Cipta pengguna secara automatik pada log masuk pertama"
+
+msgid "Configuration updated."
+msgstr "Konfigurasi telah dikemas kini."
+
+msgid "Default Rule (Fallback)"
+msgstr "Peraturan Lalai (Pelan Sandaran)"
+
+msgid "Default entity (ELSE)"
+msgstr "Entiti lalai (JIKA TIDAK)"
+
+msgid "Default profile (ELSE)"
+msgstr "Profil lalai (JIKA TIDAK)"
+
+msgid "Domain (after @)"
+msgstr "Domain (selepas @)"
+
+msgid "Entity"
+msgstr "Entiti"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Gagal mencipta pengguna dalam GLPI."
+
+msgid "Google SSO"
+msgstr "SSO Google"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfigurasi"
+
+msgid "Google authentication failed: %s"
+msgstr "Pengesahan Google gagal: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Log masuk Google dibatalkan: %s"
+
+msgid "Google response without authorization code."
+msgstr "Respons Google tanpa kod pengesahan."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Jika e-mel pengguna tidak sepadan dengan mana-mana peraturan di atas, profil"
+" dan entiti ini akan digunakan. Wajib jika penciptaan automatik didayakan."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Keadaan OAuth2 tidak sah. Cuba lagi dari halaman log masuk."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Biarkan kosong untuk mengekalkan rahsia semasa (disimpan secara tersulit)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Tiada pengguna GLPI yang sepadan dengan akaun Google ini."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Hanya akaun daripada domain %s diterima."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Peraturan Profil dan Entiti mengikut Domain"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Daftarkan URI Pengalihan ini dalam Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Hadkan kepada domain (pilihan)"
+
+msgid "Save"
+msgstr "Simpan"
+
+msgid "Select..."
+msgstr "Pilih..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sesi tidak dimulakan: pengguna tiada profil yang diaktifkan."
+
+msgid "Sign in with Google"
+msgstr "Log masuk dengan Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Akaun Google tidak mempunyai e-mel yang disahkan."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Pengguna ini telah dinyahaktifkan dalam GLPI."
+
+msgid "or"
+msgstr "atau"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Biarkan pilihan <strong>\"Alih keluar domain log masuk dalam borang log "
+"masuk@domain\"</strong> sebagai <strong>Tidak</strong>. Jika didayakan, "
+"pengguna dengan awalan yang sama dalam pembekal yang berbeza (cth., "
+"admin@gmail.com dan admin@institution.edu.br) akan mengalami pertindihan "
+"akaun."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Semak pilihan <strong>Aktifkan butang \"Log masuk dengan Google\"</strong> "
+"di bawah dan klik <strong>Simpan</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Tukar medan <strong>Tambah pengguna secara automatik daripada sumber "
+"pengesahan luaran</strong> kepada <strong>Ya</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Langkah 1: Penyediaan Awan Google"
+
+msgid "Critical Warning:"
+msgstr "Amaran Kritikal:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Bagaimana untuk mendayakan penyepaduan SSO Google?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google akan menjana <strong>ID Pelanggan</strong> dan <strong>Rahsia "
+"Pelanggan</strong>. Isikan medan dalam borang ini dengan kunci tersebut."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Akses <a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google"
+" Cloud Console</a> dan buat <strong>Projek</strong> baharu."
+
+msgid "Redirect URI:"
+msgstr "Ubah hala URI:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktifkan butang \"Log masuk dengan Google\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Kemudian pergi ke <strong>Kelayakan &gt; Buat Bukti kelayakan &gt; ID klien "
+"OAuth</strong>, memilih jenis <strong>Aplikasi web</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Langkah 2: Penyediaan Pengesahan GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Pergi ke <strong>API &amp; Perkhidmatan &gt; Skrin persetujuan "
+"OAuth</strong> dan konfigurasikan apl anda (tambahkan skop "
+"<code>e-mel</code>, <code>profil</code> dan <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"Dalam GLPI, pergi ke <strong>Persediaan &gt; Pengesahan &gt; "
+"Persediaan</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"Di bawah <strong>URI ubah hala yang dibenarkan</strong>, salin dan tampal "
+"dengan tepat URL pulangan di bawah:"

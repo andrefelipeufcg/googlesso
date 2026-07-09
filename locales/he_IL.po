@@ -1,0 +1,188 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "הוסף חוק"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"הוסף חוקים כדי להגדיר איזה פרופיל וישות יקבל המשתמש בהתבסס על דומיין הדוא\"ל"
+" שלו (אופציונלי)."
+
+msgid "Automatically create users on first login"
+msgstr "צור משתמשים באופן אוטומטי בהתחברות הראשונה"
+
+msgid "Configuration updated."
+msgstr "התצורה עודכנה."
+
+msgid "Default Rule (Fallback)"
+msgstr "חוק ברירת מחדל (גיבוי)"
+
+msgid "Default entity (ELSE)"
+msgstr "ישות ברירת מחדל (אחרת)"
+
+msgid "Default profile (ELSE)"
+msgstr "פרופיל ברירת מחדל (אחרת)"
+
+msgid "Domain (after @)"
+msgstr "דומיין (אחרי @)"
+
+msgid "Entity"
+msgstr "ישות"
+
+msgid "Failed to create the user in GLPI."
+msgstr "יצירת המשתמש ב-GLPI נכשלה."
+
+msgid "Google SSO"
+msgstr "Google SSO"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — תצורה"
+
+msgid "Google authentication failed: %s"
+msgstr "אימות Google נכשל: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "התחברות Google בוטלה: %s"
+
+msgid "Google response without authorization code."
+msgstr "תגובת Google ללא קוד הרשאה."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"אם הדוא\"ל של המשתמש אינו תואם לאף אחד מהחוקים לעיל, ישמשו פרופיל וישות אלה."
+" חובה אם יצירה אוטומטית מופעלת."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "מצב OAuth2 לא חוקי. נסה שוב מדף ההתחברות."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "השאר ריק כדי לשמור על הסוד הנוכחי (מאוחסן מוצפן)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "אף משתמש GLPI לא מתאים לחשבון Google זה."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "מתקבלים רק חשבונות מהדומיין %s."
+
+msgid "Profile"
+msgstr "פרופיל"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "חוקי פרופיל וישות לפי דומיין"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "רשום את URI ההפניה הזה ב-Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "הגבל לדומיין (אופציונלי)"
+
+msgid "Save"
+msgstr "שמור"
+
+msgid "Select..."
+msgstr "בחר..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "ההפעלה לא אותחלה: למשתמש אין פרופיל פעיל."
+
+msgid "Sign in with Google"
+msgstr "היכנס באמצעות Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "לחשבון Google אין דוא\"ל מאומת."
+
+msgid "This user is deactivated in GLPI."
+msgstr "משתמש זה מושבת ב-GLPI."
+
+msgid "or"
+msgstr "או"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"השאר את האפשרות <strong>\"הסר דומיין של התחברות בצורת "
+"login@domain\"</strong> בתור <strong>לא</strong>. אם מופעל, משתמשים עם אותה "
+"קידומת בספקים שונים (למשל, admin@gmail.com ו-admin@institution.edu.br) יסבלו"
+" מחפיפת חשבונות."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"סמן את האפשרות <strong>הפעל את הלחצן \"היכנס עם Google\"</strong> למטה ולחץ "
+"על <strong>שמור</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"שנה את השדה <strong>הוסף משתמשים באופן אוטומטי ממקור אימות חיצוני</strong> "
+"ל<strong>כן</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "שלב 1: הכנת Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "אזהרה קריטית:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "כיצד לאפשר אינטגרציה של Google SSO?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google תיצור <strong>זיהוי לקוח</strong> ו<strong>סוד לקוח</strong>. מלא את "
+"השדות בטופס זה עם המפתחות האלה."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"גש ל<a href=\"https://console.cloud.google.com/\" target=\"_blank\">Google "
+"Cloud Console</a> וצור <strong>פרויקט</strong> חדש."
+
+msgid "Redirect URI:"
+msgstr "כתובת URL להפניה מחדש:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "הפעל את כפתור \"היכנס עם גוגל\"."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"לאחר מכן עבור אל<strong>אישורים &gt; צור אישורים &gt; מזהה לקוח "
+"OAuth</strong>, בחירה בסוג <strong>יישום אינטרנט</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "שלב 2: הכנת אימות GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"עבור אל<strong>ממשק API &amp; שירותים &gt; מסך הסכמה של OAuth</strong> והגדר"
+" את האפליקציה שלך (הוסף את ההיקפים <code>email</code>, <code>profile</code> "
+"ו-<code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr "ב-GLPI, עבור אל <strong>הגדרה &gt; אימות &gt; הגדרה</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"תחת <strong>כתובות URL מורשות להפניה מחדש</strong>, העתק והדבק בדיוק את "
+"כתובת האתר להחזרה למטה:"

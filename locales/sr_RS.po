@@ -1,0 +1,192 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Dodaj pravilo"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Dodajte pravila za definisanje koji profil i entitet će korisnik dobiti na "
+"osnovu njegovog domena e-pošte (Opciono)."
+
+msgid "Automatically create users on first login"
+msgstr "Automatski kreiraj korisnike pri prvoj prijavi"
+
+msgid "Configuration updated."
+msgstr "Konfiguracija je ažurirana."
+
+msgid "Default Rule (Fallback)"
+msgstr "Podrazumevano pravilo (Zamensko)"
+
+msgid "Default entity (ELSE)"
+msgstr "Podrazumevani entitet (U SUPROTNOM)"
+
+msgid "Default profile (ELSE)"
+msgstr "Podrazumevani profil (U SUPROTNOM)"
+
+msgid "Domain (after @)"
+msgstr "Domen (posle @)"
+
+msgid "Entity"
+msgstr "Entitet"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Kreiranje korisnika u GLPI-ju nije uspelo."
+
+msgid "Google SSO"
+msgstr "Гоогле ССО"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfiguracija"
+
+msgid "Google authentication failed: %s"
+msgstr "Google autentifikacija nije uspela: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Google prijava je otkazana: %s"
+
+msgid "Google response without authorization code."
+msgstr "Google odgovor bez koda za autorizaciju."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Ako se korisnička e-pošta ne podudara ni sa jednim od gore navedenih "
+"pravila, koristiće se ovaj profil i entitet. Obavezno ako je automatsko "
+"kreiranje omogućeno."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Nevažeće stanje OAuth2. Pokušajte ponovo sa stranice za prijavu."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr "Ostavite prazno da biste zadržali trenutnu tajnu (čuva se šifrovano)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Nijedan GLPI korisnik ne odgovara ovom Google nalogu."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Prihvataju se samo nalozi sa domena %s."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Pravila o Profilu i Entitetu po Domenu"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Registrujte ovaj URI za preusmeravanje u Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Ograniči na domen (opciono)"
+
+msgid "Save"
+msgstr "Sačuvaj"
+
+msgid "Select..."
+msgstr "Izaberi..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sesija nije inicijalizovana: korisnik nema omogućen profil."
+
+msgid "Sign in with Google"
+msgstr "Prijavite se sa Google-om"
+
+msgid "The Google account does not have a verified email."
+msgstr "Google nalog nema verifikovanu e-poštu."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Ovaj korisnik je deaktiviran u GLPI-ju."
+
+msgid "or"
+msgstr "ili"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Оставите опцију <стронг>„Уклони домен пријављивања у обрасцу "
+"логин@домаин“</стронг> као <стронг>Не</стронг>. Ако је омогућено, корисници "
+"са истим префиксом код различитих добављача (нпр. админ@гмаил.цом и "
+"админ@институтион.еду.бр) ће трпети преклапање налога."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Означите опцију <стронг>Активирајте дугме „Пријави се помоћу "
+"Гоогле-а“</стронг> у наставку и кликните на <стронг>Сачувај</стронг>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Промените поље <стронг>Аутоматски додај кориснике из спољног извора потврде "
+"идентитета</стронг> у <стронг>Да</стронг>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Корак 1: Припрема за Гоогле Цлоуд"
+
+msgid "Critical Warning:"
+msgstr "Критично упозорење:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Како омогућити Гоогле ССО интеграцију?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Гоогле ће генерисати <стронг>ИД клијента</стронг> и <стронг>Цлиент "
+"Сецрет</стронг>. Попуните поља у овом обрасцу тим кључевима."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Приступите <а хреф=\"хттпс://цонсоле.цлоуд.гоогле.цом/\" "
+"таргет=\"_бланк\">Гоогле Цлоуд конзоли</а> и направите нови "
+"<стронг>Пројекат</стронг>."
+
+msgid "Redirect URI:"
+msgstr "УРИ преусмеравања:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Активирајте дугме „Пријави се помоћу Гоогле-а“."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Затим идите на <стронг>Акредитиви &гт; Креирајте акредитиве &гт; ИД ОАутх "
+"клијента</стронг>, бирајући тип <стронг>Веб апликације</стронг>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Корак 2: Припрема за ГЛПИ аутентификацију"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Идите на <стронг>АПИ &амп; Услуге &гт; Екран за сагласност за ОАутх</стронг>"
+" и конфигуришите своју апликацију (додајте опсеге <цоде>е-пошта</цоде>, "
+"<цоде>профиле</цоде> и <цоде>опенид</цоде>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"У ГЛПИ идите на <стронг>Подешавање &гт; Аутентификација &гт; "
+"Подешавање</стронг>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"У одељку <стронг>Овлашћени УРИ-ји за преусмеравање</стронг>, копирајте и "
+"налепите тачно повратну УРЛ адресу у наставку:"

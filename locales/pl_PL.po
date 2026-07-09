@@ -1,0 +1,196 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Add Rule"
+msgstr "Dodaj regułę"
+
+msgid ""
+"Add rules to define which profile and entity the user will receive based on "
+"their email domain (Optional)."
+msgstr ""
+"Dodaj reguły, aby określić, jaki profil i encję otrzyma użytkownik na "
+"podstawie domeny e-mail (Opcjonalnie)."
+
+msgid "Automatically create users on first login"
+msgstr "Automatycznie twórz użytkowników przy pierwszym logowaniu"
+
+msgid "Configuration updated."
+msgstr "Konfiguracja zaktualizowana."
+
+msgid "Default Rule (Fallback)"
+msgstr "Reguła domyślna (Fallback)"
+
+msgid "Default entity (ELSE)"
+msgstr "Domyślna encja (W PRZECIWNYM RAZIE)"
+
+msgid "Default profile (ELSE)"
+msgstr "Domyślny profil (W PRZECIWNYM RAZIE)"
+
+msgid "Domain (after @)"
+msgstr "Domena (po @)"
+
+msgid "Entity"
+msgstr "Encja"
+
+msgid "Failed to create the user in GLPI."
+msgstr "Nie udało się utworzyć użytkownika w GLPI."
+
+msgid "Google SSO"
+msgstr "Logowanie jednokrotne Google"
+
+msgid "Google SSO — Configuration"
+msgstr "Google SSO — Konfiguracja"
+
+msgid "Google authentication failed: %s"
+msgstr "Uwierzytelnianie Google nie powiodło się: %s"
+
+msgid "Google login cancelled: %s"
+msgstr "Logowanie Google anulowane: %s"
+
+msgid "Google response without authorization code."
+msgstr "Odpowiedź Google bez kodu autoryzacji."
+
+msgid ""
+"If the user email does not match any of the rules above, this profile and "
+"entity will be used. Mandatory if automatic creation is enabled."
+msgstr ""
+"Jeśli e-mail użytkownika nie pasuje do żadnej z powyższych reguł, zostaną "
+"użyte ten profil i encja. Wymagane, jeśli włączone jest automatyczne "
+"tworzenie."
+
+msgid "Invalid OAuth2 state. Try again from the login page."
+msgstr "Nieprawidłowy stan OAuth2. Spróbuj ponownie ze strony logowania."
+
+msgid "Leave blank to keep current secret (stored encrypted)."
+msgstr ""
+"Pozostaw puste, aby zachować obecny sekret (przechowywany w postaci "
+"zaszyfrowanej)."
+
+msgid "No GLPI user corresponds to this Google account."
+msgstr "Żaden użytkownik GLPI nie odpowiada temu kontu Google."
+
+msgid "Only accounts from the %s domain are accepted."
+msgstr "Akceptowane są tylko konta z domeny %s."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile and Entity Rules by Domain"
+msgstr "Reguły profilu i encji według domeny"
+
+msgid "Register this Redirect URI in Google Cloud Console:"
+msgstr "Zarejestruj ten URI przekierowania w Google Cloud Console:"
+
+msgid "Restrict to domain (optional)"
+msgstr "Ogranicz do domeny (opcjonalnie)"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Select..."
+msgstr "Wybierz..."
+
+msgid "Session not initialized: user has no enabled profile."
+msgstr "Sesja nie została zainicjowana: użytkownik nie ma włączonego profilu."
+
+msgid "Sign in with Google"
+msgstr "Zaloguj się przez Google"
+
+msgid "The Google account does not have a verified email."
+msgstr "Konto Google nie ma zweryfikowanego adresu e-mail."
+
+msgid "This user is deactivated in GLPI."
+msgstr "Ten użytkownik jest dezaktywowany w GLPI."
+
+msgid "or"
+msgstr "lub"
+
+msgid ""
+"Leave the option <strong>\"Remove domain of logins in form "
+"login@domain\"</strong> as <strong>No</strong>. If enabled, users with the "
+"same prefix in different providers (e.g., admin@gmail.com and "
+"admin@institution.edu.br) will suffer account overlap."
+msgstr ""
+"Pozostaw opcję <strong>„Usuń domenę loginów w formularzu "
+"login@domena”</strong> jako <strong>Nie</strong>. Jeśli ta opcja jest "
+"włączona, konta użytkowników z tym samym prefiksem u różnych dostawców (np. "
+"admin@gmail.com i admin@institution.edu.br) będą doświadczać nakładania się "
+"kont."
+
+msgid ""
+"Check the <strong>Activate \"Sign in with Google\" button</strong> option "
+"below and click <strong>Save</strong>."
+msgstr ""
+"Zaznacz opcję <strong>Aktywuj przycisk „Zaloguj się przez Google”</strong> "
+"poniżej i kliknij <strong>Zapisz</strong>."
+
+msgid ""
+"Change the <strong>Automatically add users from an external authentication "
+"source</strong> field to <strong>Yes</strong>."
+msgstr ""
+"Zmień pole <strong>Automatycznie dodawaj użytkowników z zewnętrznego źródła "
+"uwierzytelniania</strong> na <strong>Tak</strong>."
+
+msgid "Step 1: Google Cloud Preparation"
+msgstr "Krok 1: Przygotowanie do Google Cloud"
+
+msgid "Critical Warning:"
+msgstr "Krytyczne ostrzeżenie:"
+
+msgid "How to enable Google SSO integration?"
+msgstr "Jak włączyć integrację Google SSO?"
+
+msgid ""
+"Google will generate a <strong>Client ID</strong> and a <strong>Client "
+"Secret</strong>. Fill in the fields in this form with those keys."
+msgstr ""
+"Google wygeneruje <strong>Identyfikator klienta</strong> i <strong>Tajemnicę"
+" klienta</strong>. Wypełnij pola w tym formularzu tymi kluczami."
+
+msgid ""
+"Access the <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Console</a> and create a new "
+"<strong>Project</strong>."
+msgstr ""
+"Uzyskaj dostęp do <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">konsoli Google Cloud</a> i utwórz nowy "
+"<strong>projekt</strong>."
+
+msgid "Redirect URI:"
+msgstr "URI przekierowania:"
+
+msgid "Activate \"Sign in with Google\" button"
+msgstr "Aktywuj przycisk „Zaloguj się przez Google”."
+
+msgid ""
+"Then go to <strong>Credentials &gt; Create Credentials &gt; OAuth client "
+"ID</strong>, choosing the <strong>Web application</strong> type."
+msgstr ""
+"Następnie przejdź do strony <strong>Poświadczenia &gt; Utwórz dane logowania"
+" &gt; Identyfikator klienta OAuth</strong>, wybierając typ <strong>Aplikacja"
+" internetowa</strong>."
+
+msgid "Step 2: GLPI Authentication Preparation"
+msgstr "Krok 2: Przygotowanie uwierzytelnienia GLPI"
+
+msgid ""
+"Go to <strong>APIs &amp; Services &gt; OAuth consent screen</strong> and "
+"configure your app (add the scopes <code>email</code>, <code>profile</code>,"
+" and <code>openid</code>)."
+msgstr ""
+"Przejdź do <strong>API &amp; Usługi &gt; Ekran zgody OAuth</strong> i "
+"skonfiguruj aplikację (dodaj zakresy <code>email</code>, "
+"<code>profile</code> i <code>openid</code>)."
+
+msgid "In GLPI, go to <strong>Setup &gt; Authentication &gt; Setup</strong>."
+msgstr ""
+"W GLPI przejdź do opcji <strong>Ustawienia &gt; Uwierzytelnianie &gt; "
+"Konfiguracja</strong>."
+
+msgid ""
+"Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
+"return URL below:"
+msgstr ""
+"W sekcji <strong>Autoryzowane identyfikatory URI przekierowań</strong> "
+"skopiuj i wklej dokładnie poniższy zwrotny adres URL:"

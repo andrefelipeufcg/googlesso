@@ -30,6 +30,9 @@ function plugin_googlesso_display_login(): void
     }
 
     $config = Config::getConfig();
+    if (empty($config['is_active'])) {
+        return;
+    }
     if ($config['client_id'] === '' || $config['client_secret'] === '') {
         return;
     }

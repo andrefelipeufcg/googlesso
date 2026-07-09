@@ -36,12 +36,13 @@
             <div class="mb-3">
                 <label class="form-check form-switch">
                     <input type="hidden" name="auto_create_users" value="0">
-                    <input class="form-check-input" type="checkbox" name="auto_create_users" value="1"
+                    <input class="form-check-input" type="checkbox" name="auto_create_users" id="auto_create_chk" value="1"
                            {{ config.auto_create_users ? 'checked' : '' }}>
                     <span class="form-check-label">{{ __('Automatically create users on first login', 'googlesso') }}</span>
                 </label>
             </div>
 
+            <div id="domain_rules_section">
             <hr class="my-4">
             <h4>{{ __('Profile and Entity Rules by Domain', 'googlesso') }}</h4>
             <div class="alert alert-secondary">
@@ -130,6 +131,17 @@
 
             {{ fields.dropdownField('Entity', 'default_entity_id', config.default_entity_id,
                 __('Default entity (ELSE)', 'googlesso')) }}
+            </div>
+
+            <hr class="my-4">
+            <div class="mb-3">
+                <label class="form-check form-switch">
+                    <input type="hidden" name="is_active" value="0">
+                    <input class="form-check-input" type="checkbox" name="is_active" value="1"
+                           {{ config.is_active ? 'checked' : '' }}>
+                    <span class="form-check-label">Ativar o botão "Entrar com o Google"</span>
+                </label>
+            </div>
 
             <div class="mt-4 text-end">
                 <button type="submit" name="update" value="1" class="btn btn-primary">
@@ -142,6 +154,16 @@
 
 <script>
 $(function() {
+    function toggleDomainRules() {
+        if ($('#auto_create_chk').is(':checked')) {
+            $('#domain_rules_section').show();
+        } else {
+            $('#domain_rules_section').hide();
+        }
+    }
+    
+    $('#auto_create_chk').on('change', toggleDomainRules);
+    toggleDomainRules();
     $('#btn-add-rule').on('click', function() {
         var $newRow = $('#rule-template tr').clone();
         $newRow.find(':input').prop('disabled', false);

@@ -14,6 +14,7 @@ final class Config
     public const CONTEXT = 'plugin:googlesso';
 
     private const DEFAULTS = [
+        'is_active'          => 1,
         'client_id'          => '',
         'client_secret'      => '',
         'restrict_domain'    => '',
@@ -44,6 +45,7 @@ final class Config
     public static function saveConfig(array $input): void
     {
         $values = [
+            'is_active'          => (int) ($input['is_active'] ?? 0),
             'client_id'          => trim($input['client_id'] ?? ''),
             'restrict_domain'    => strtolower(trim($input['restrict_domain'] ?? '')),
             'auto_create_users'  => (int) ($input['auto_create_users'] ?? 0),

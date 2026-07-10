@@ -74,12 +74,12 @@
                 {{ __('Add rules to define which profile and entity the user will receive based on their email domain (Optional).', 'googlesso') }}
             </div>
             
-            <table class="table table-sm table-bordered" id="domain-rules-table">
+            <table class="table table-sm table-bordered" id="domain-rules-table" style="table-layout: fixed;">
                 <thead>
                     <tr>
-                        <th>{{ __('Domain (after @)', 'googlesso') }}</th>
-                        <th>{{ __('Profile', 'googlesso') }}</th>
-                        <th>{{ __('Entity', 'googlesso') }}</th>
+                        <th style="width: 33%;">{{ __('Domain (after @)', 'googlesso') }}</th>
+                        <th style="width: 33%;">{{ __('Profile', 'googlesso') }}</th>
+                        <th style="width: 33%;">{{ __('Entity', 'googlesso') }}</th>
                         <th style="width: 50px;"></th>
                     </tr>
                 </thead>
@@ -90,7 +90,7 @@
                                 <input type="text" name="domain_rule_domain[]" class="form-control" value="{{ rule.domain }}" required>
                             </td>
                             <td>
-                                <select name="domain_rule_profile_id[]" class="form-select" required>
+                                <select name="domain_rule_profile_id[]" class="form-select searchable-select" required>
                                     <option value="">{{ __('Select...', 'googlesso') }}</option>
                                     {% for id, name in profiles %}
                                         <option value="{{ id }}" {{ id == rule.profile_id ? 'selected' : '' }}>{{ name }}</option>
@@ -98,14 +98,14 @@
                                 </select>
                             </td>
                             <td>
-                                <select name="domain_rule_entity_id[]" class="form-select" required>
+                                <select name="domain_rule_entity_id[]" class="form-select searchable-select" required>
                                     <option value="">{{ __('Select...', 'googlesso') }}</option>
                                     {% for id, name in entities %}
                                         <option value="{{ id }}" {{ id == rule.entity_id ? 'selected' : '' }}>{{ name }}</option>
                                     {% endfor %}
                                 </select>
                             </td>
-                            <td class="text-center">
+                            <td class="text-center align-middle">
                                 <button type="button" class="btn btn-icon btn-danger btn-sm btn-remove-rule"><i class="ti ti-trash"></i></button>
                             </td>
                         </tr>
@@ -138,7 +138,7 @@
                                 {% endfor %}
                             </select>
                         </td>
-                        <td class="text-center">
+                        <td class="text-center align-middle">
                             <button type="button" class="btn btn-icon btn-danger btn-sm btn-remove-rule"><i class="ti ti-trash"></i></button>
                         </td>
                     </tr>
@@ -189,10 +189,23 @@ $(function() {
     
     $('#auto_create_chk').on('change', toggleDomainRules);
     toggleDomainRules();
+    function initSearchable($context) {
+        var $selects = $context.find('.searchable-select');
+        if (typeof $.fn.select2 === 'function') {
+            $selects.select2({width: '100%'});
+        } else if (typeof TomSelect !== 'undefined') {
+            $selects.each(function() {
+                if (!this.tomselect) new TomSelect(this);
+            });
+        }
+    }
+    initSearchable($(document));
+
     $('#btn-add-rule').on('click', function() {
         var $newRow = $('#rule-template tr').clone();
         $newRow.find(':input').prop('disabled', false);
-        $('#domain-rules-table tbody').append($newRow);
+        $('#domain-rules-table tbody').first().append($newRow);
+        initSearchable($newRow);
     });
 
     $('#domain-rules-table').on('click', '.btn-remove-rule', function() {

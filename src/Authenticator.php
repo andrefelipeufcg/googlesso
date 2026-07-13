@@ -63,18 +63,17 @@ final class Authenticator
 
         // O googlesso pula o Auth::login(), então precisamos registrar o evento de 
         // login manualmente na tabela nativa glpi_events.
-        if (class_exists('Event')) {
+        $eventClass = \class_exists('\Glpi\Event') ? '\Glpi\Event' : (\class_exists('\Event') ? '\Event' : null);
+        if ($eventClass) {
             $ip = getenv("HTTP_X_FORWARDED_FOR") ?: getenv("REMOTE_ADDR");
-            Event::log(0, "system", 3, "login", sprintf(
-                __('%1$s log in from IP %2$s'),
-                $user->fields['name'],
-                $ip
-            ));
+            $eventClass::log(
+                $user->fields['id'], // Define o items_id como users_id para facilitar o filtro
+                "system", 
+                3, 
+                "login", 
+                sprintf(__('%1$s log in from IP %2$s'), $user->fields['name'], $ip) . ' via Google Workspace (SSO)'
+            );
         }
-
-        // Marcador leve (em $_SERVER para sobreviver ao Session::init que limpa a $_SESSION).
-        // Se authhistory não estiver instalado, a variável é simplesmente ignorada.
-        $_SERVER['AUTHHISTORY_SSO_PROVIDER'] = 'google';
 
         Session::init($auth);
 

@@ -61,6 +61,10 @@ final class Authenticator
         $auth->user          = $user;
         $auth->user->fields['authtype'] = Auth::EXTERNAL;
 
+        // Marcador leve para o plugin authhistory identificar o provedor SSO.
+        // Se authhistory não estiver instalado, a variável é simplesmente ignorada.
+        $_SESSION['authhistory_sso_provider'] = 'google';
+
         Session::init($auth);
 
         if (Session::getLoginUserID() === false) {

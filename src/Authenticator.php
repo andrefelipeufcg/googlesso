@@ -61,9 +61,20 @@ final class Authenticator
         $auth->user          = $user;
         $auth->user->fields['authtype'] = Auth::EXTERNAL;
 
-        // Marcador leve para o plugin authhistory identificar o provedor SSO.
+        // O googlesso pula o Auth::login(), então precisamos registrar o evento de 
+        // login manualmente na tabela nativa glpi_events.
+        if (class_exists('Event')) {
+            $ip = getenv("HTTP_X_FORWARDED_FOR") ?: getenv("REMOTE_ADDR");
+            Event::log(0, "system", 3, "login", sprintf(
+                __('%1$s log in from IP %2$s'),
+                $user->fields['name'],
+                $ip
+            ));
+        }
+
+        // Marcador leve (em $_SERVER para sobreviver ao Session::init que limpa a $_SESSION).
         // Se authhistory não estiver instalado, a variável é simplesmente ignorada.
-        $_SESSION['authhistory_sso_provider'] = 'google';
+        $_SERVER['AUTHHISTORY_SSO_PROVIDER'] = 'google';
 
         Session::init($auth);
 

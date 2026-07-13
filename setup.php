@@ -51,7 +51,7 @@ function plugin_version_googlesso(): array
         'version'      => PLUGIN_GOOGLESSO_VERSION,
         'author'       => 'Daniel Ramos, Andre Felipe',
         'license'      => 'GPL v2+',
-        'homepage'     => '',
+        'homepage'     => 'https://github.com/andrefelipeufcg/googlesso',
         'requirements' => [
             'glpi' => [
                 'min' => PLUGIN_GOOGLESSO_MIN_GLPI,

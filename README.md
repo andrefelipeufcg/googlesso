@@ -38,6 +38,10 @@ Then: **Setup > Plugins** → install and activate "Google SSO".
   with the default profile/entity configured.
 - OAuth2 flow errors are logged in `files/_log/googlesso.log` and the
   user is returned to the native login page.
+- **Activation toggle**: Google login can be enabled or disabled globally in the plugin configuration.
+- **Domain restrictions**: Configure domain rules to restrict access and auto-assign entities/profiles based on the user's Google Workspace domain.
+- **Audit Logging**: Successful SSO logins are recorded in the `glpi_events` table for auditing.
+- **Authhistory Compatibility**: Integrates seamlessly with the [`authhistory`](https://github.com/andrefelipeufcg/authhistory) plugin to track login sessions.
 
 ## Requirements
 
@@ -89,6 +93,10 @@ Luego: **Configuración > Plugins** → instale y active "Google SSO".
   con el perfil/entidad predeterminado configurado.
 - Los errores del flujo OAuth2 se registran en `files/_log/googlesso.log` y el
   usuario es devuelto a la página de inicio de sesión nativa.
+- **Botón de activación**: El inicio de sesión de Google se puede habilitar o deshabilitar globalmente en la configuración del plugin.
+- **Restricciones de dominio**: Configure reglas de dominio para restringir el acceso y asignar automáticamente entidades/perfiles según el dominio de Google Workspace del usuario.
+- **Registro de auditoría**: Los inicios de sesión SSO exitosos se registran en la tabla `glpi_events` para auditoría.
+- **Compatibilidad con Authhistory**: Se integra perfectamente con el plugin [`authhistory`](https://github.com/andrefelipeufcg/authhistory) para rastrear las sesiones de inicio de sesión.
 
 ## Requisitos
 
@@ -140,6 +148,10 @@ Ensuite : **Configuration > Plugins** → installer et activer "Google SSO".
   avec le profil/l'entité par défaut configuré.
 - Les erreurs du flux OAuth2 sont enregistrées dans `files/_log/googlesso.log` et l'
   utilisateur est renvoyé à la page de connexion native.
+- **Bouton d'activation** : La connexion Google peut être activée ou désactivée globalement dans la configuration du plugin.
+- **Restrictions de domaine** : Configurez des règles de domaine pour restreindre l'accès et attribuer automatiquement des entités/profils en fonction du domaine Google Workspace de l'utilisateur.
+- **Journal d'audit** : Les connexions SSO réussies sont enregistrées dans la table `glpi_events` pour l'audit.
+- **Compatibilité Authhistory** : S'intègre de manière transparente avec le plugin [`authhistory`](https://github.com/andrefelipeufcg/authhistory) pour suivre les sessions de connexion.
 
 ## Prérequis
 
@@ -191,6 +203,10 @@ Depois: **Configuração > Plugins** → instalar e ativar "Google SSO".
   com o perfil/entidade padrão configurados.
 - Erros do fluxo OAuth2 são registrados em `files/_log/googlesso.log` e o
   usuário é devolvido à página de login nativa.
+- **Ativação/Desativação**: O login via Google pode ser ativado ou desativado globalmente na configuração do plugin.
+- **Restrições de domínio**: Configure regras de domínio para restringir o acesso e atribuir automaticamente entidades/perfis com base no domínio do Google Workspace do usuário.
+- **Registro de Auditoria**: Logins SSO bem-sucedidos são registrados na tabela `glpi_events` para auditoria.
+- **Compatibilidade com Authhistory**: Integra-se perfeitamente ao plugin [`authhistory`](https://github.com/andrefelipeufcg/authhistory) para rastrear as sessões de login.
 
 ## Requisitos
 

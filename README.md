@@ -16,6 +16,10 @@ cd <GLPI>/plugins
 cp -r googlesso .
 cd googlesso
 composer install --no-dev
+# Fix permissions so the web server can read the vendor directory
+chown -R www-data:www-data vendor/
+chown www-data:www-data composer.lock
+chmod -R 755 vendor/
 ```
 
 Then: **Setup > Plugins** → install and activate "Google SSO".
@@ -71,6 +75,10 @@ cd <GLPI>/plugins
 cp -r googlesso .
 cd googlesso
 composer install --no-dev
+# Corrige los permisos para que el servidor web pueda leer el directorio vendor
+chown -R www-data:www-data vendor/
+chown www-data:www-data composer.lock
+chmod -R 755 vendor/
 ```
 
 Luego: **Configuración > Plugins** → instale y active "Google SSO".
@@ -126,6 +134,10 @@ cd <GLPI>/plugins
 cp -r googlesso .
 cd googlesso
 composer install --no-dev
+# Corriger les permissions pour que le serveur web puisse lire le répertoire vendor
+chown -R www-data:www-data vendor/
+chown www-data:www-data composer.lock
+chmod -R 755 vendor/
 ```
 
 Ensuite : **Configuration > Plugins** → installer et activer "Google SSO".
@@ -181,6 +193,10 @@ cd <GLPI>/plugins
 cp -r googlesso .
 cd googlesso
 composer install --no-dev
+# Corrija as permissões para que o servidor web possa ler o diretório vendor
+chown -R www-data:www-data vendor/
+chown www-data:www-data composer.lock
+chmod -R 755 vendor/
 ```
 
 Depois: **Configuração > Plugins** → instalar e ativar "Google SSO".

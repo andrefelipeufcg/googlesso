@@ -187,3 +187,6 @@ msgid ""
 msgstr ""
 "<strong>অনুমোদিত পুনঃনির্দেশ URIs</strong>-এর অধীনে, নীচের রিটার্ন URLটি ঠিক"
 " কপি এবং পেস্ট করুন:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "সাবডোমেনগুলিও গৃহীত হয়। যেমন: \"company.com\" ব্যবহারকারী@company.com এবং ব্যবহারকারী@sub.company.com কে অনুমতি দেবে।"

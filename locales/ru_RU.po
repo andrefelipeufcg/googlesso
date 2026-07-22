@@ -194,3 +194,6 @@ msgid ""
 msgstr ""
 "В разделе <strong>URI авторизованного перенаправления</strong> скопируйте и "
 "вставьте указанный ниже URL возврата:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Поддомены также принимаются. Например: «company.com» разрешит user@company.com и user@sub.company.com."

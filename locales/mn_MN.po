@@ -191,3 +191,6 @@ msgid ""
 msgstr ""
 "<strong>Эрх бүхий дахин чиглүүлэх URI</strong>-н доор яг буцах URL-г хуулж "
 "буулгана уу:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Дэд домайнуудыг мөн хүлээн зөвшөөрдөг. Жнь: \"company.com\" нь user@company.com болон user@sub.company.com-г зөвшөөрнө."

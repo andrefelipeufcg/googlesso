@@ -195,3 +195,6 @@ msgid ""
 msgstr ""
 "Στην ενότητα <strong>Εξουσιοδοτημένα URI ανακατεύθυνσης</strong>, αντιγράψτε"
 " και επικολλήστε ακριβώς τη διεύθυνση URL επιστροφής παρακάτω:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Γίνονται επίσης δεκτοί υποτομείς. Π.χ.: Το \"company.com\" θα επιτρέπει το user@company.com και το user@sub.company.com."

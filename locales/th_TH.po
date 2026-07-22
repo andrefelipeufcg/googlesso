@@ -189,3 +189,6 @@ msgid ""
 msgstr ""
 "ใต้ <strong>URI การเปลี่ยนเส้นทางที่ได้รับอนุญาต</strong> ให้คัดลอกและวาง "
 "URL ที่ส่งคืนด้านล่างทุกประการ:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "ยอมรับโดเมนย่อยด้วย เช่น \"company.com\" จะอนุญาต user@company.com และ user@sub.company.com"

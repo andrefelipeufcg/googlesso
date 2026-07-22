@@ -192,3 +192,6 @@ msgid ""
 msgstr ""
 "Dalyje <strong>Įgalioti peradresavimo URI</strong> nukopijuokite ir "
 "įklijuokite tiksliai toliau pateiktą grąžinimo URL:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Taip pat priimami padomeniai. Pvz.: „company.com“ leis user@company.com ir user@sub.company.com."

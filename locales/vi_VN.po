@@ -188,3 +188,6 @@ msgid ""
 msgstr ""
 "Trong <strong>URI chuyển hướng được ủy quyền</strong>, hãy sao chép và dán "
 "chính xác URL trả về bên dưới:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Tên miền phụ cũng được chấp nhận. Ví dụ: \"company.com\" sẽ cho phép user@company.com và user@sub.company.com."

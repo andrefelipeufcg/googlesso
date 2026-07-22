@@ -194,3 +194,6 @@ msgid ""
 msgstr ""
 "Под <strong>Упълномощени URI адреси за пренасочване</strong> копирайте и "
 "поставете точно обратния URL адрес по-долу:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Поддомейните също се приемат. Напр.: \"company.com\" ще позволи user@company.com и user@sub.company.com."

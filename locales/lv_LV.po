@@ -193,3 +193,6 @@ msgid ""
 msgstr ""
 "Sadaļā <strong>Atļautie novirzīšanas URI</strong> kopējiet un ielīmējiet "
 "tieši tālāk norādīto atgriešanas URL:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Tiek pieņemti arī apakšdomēni. Piem.: \"company.com\" ļaus izmantot user@company.com un user@sub.company.com."

@@ -191,3 +191,6 @@ msgid ""
 msgstr ""
 "Kopeerige ja kleepige jaotises <strong>Lubatud ümbersuunamise URI-d</strong>"
 " täpselt allolev tagastus-URL:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Vastu võetakse ka alamdomeene. Nt: \"company.com\" lubab user@company.com ja user@sub.company.com."

@@ -191,3 +191,6 @@ msgid ""
 msgstr ""
 "<strong>Baimendutako birbideratze URIak</strong> atalean, kopiatu eta "
 "itsatsi zehatz-mehatz itzultzeko URLa behean:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Azpidomeinuak ere onartzen dira. Adib.: \"company.com\"-ek user@company.com eta user@sub.company.com baimenduko ditu."

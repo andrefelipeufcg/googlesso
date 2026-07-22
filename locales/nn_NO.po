@@ -191,3 +191,6 @@ msgid ""
 msgstr ""
 "Under <strong>Autoriserte omdirigerings-URIer</strong> kopierer og limer du "
 "inn nøyaktig retur-URI-en nedenfor:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Underdomener blir òg aksepterte. F.eks.: \"company.com\" vil tillate user@company.com og user@sub.company.com."

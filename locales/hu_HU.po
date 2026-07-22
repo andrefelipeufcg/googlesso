@@ -196,3 +196,6 @@ msgid ""
 msgstr ""
 "Az <strong>Engedélyezett átirányítási URI-k</strong> alatt másolja ki és "
 "illessze be pontosan az alábbi visszatérési URL-t:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Az aldomaineket is elfogadjuk. Pl.: a \"company.com\" engedélyezi a user@company.com és a user@sub.company.com címet."

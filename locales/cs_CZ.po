@@ -191,3 +191,6 @@ msgid ""
 msgstr ""
 "V části <strong>URI autorizovaného přesměrování</strong> zkopírujte a vložte"
 " přesně návratovou adresu URL níže:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Jsou přijímány také subdomény. Např.: \"company.com\" povolí user@company.com a user@sub.company.com."

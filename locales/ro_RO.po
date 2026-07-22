@@ -191,3 +191,6 @@ msgid ""
 msgstr ""
 "Sub <strong>URI de redirecționare autorizate</strong>, copiați și inserați "
 "exact adresa URL de returnare de mai jos:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Sunt acceptate și subdomeniile. De exemplu: „company.com” va permite user@company.com și user@sub.company.com."

@@ -172,3 +172,6 @@ msgid ""
 "Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
 "return URL below:"
 msgstr "在<strong>授权重定向 URI</strong> 下，准确复制并粘贴以下返回 URL："
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "也接受子域。例如：“company.com”将允许 user@company.com 和 user@sub.company.com。"

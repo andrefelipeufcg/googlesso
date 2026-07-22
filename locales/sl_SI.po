@@ -191,3 +191,6 @@ msgid ""
 msgstr ""
 "Pod <strong>Pooblaščeni preusmeritveni URI-ji</strong> kopirajte in "
 "prilepite natanko spodnji povratni URL:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Sprejete so tudi poddomene. Npr.: \"company.com\" bo dovolil user@company.com in user@sub.company.com."

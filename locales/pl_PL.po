@@ -194,3 +194,6 @@ msgid ""
 msgstr ""
 "W sekcji <strong>Autoryzowane identyfikatory URI przekierowań</strong> "
 "skopiuj i wklej dokładnie poniższy zwrotny adres URL:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Akceptowane są również subdomeny. Np.: \"company.com\" zezwoli na user@company.com i user@sub.company.com."

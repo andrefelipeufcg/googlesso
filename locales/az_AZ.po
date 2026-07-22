@@ -188,3 +188,6 @@ msgid ""
 msgstr ""
 "<strong>İcazəli yönləndirmə URI-ləri</strong> altında tam olaraq aşağıdakı "
 "qaytarma URL-ni kopyalayın və yapışdırın:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Alt domenlər də qəbul edilir. Məs: \"company.com\", user@company.com və user@sub.company.com üçün icazə verəcək."

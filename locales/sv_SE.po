@@ -192,3 +192,6 @@ msgid ""
 msgstr ""
 "Under <strong>Auktoriserade omdirigerings-URI:er</strong>, kopiera och "
 "klistra in exakt returadressen nedan:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Underdomäner accepteras också. T.ex.: \"company.com\" tillåter user@company.com och user@sub.company.com."

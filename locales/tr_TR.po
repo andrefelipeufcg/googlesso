@@ -189,5 +189,267 @@ msgstr ""
 "<strong>Yetkili yönlendirme URI'leri</strong> altında, aşağıdaki dönüş "
 "URL'sini tam olarak kopyalayıp yapıştırın:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "Alt alan adları da kabul edilir. Örn.: \"company.com\", user@company.com ve user@sub.company.com'a izin verecektir."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"Alt alan adları da kabul edilir. Örn.: \"company.com\", user@company.com ve "
+"user@sub.company.com'a izin verecektir."
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"Hesap oluşturma kurallarını test etmek ve bir e-postaya hangi "
+"Profilin/Varlığın atanacağını keşfetmek için,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"Eklenti <code>Session::init()</code>'ı çağırır. GLPI çekirdeği kullanıcının "
+"profillerini yükler ve oturumu başlatır. Kullanıcı kontrol paneline "
+"yönlendirilir."
+
+msgid "Error Creating Account"
+msgstr "Hesap Oluşturma Hatası"
+
+msgid "No Profile Configured"
+msgstr "Yapılandırılmış Profil Yok"
+
+msgid "Database Search"
+msgstr "Veritabanı Arama"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "Şimdi devam edip hesabınızı oluşturmak istiyor musunuz?"
+
+msgid "click here"
+msgstr "buraya tıklayın"
+
+msgid "Auto Creation Disabled"
+msgstr "Otomatik Oluşturma Devre Dışı"
+
+msgid "Rules Simulator"
+msgstr "Kural Simülatörü"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"Sistem mevcut <strong>%s</strong> hesabına (ID: %d) giriş yapacaktır. Yeni "
+"hesap oluşturulmayacaktır."
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ Girişi Simüle Et"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"Çıkarılan alan adı: <strong>@%s</strong>. Uygulanan kural: "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "Yapılandırma Okuması"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "Kullanıcı \"%s\" zaten mevcut. Giriş başarıyla gerçekleştirilecektir."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"\"<strong>%s</strong>\" e-posta etki alanına izin verilmiyor. Eklenti "
+"\"<strong>%s</strong>\" alan adına veya onun alt alan adlarına erişimi "
+"kısıtlıyor."
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"Eklenti, \"<strong>%s</strong>\" kullanıcısını oluşturmak için "
+"<code>User::add()</code> öğesini çağırır."
+
+msgid "using the primary email:"
+msgstr "birincil e-postayı kullanarak:"
+
+msgid "User::add() called"
+msgstr "Kullanıcı::add() çağrıldı"
+
+msgid "Profile Determined by Plugin"
+msgstr "Profil Eklenti Tarafından Belirlenir"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Profil: <strong>%s</strong> (ID: %d) | Varlık: <strong>%s</strong> (Kimlik: "
+"%d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr ""
+"\"<strong>%s</strong>\" e-posta etki alanına kısıtlama kuralı tarafından "
+"izin veriliyor."
+
+msgid "Core Default Profile Assigned"
+msgstr "Temel Varsayılan Profil Atandı"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "Doğrulanmış e-posta adresi mevcut: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "\"%s\" kullanıcısı MEVCUT DEĞİLDİR ve otomatik oluşturma devre dışıdır."
+
+msgid "Profile Correction by Plugin"
+msgstr "Eklenti ile Profil Düzeltme"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr ""
+"Sisteme Google üzerinden erişebilmek için yeni bir hesap oluşturulacaktır."
+
+msgid "Rule Used"
+msgstr "Kullanılan Kural"
+
+msgid "Plugin googlesso step"
+msgstr "Googlesso eklentisi adımı"
+
+msgid "Simulator:"
+msgstr "Simülatör:"
+
+msgid "Account Creation Required"
+msgstr "Hesap Oluşturma Gerekli"
+
+msgid "Domain Rule for \"%s\""
+msgstr "\"%s\" için Etki Alanı Kuralı"
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"Bu simülatör, eklenti mantığından dahili GLPI Çekirdeği davranışına kadar "
+"tüm yürütme zincirini aslına sadık bir şekilde yeniden üretir. Bir e-posta "
+"girin ve gerçek bir girişte neler olacağını adım adım görün."
+
+msgid "Back to configuration"
+msgstr "Yapılandırmaya geri dön"
+
+msgid "Account Creation Confirmation"
+msgstr "Hesap Oluşturma Onayı"
+
+msgid "Domain Rules"
+msgstr "Etki Alanı Kuralları"
+
+msgid "Account Creation Simulator"
+msgstr "Hesap Oluşturma Simülatörü"
+
+msgid "No"
+msgstr "HAYIR"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "<strong>%s</strong> e-postasına sahip kullanıcı bulunamadı"
+
+msgid "Login / Email"
+msgstr "Giriş / E-posta"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"\"Kullanıcıları otomatik olarak oluştur\" yapılandırması <strong>DEVRE "
+"DIŞI</strong> durumdadır. Giriş engellenecektir."
+
+msgid "(none)"
+msgstr "(hiçbiri)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "Giriş engellendi: Yalnızca %s etki alanındaki hesaplar kabul edilir."
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "\"%s\" kullanıcısı başarıyla oluşturulacak."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"Eklenti, GLPI tarafından atanan yanlış profilleri kaldırır ve "
+"<strong>%s</strong> profilini ve <strong>%s</strong> varlığını "
+"<code>Profile_User</code> sınıfını kullanarak açıkça bağlar."
+
+msgid "Email Validation"
+msgstr "E-posta Doğrulaması"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "Kullanıcı e-postayla bulundu: <strong>%s</strong> (ID: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "Etki Alanı Kısıtlama Kontrolü"
+
+msgid "None"
+msgstr "Hiçbiri"
+
+msgid "Session::init() — Login Performed"
+msgstr "Session::init() — Giriş Gerçekleştirildi"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "Yürütme Zinciri (Adım Adım)"
+
+msgid "Login to Existing Account"
+msgstr "Mevcut Hesaba Giriş Yapın"
+
+msgid "How it works:"
+msgstr "Nasıl çalışır:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"GLPI 11'de çekirdek, harici kimlik doğrulamaları tarafından iletilen profili"
+" yok sayar ve otomatik olarak genel varsayılan profili (genellikle Self "
+"Servis) yeni kullanıcıya atar."
+
+msgid "Final Entity"
+msgstr "Nihai Varlık"
+
+msgid "Final Result"
+msgstr "Nihai Sonuç"
+
+msgid "Back to Login"
+msgstr "Girişe Geri Dön"
+
+msgid "Simulated Email:"
+msgstr "Simüle E-posta:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"Alanı kısıtla: <strong>%s</strong> | Kullanıcıları otomatik oluştur: "
+"<strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "Nihai Profil"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"\"%s\" kullanıcısı oluşturulacak, ancak HERHANGİ bir profil olmadan. GLPI'ye"
+" erişim reddedilecektir. Lütfen Varsayılan Kural veya Etki Alanı "
+"Kurallarında geçerli bir profil yapılandırın."
+
+msgid "GLPI Core step"
+msgstr "GLPI Çekirdek adımı"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"Eklenti kurallarında geçerli bir profil (ID > 0) bulunamadı. Kullanıcı, "
+"profil OLMADAN oluşturulur."

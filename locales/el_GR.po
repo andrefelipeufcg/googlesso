@@ -196,5 +196,274 @@ msgstr ""
 "Στην ενότητα <strong>Εξουσιοδοτημένα URI ανακατεύθυνσης</strong>, αντιγράψτε"
 " και επικολλήστε ακριβώς τη διεύθυνση URL επιστροφής παρακάτω:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "Γίνονται επίσης δεκτοί υποτομείς. Π.χ.: Το \"company.com\" θα επιτρέπει το user@company.com και το user@sub.company.com."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"Γίνονται επίσης δεκτοί υποτομείς. Π.χ.: Το \"company.com\" θα επιτρέπει το "
+"user@company.com και το user@sub.company.com."
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"Για να δοκιμάσετε τους κανόνες δημιουργίας λογαριασμού και να ανακαλύψετε "
+"ποιο Προφίλ/Οντότητα θα εκχωρηθεί σε ένα email,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"Η προσθήκη καλεί το <code>Session::init()</code>. Ο πυρήνας GLPI φορτώνει τα"
+" προφίλ του χρήστη και ξεκινά τη συνεδρία. Ο χρήστης ανακατευθύνεται στον "
+"πίνακα ελέγχου."
+
+msgid "Error Creating Account"
+msgstr "Σφάλμα κατά τη δημιουργία λογαριασμού"
+
+msgid "No Profile Configured"
+msgstr "Δεν έχει διαμορφωθεί προφίλ"
+
+msgid "Database Search"
+msgstr "Αναζήτηση βάσεων δεδομένων"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "Θέλετε να προχωρήσετε και να δημιουργήσετε τον λογαριασμό σας τώρα;"
+
+msgid "click here"
+msgstr "κάντε κλικ εδώ"
+
+msgid "Auto Creation Disabled"
+msgstr "Απενεργοποιήθηκε η αυτόματη δημιουργία"
+
+msgid "Rules Simulator"
+msgstr "Προσομοιωτής κανόνων"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"Το σύστημα θα συνδεόταν στον υπάρχοντα λογαριασμό <strong>%s</strong> (ID: "
+"%d). Δεν θα δημιουργηθεί νέος λογαριασμός."
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ Προσομοίωση σύνδεσης"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"Εξαγόμενος τομέας: <strong>@%s</strong>. Εφαρμοσμένος κανόνας: "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "Διαμόρφωση Διαβάστε"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "Ο χρήστης \"%s\" υπάρχει ήδη. Η σύνδεση θα πραγματοποιηθεί με επιτυχία."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"Ο τομέας ηλεκτρονικού ταχυδρομείου \"<strong>%s</strong>\" δεν επιτρέπεται. "
+"Η προσθήκη περιορίζει την πρόσβαση στον τομέα \"<strong>%s</strong>\" ή "
+"στους υποτομείς του."
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"Η προσθήκη καλεί το <code>User::add()</code> για να δημιουργήσει τον χρήστη "
+"\"<strong>%s</strong>\"."
+
+msgid "using the primary email:"
+msgstr "χρησιμοποιώντας το κύριο email:"
+
+msgid "User::add() called"
+msgstr "Ο χρήστης::add() κάλεσε"
+
+msgid "Profile Determined by Plugin"
+msgstr "Το προφίλ καθορίζεται από την προσθήκη"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Προφίλ: <strong>%s</strong> (ID: %d) | Οντότητα: <strong>%s</strong> "
+"(Αναγνωριστικό: %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr ""
+"Ο τομέας ηλεκτρονικού ταχυδρομείου \"<strong>%s</strong>\" επιτρέπεται από "
+"τον κανόνα περιορισμού."
+
+msgid "Core Default Profile Assigned"
+msgstr "Εκχωρήθηκε βασικό προεπιλεγμένο προφίλ"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr ""
+"Υπάρχει επαληθευμένη διεύθυνση ηλεκτρονικού ταχυδρομείου: "
+"<strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr ""
+"Ο χρήστης \"%s\" ΔΕΝ υπάρχει και η αυτόματη δημιουργία είναι "
+"απενεργοποιημένη."
+
+msgid "Profile Correction by Plugin"
+msgstr "Διόρθωση προφίλ από πρόσθετο"
+
+msgid "Yes"
+msgstr "Ναί"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr ""
+"Για πρόσβαση στο σύστημα μέσω Google, θα δημιουργηθεί ένας νέος λογαριασμός "
+"για"
+
+msgid "Rule Used"
+msgstr "Κανόνας που χρησιμοποιείται"
+
+msgid "Plugin googlesso step"
+msgstr "Βήμα προσθήκης googlesso"
+
+msgid "Simulator:"
+msgstr "Προσομοιωτής:"
+
+msgid "Account Creation Required"
+msgstr "Απαιτείται δημιουργία λογαριασμού"
+
+msgid "Domain Rule for \"%s\""
+msgstr "Κανόνας τομέα για \"%s\""
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"Αυτός ο προσομοιωτής αναπαράγει πιστά ολόκληρη την αλυσίδα εκτέλεσης — από "
+"τη λογική της προσθήκης έως την εσωτερική συμπεριφορά του πυρήνα GLPI. "
+"Εισαγάγετε ένα email και δείτε βήμα προς βήμα τι θα συμβεί σε μια πραγματική"
+" σύνδεση."
+
+msgid "Back to configuration"
+msgstr "Επιστροφή στη διαμόρφωση"
+
+msgid "Account Creation Confirmation"
+msgstr "Επιβεβαίωση δημιουργίας λογαριασμού"
+
+msgid "Domain Rules"
+msgstr "Κανόνες τομέα"
+
+msgid "Account Creation Simulator"
+msgstr "Προσομοιωτής δημιουργίας λογαριασμού"
+
+msgid "No"
+msgstr "Οχι"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "Δεν βρέθηκε χρήστης με το email <strong>%s</strong>"
+
+msgid "Login / Email"
+msgstr "Είσοδος / Email"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"Η διαμόρφωση \"Αυτόματη δημιουργία χρηστών\" είναι "
+"<strong>ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΗ</strong>. Η σύνδεση θα αποκλειστεί."
+
+msgid "(none)"
+msgstr "(κανένας)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr ""
+"Αποκλείστηκε η σύνδεση: Μόνο λογαριασμοί από τον τομέα %s γίνονται δεκτοί."
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "Ο χρήστης \"%s\" θα δημιουργηθεί με επιτυχία."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"Η προσθήκη καταργεί τα λανθασμένα προφίλ που έχουν εκχωρηθεί από το GLPI και"
+" συνδέει ρητά το προφίλ <strong>%s</strong> και την οντότητα "
+"<strong>%s</strong> χρησιμοποιώντας την τάξη <code>Profile_User</code>."
+
+msgid "Email Validation"
+msgstr "Επικύρωση email"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "Ο χρήστης βρέθηκε μέσω email: <strong>%s</strong> (Αναγνωριστικό: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "Έλεγχος περιορισμού τομέα"
+
+msgid "None"
+msgstr "Κανένας"
+
+msgid "Session::init() — Login Performed"
+msgstr "Session::init() — Πραγματοποιήθηκε σύνδεση"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "Αλυσίδα εκτέλεσης (βήμα προς βήμα)"
+
+msgid "Login to Existing Account"
+msgstr "Συνδεθείτε στον Υπάρχοντα Λογαριασμό"
+
+msgid "How it works:"
+msgstr "Πώς λειτουργεί:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"Στο GLPI 11, ο πυρήνας αγνοεί το προφίλ που έχει περάσει από εξωτερικούς "
+"ελέγχους ταυτότητας και εκχωρεί αυτόματα το καθολικό προεπιλεγμένο προφίλ "
+"(συνήθως Self-Service) στον νέο χρήστη."
+
+msgid "Final Entity"
+msgstr "Τελική οντότητα"
+
+msgid "Final Result"
+msgstr "Τελικό Αποτέλεσμα"
+
+msgid "Back to Login"
+msgstr "Επιστροφή στη Σύνδεση"
+
+msgid "Simulated Email:"
+msgstr "Προσομοίωση email:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"Περιορισμός τομέα: <strong>%s</strong> | Αυτόματη δημιουργία χρηστών: "
+"<strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "Τελικό Προφίλ"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"Ο χρήστης \"%s\" θα δημιουργηθεί, αλλά χωρίς ΚΑΝΕΝΑ προφίλ. Η πρόσβαση στο "
+"GLPI θα απαγορευόταν. Διαμορφώστε ένα έγκυρο προφίλ στον Προεπιλεγμένο "
+"κανόνα ή στους κανόνες τομέα."
+
+msgid "GLPI Core step"
+msgstr "Βήμα πυρήνα GLPI"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"Δεν βρέθηκε έγκυρο προφίλ (ID > 0) στους κανόνες της προσθήκης. Ο χρήστης θα"
+" δημιουργηθεί ΧΩΡΙΣ προφίλ."

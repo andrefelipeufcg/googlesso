@@ -173,5 +173,230 @@ msgid ""
 "return URL below:"
 msgstr "在<strong>授权重定向 URI</strong> 下，准确复制并粘贴以下返回 URL："
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
 msgstr "也接受子域。例如：“company.com”将允许 user@company.com 和 user@sub.company.com。"
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr "要测试帐户创建规则并发现哪个配置文件/实体将分配给电子邮件，"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr "该插件调用 <code>Session::init()</code>。 GLPI 核心加载用户的配置文件并启动会话。用户被重定向到仪表板。"
+
+msgid "Error Creating Account"
+msgstr "创建帐户时出错"
+
+msgid "No Profile Configured"
+msgstr "未配置配置文件"
+
+msgid "Database Search"
+msgstr "数据库检索"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "您想立即继续创建您的帐户吗？"
+
+msgid "click here"
+msgstr "点击这里"
+
+msgid "Auto Creation Disabled"
+msgstr "自动创建已禁用"
+
+msgid "Rules Simulator"
+msgstr "规则模拟器"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr "系统将登录现有帐户<strong>%s</strong>（ID：%d）。不会创建新帐户。"
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ 模拟登录"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr "提取的域：<strong>@%s</strong>。应用的规则：<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "配置读取"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "用户“%s”已存在。登录将成功执行。"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr "不允许使用电子邮件域“<strong>%s</strong>”。该插件限制对域“<strong>%s</strong>”或其子域的访问。"
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr "该插件调用 <code>User::add()</code> 创建用户“<strong>%s</strong>”。"
+
+msgid "using the primary email:"
+msgstr "使用主要电子邮件："
+
+msgid "User::add() called"
+msgstr "调用了 User::add()"
+
+msgid "Profile Determined by Plugin"
+msgstr "由插件确定的配置文件"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr "个人资料：<strong>%s</strong>（ID：%d）|实体：<strong>%s</strong>（ID：%d）"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr "限制规则允许电子邮件域“<strong>%s</strong>”。"
+
+msgid "Core Default Profile Assigned"
+msgstr "分配的核心默认配置文件"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "已验证的电子邮件地址：<strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "用户“%s”不存在并且自动创建被禁用。"
+
+msgid "Profile Correction by Plugin"
+msgstr "通过插件进行轮廓校正"
+
+msgid "Yes"
+msgstr "是的"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr "要通过 Google 访问系统，将创建一个新帐户"
+
+msgid "Rule Used"
+msgstr "使用的规则"
+
+msgid "Plugin googlesso step"
+msgstr "插件 googlesso 步骤"
+
+msgid "Simulator:"
+msgstr "模拟器："
+
+msgid "Account Creation Required"
+msgstr "需要创建帐户"
+
+msgid "Domain Rule for \"%s\""
+msgstr "“%s”的域规则"
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr "该模拟器忠实地再现了整个执行链——从插件逻辑到内部 GLPI Core 行为。输入电子邮件并逐步查看真实登录时会发生什么。"
+
+msgid "Back to configuration"
+msgstr "返回配置"
+
+msgid "Account Creation Confirmation"
+msgstr "账户创建确认"
+
+msgid "Domain Rules"
+msgstr "域规则"
+
+msgid "Account Creation Simulator"
+msgstr "帐户创建模拟器"
+
+msgid "No"
+msgstr "不"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "找不到电子邮件 <strong>%s</strong> 的用户"
+
+msgid "Login / Email"
+msgstr "登录/电子邮件"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr "“自动创建用户”配置已<strong>禁用</strong>。登录将被阻止。"
+
+msgid "(none)"
+msgstr "（没有任何）"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "登录被阻止：仅接受来自 %s 域的帐户。"
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "用户“%s”将成功创建。"
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"该插件会删除 GLPI 分配的不正确配置文件，并使用 <code>Profile_User</code> 类显式链接配置文件 "
+"<strong>%s</strong> 和实体 <strong>%s</strong>。"
+
+msgid "Email Validation"
+msgstr "电子邮件验证"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "通过电子邮件找到的用户：<strong>%s</strong>（ID：%d）"
+
+msgid "Domain Restriction Check"
+msgstr "域名限制检查"
+
+msgid "None"
+msgstr "没有任何"
+
+msgid "Session::init() — Login Performed"
+msgstr "Session::init() — 登录已执行"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "执行链（逐步）"
+
+msgid "Login to Existing Account"
+msgstr "登录现有帐户"
+
+msgid "How it works:"
+msgstr "工作原理："
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr "在 GLPI 11 中，核心忽略外部身份验证传递的配置文件，并自动将全局默认配置文件（通常是自助服务）分配给新用户。"
+
+msgid "Final Entity"
+msgstr "最终实体"
+
+msgid "Final Result"
+msgstr "最终结果"
+
+msgid "Back to Login"
+msgstr "返回登录"
+
+msgid "Simulated Email:"
+msgstr "模拟电子邮件："
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr "限制域：<strong>%s</strong> |自动创建用户：<strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "最终简介"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr "将创建用户“%s”，但没有任何配置文件。对 GLPI 的访问将被拒绝。请在默认规则或域规则中配置有效的配置文件。"
+
+msgid "GLPI Core step"
+msgstr "GLPI 核心步骤"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr "在插件规则中找不到有效的配置文件 (ID > 0)。将在没有配置文件的情况下创建用户。"

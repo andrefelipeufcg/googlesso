@@ -192,5 +192,265 @@ msgstr ""
 "<strong>Эрх бүхий дахин чиглүүлэх URI</strong>-н доор яг буцах URL-г хуулж "
 "буулгана уу:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "Дэд домайнуудыг мөн хүлээн зөвшөөрдөг. Жнь: \"company.com\" нь user@company.com болон user@sub.company.com-г зөвшөөрнө."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"Дэд домайнуудыг мөн хүлээн зөвшөөрдөг. Жнь: \"company.com\" нь "
+"user@company.com болон user@sub.company.com-г зөвшөөрнө."
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"Бүртгэл үүсгэх дүрмийг туршиж үзэхийн тулд аль профайл/байгууллага нь имэйлд"
+" хуваарилагдахыг олж мэдэхийн тулд,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"Plugin нь <code>Session::init()</code>-г дууддаг. GLPI цөм нь хэрэглэгчийн "
+"профайлыг ачаалж, сессийг эхлүүлдэг. Хэрэглэгчийг хяналтын самбар руу "
+"шилжүүлнэ."
+
+msgid "Error Creating Account"
+msgstr "Бүртгэл үүсгэхэд алдаа гарлаа"
+
+msgid "No Profile Configured"
+msgstr "Профайл тохируулаагүй байна"
+
+msgid "Database Search"
+msgstr "Өгөгдлийн сангийн хайлт"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "Та одоо үргэлжлүүлж, бүртгэлээ үүсгэмээр байна уу?"
+
+msgid "click here"
+msgstr "энд дарна уу"
+
+msgid "Auto Creation Disabled"
+msgstr "Автомат үүсгэхийг идэвхгүй болгосон"
+
+msgid "Rules Simulator"
+msgstr "Дүрмийн симулятор"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"Систем одоо байгаа <strong>%s</strong> (ID: %d) бүртгэл рүү нэвтэрнэ. Шинэ "
+"данс үүсгэхгүй."
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ Нэвтрэхийг дуурай"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"Татаж авсан домэйн: <strong>@%s</strong>. Хэрэглэсэн дүрэм: "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "Тохиргоог уншина уу"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr ""
+"\"%s\" хэрэглэгч аль хэдийн байна. Нэвтрэх ажиллагааг амжилттай хийх болно."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"\"<strong>%s</strong>\" имэйл домайныг зөвшөөрөхгүй. Энэхүү залгаас нь "
+"\"<strong>%s</strong>\" домайн эсвэл түүний дэд домайнуудад хандах хандалтыг"
+" хязгаарладаг."
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"Plugin нь \"<strong>%s</strong>\" хэрэглэгчийг үүсгэхийн тулд "
+"<code>User::add()</code>-г дууддаг."
+
+msgid "using the primary email:"
+msgstr "үндсэн имэйлийг ашиглан:"
+
+msgid "User::add() called"
+msgstr "Хэрэглэгч::add() гэж дуудсан"
+
+msgid "Profile Determined by Plugin"
+msgstr "Профайлыг залгаасаар тодорхойлсон"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Профайл: <strong>%s</strong> (ID: %d) | Аж ахуйн нэгж: <strong>%s</strong> "
+"(ID: %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr "Хязгаарлалтын дүрмээр \"<strong>%s</strong>\" имэйл домэйныг зөвшөөрдөг."
+
+msgid "Core Default Profile Assigned"
+msgstr "Үндсэн өгөгдмөл профайлыг томилсон"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "Баталгаажсан имэйл байна: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "\"%s\" хэрэглэгч БАЙДАГГҮЙ ба автоматаар үүсгэхийг идэвхгүй болгосон."
+
+msgid "Profile Correction by Plugin"
+msgstr "Plugin ашиглан профайлыг засах"
+
+msgid "Yes"
+msgstr "Тиймээ"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr "Google-ээр дамжуулан системд нэвтрэхийн тулд шинэ бүртгэл үүсгэнэ"
+
+msgid "Rule Used"
+msgstr "Ашигласан дүрэм"
+
+msgid "Plugin googlesso step"
+msgstr "Google залгаас хийх алхам"
+
+msgid "Simulator:"
+msgstr "Симулятор:"
+
+msgid "Account Creation Required"
+msgstr "Бүртгэл үүсгэх шаардлагатай"
+
+msgid "Domain Rule for \"%s\""
+msgstr "\"%s\"-н домайн дүрэм"
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"Энэхүү симулятор нь залгаасын логикоос эхлээд GLPI Core-ийн дотоод үйл "
+"ажиллагаа хүртэл гүйцэтгэх гинжийг бүхэлд нь үнэнчээр хуулбарладаг. Имэйлээ "
+"оруулаад, жинхэнэ нэвтрэхэд юу тохиолдохыг алхам алхмаар хараарай."
+
+msgid "Back to configuration"
+msgstr "Тохиргоо руу буцах"
+
+msgid "Account Creation Confirmation"
+msgstr "Бүртгэл үүсгэх баталгаажуулалт"
+
+msgid "Domain Rules"
+msgstr "Домэйн дүрэм"
+
+msgid "Account Creation Simulator"
+msgstr "Бүртгэл үүсгэх симулятор"
+
+msgid "No"
+msgstr "Үгүй"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "<strong>%s</strong> имэйлтэй хэрэглэгч олдсонгүй"
+
+msgid "Login / Email"
+msgstr "Нэвтрэх / Имэйл"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"\"Хэрэглэгчдийг автоматаар үүсгэх\" тохиргоо нь <strong>ИДЭВХГҮЙ "
+"БАЙДАЛТАЙ</strong> байна. Нэвтрэх нь хаагдах болно."
+
+msgid "(none)"
+msgstr "(байхгүй)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "Нэвтрэхийг хориглосон: Зөвхөн %s домэйны бүртгэлийг зөвшөөрнө."
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "\"%s\" хэрэглэгчийг амжилттай үүсгэсэн."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"Энэхүү залгаас нь GLPI-аас өгсөн буруу профайлыг устгаж, "
+"<code>Profile_User</code> анги ашиглан <strong>%s</strong> профайл болон "
+"<strong>%s</strong> объектыг тодорхой холбодог."
+
+msgid "Email Validation"
+msgstr "Имэйл баталгаажуулалт"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "Хэрэглэгчийг имэйлээр олсон: <strong>%s</strong> (ID: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "Домэйн хязгаарлалтын шалгалт"
+
+msgid "None"
+msgstr "Байхгүй"
+
+msgid "Session::init() — Login Performed"
+msgstr "Session::init() — Нэвтрэхийг гүйцэтгэсэн"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "Гүйцэтгэлийн хэлхээ (Алхам алхмаар)"
+
+msgid "Login to Existing Account"
+msgstr "Одоо байгаа данс руу нэвтэрнэ үү"
+
+msgid "How it works:"
+msgstr "Энэ нь хэрхэн ажилладаг вэ:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"GLPI 11-д цөм нь гадны нэвтрэлт танилтаар дамжуулсан профайлыг үл "
+"тоомсорлож, шинэ хэрэглэгчдэд дэлхийн анхдагч профайлыг (ихэвчлэн Self-"
+"Service) автоматаар оноодог."
+
+msgid "Final Entity"
+msgstr "Эцсийн байгууллага"
+
+msgid "Final Result"
+msgstr "Эцсийн үр дүн"
+
+msgid "Back to Login"
+msgstr "Нэвтрэх рүү буцах"
+
+msgid "Simulated Email:"
+msgstr "Загварчилсан имэйл:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"Домэйн хязгаарлах: <strong>%s</strong> | Хэрэглэгчдийг автоматаар үүсгэх: "
+"<strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "Эцсийн профайл"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"\"%s\" хэрэглэгч үүсгэгдэх боловч ямар ч профайл байхгүй болно. GLPI-д "
+"нэвтрэх эрхийг хориглоно. Өгөгдмөл дүрэм эсвэл Домэйн дүрэмд хүчинтэй "
+"профайлыг тохируулна уу."
+
+msgid "GLPI Core step"
+msgstr "GLPI үндсэн алхам"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"Plugin дүрмээс хүчинтэй профайл (ID > 0) олдсонгүй. Хэрэглэгчийг "
+"профайлгүйгээр үүсгэнэ."

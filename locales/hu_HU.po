@@ -197,5 +197,269 @@ msgstr ""
 "Az <strong>Engedélyezett átirányítási URI-k</strong> alatt másolja ki és "
 "illessze be pontosan az alábbi visszatérési URL-t:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "Az aldomaineket is elfogadjuk. Pl.: a \"company.com\" engedélyezi a user@company.com és a user@sub.company.com címet."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"Az aldomaineket is elfogadjuk. Pl.: a \"company.com\" engedélyezi a "
+"user@company.com és a user@sub.company.com címet."
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"A fióklétrehozási szabályok teszteléséhez és annak megállapításához, hogy "
+"melyik profil/entitás lesz hozzárendelve egy e-mailhez,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"A beépülő modul meghívja a <code>Session::init()</code>-t. A GLPI mag "
+"betölti a felhasználó profiljait, és elindítja a munkamenetet. A felhasználó"
+" az irányítópultra kerül."
+
+msgid "Error Creating Account"
+msgstr "Hiba a fiók létrehozása során"
+
+msgid "No Profile Configured"
+msgstr "Nincs konfigurálva profil"
+
+msgid "Database Search"
+msgstr "Keresés az adatbázisban"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "Folytatja és létrehozza fiókját most?"
+
+msgid "click here"
+msgstr "kattintson ide"
+
+msgid "Auto Creation Disabled"
+msgstr "Automatikus létrehozás letiltva"
+
+msgid "Rules Simulator"
+msgstr "Szabályszimulátor"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"A rendszer bejelentkezik a meglévő <strong>%s</strong> fiókba (azonosító: "
+"%d). Nem jön létre új fiók."
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ Bejelentkezés szimulálása"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"Kibontott domain: <strong>@%s</strong>. Alkalmazott szabály: "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "Konfiguráció olvasása"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "\"%s\" felhasználó már létezik. A bejelentkezés sikeresen megtörténik."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"A(z) „<strong>%s</strong>” e-mail domain nem engedélyezett. A beépülő modul "
+"korlátozza a hozzáférést a(z) \"<strong>%s</strong>\" domainhez vagy annak "
+"aldomainjéhez."
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"A beépülő modul meghívja a <code>User::add()</code>-t a(z) "
+"\"<strong>%s</strong>\" felhasználó létrehozásához."
+
+msgid "using the primary email:"
+msgstr "az elsődleges e-mail cím használatával:"
+
+msgid "User::add() called"
+msgstr "A User::add() meghívása"
+
+msgid "Profile Determined by Plugin"
+msgstr "A beépülő modul által meghatározott profil"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Profil: <strong>%s</strong> (azonosító: %d) | Entitás: <strong>%s</strong> "
+"(azonosító: %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr ""
+"A \"<strong>%s</strong>\" e-mail domaint engedélyezi a korlátozási szabály."
+
+msgid "Core Default Profile Assigned"
+msgstr "Alapértelmezett profil hozzárendelve"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "Ellenőrzött e-mail: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr ""
+"A \"%s\" felhasználó NEM létezik, és az automatikus létrehozás le van "
+"tiltva."
+
+msgid "Profile Correction by Plugin"
+msgstr "Profiljavítás plugin segítségével"
+
+msgid "Yes"
+msgstr "Igen"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr ""
+"A rendszer Google-n keresztüli eléréséhez egy új fiók jön létre a számára"
+
+msgid "Rule Used"
+msgstr "Használt szabály"
+
+msgid "Plugin googlesso step"
+msgstr "Plugin googlesso lépés"
+
+msgid "Simulator:"
+msgstr "Szimulátor:"
+
+msgid "Account Creation Required"
+msgstr "Fiók létrehozása szükséges"
+
+msgid "Domain Rule for \"%s\""
+msgstr "\"%s\" domain szabálya"
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"Ez a szimulátor hűen reprodukálja a teljes végrehajtási láncot – a beépülő "
+"modultól a belső GLPI Core viselkedésig. Adjon meg egy e-mailt, és lépésről "
+"lépésre tekintse meg, mi történne egy valódi bejelentkezéskor."
+
+msgid "Back to configuration"
+msgstr "Vissza a konfigurációhoz"
+
+msgid "Account Creation Confirmation"
+msgstr "Fiók létrehozásának megerősítése"
+
+msgid "Domain Rules"
+msgstr "Domain szabályok"
+
+msgid "Account Creation Simulator"
+msgstr "Fióklétrehozási szimulátor"
+
+msgid "No"
+msgstr "Nem"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "Nem található felhasználó a(z) <strong>%s</strong> e-mail címmel"
+
+msgid "Login / Email"
+msgstr "Bejelentkezés / e-mail"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"A „Felhasználók automatikus létrehozása” konfiguráció "
+"<strong>TILTVA</strong>. A bejelentkezés blokkolva lenne."
+
+msgid "(none)"
+msgstr "(egyik sem)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "Bejelentkezés blokkolva: Csak a %s domain fiókjait fogadjuk el."
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "A \"%s\" felhasználó létrehozása sikeres volt."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"A beépülő modul eltávolítja a GLPI által hozzárendelt helytelen profilokat, "
+"és kifejezetten összekapcsolja a <strong>%s</strong> profilt és a "
+"<strong>%s</strong> entitást a <code>Profile_User</code> osztály "
+"használatával."
+
+msgid "Email Validation"
+msgstr "E-mail érvényesítés"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "Felhasználó e-mailben található: <strong>%s</strong> (azonosító: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "Domain korlátozás ellenőrzése"
+
+msgid "None"
+msgstr "Egyik sem"
+
+msgid "Session::init() — Login Performed"
+msgstr "Session::init() — Bejelentkezés végrehajtva"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "Végrehajtási lánc (lépésről lépésre)"
+
+msgid "Login to Existing Account"
+msgstr "Jelentkezzen be a meglévő fiókba"
+
+msgid "How it works:"
+msgstr "Hogyan működik:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"A GLPI 11-ben a mag figyelmen kívül hagyja a külső hitelesítések által "
+"átadott profilt, és automatikusan hozzárendeli a globális alapértelmezett "
+"profilt (általában önkiszolgáló) az új felhasználóhoz."
+
+msgid "Final Entity"
+msgstr "Végső entitás"
+
+msgid "Final Result"
+msgstr "Végső Eredmény"
+
+msgid "Back to Login"
+msgstr "Vissza a Bejelentkezéshez"
+
+msgid "Simulated Email:"
+msgstr "Szimulált e-mail:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"Domain korlátozása: <strong>%s</strong> | Felhasználók automatikus "
+"létrehozása: <strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "Végső profil"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"A(z) \"%s\" felhasználó létrejön, de SEMMILYEN profil nélkül. A GLPI-hez "
+"való hozzáférés megtagadva. Kérjük, állítson be érvényes profilt az "
+"Alapértelmezett szabályban vagy a Tartományszabályokban."
+
+msgid "GLPI Core step"
+msgstr "GLPI Core lépés"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"Nem található érvényes profil (ID > 0) a beépülő modul szabályai között. A "
+"felhasználó profil NÉLKÜL jönne létre."

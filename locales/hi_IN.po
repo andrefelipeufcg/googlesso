@@ -190,5 +190,264 @@ msgstr ""
 "<strong>अधिकृत रीडायरेक्ट यूआरआई</strong> के अंतर्गत, नीचे दिए गए रिटर्न "
 "यूआरएल को बिल्कुल कॉपी और पेस्ट करें:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "उपडोमेन भी स्वीकार किए जाते हैं। उदा.: \"company.com\", user@company.com और user@sub.company.com को अनुमति देगा।"
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"उपडोमेन भी स्वीकार किए जाते हैं। उदा.: \"company.com\", user@company.com और "
+"user@sub.company.com को अनुमति देगा।"
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"खाता निर्माण नियमों का परीक्षण करने और यह पता लगाने के लिए कि ईमेल को कौन सी"
+" प्रोफ़ाइल/इकाई सौंपी जाएगी,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"प्लगइन <code>Session::init()</code> को कॉल करता है। जीएलपीआई कोर उपयोगकर्ता "
+"की प्रोफाइल लोड करता है और सत्र शुरू करता है। उपयोगकर्ता को डैशबोर्ड पर पुनः"
+" निर्देशित किया जाता है."
+
+msgid "Error Creating Account"
+msgstr "खाता बनाने में त्रुटि"
+
+msgid "No Profile Configured"
+msgstr "कोई प्रोफ़ाइल कॉन्फ़िगर नहीं की गई"
+
+msgid "Database Search"
+msgstr "डेटाबेस खोज"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "क्या आप अभी आगे बढ़ना और अपना खाता बनाना चाहते हैं?"
+
+msgid "click here"
+msgstr "यहाँ क्लिक करें"
+
+msgid "Auto Creation Disabled"
+msgstr "स्वतः निर्माण अक्षम"
+
+msgid "Rules Simulator"
+msgstr "नियम सिम्युलेटर"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"सिस्टम मौजूदा खाते <strong>%s</strong> (आईडी: %d) में लॉग इन करेगा। कोई नया "
+"खाता नहीं बनाया जाएगा."
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ लॉगिन अनुकरण करें"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"निकाला गया डोमेन: <strong>@%s</strong>. लागू नियम: <strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "कॉन्फ़िगरेशन पढ़ें"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr ""
+"उपयोगकर्ता \"%s\" पहले से मौजूद है. लॉगिन सफलतापूर्वक निष्पादित किया जाएगा."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"ईमेल डोमेन \"<strong>%s</strong>\" की अनुमति नहीं है. प्लगइन "
+"\"<strong>%s</strong>\" डोमेन या उसके उपडोमेन तक पहुंच को प्रतिबंधित करता "
+"है।"
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"उपयोगकर्ता \"<strong>%s</strong>\" बनाने के लिए प्लगइन "
+"<code>User::add()</code> को कॉल करता है।"
+
+msgid "using the primary email:"
+msgstr "प्राथमिक ईमेल का उपयोग करना:"
+
+msgid "User::add() called"
+msgstr "उपयोगकर्ता::जोड़ें() को कॉल किया गया"
+
+msgid "Profile Determined by Plugin"
+msgstr "प्रोफ़ाइल प्लगइन द्वारा निर्धारित की गई"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"प्रोफ़ाइल: <strong>%s</strong> (आईडी: %d) | इकाई: <strong>%s</strong> (आईडी:"
+" %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr "ईमेल डोमेन \"<strong>%s</strong>\" को प्रतिबंध नियम द्वारा अनुमति है।"
+
+msgid "Core Default Profile Assigned"
+msgstr "कोर डिफॉल्ट प्रोफ़ाइल असाइन की गई"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "सत्यापित ईमेल मौजूद: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "उपयोगकर्ता \"%s\" मौजूद नहीं है और स्वतः-निर्माण अक्षम है।"
+
+msgid "Profile Correction by Plugin"
+msgstr "प्लगइन द्वारा प्रोफ़ाइल सुधार"
+
+msgid "Yes"
+msgstr "हाँ"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr "Google के माध्यम से सिस्टम तक पहुंचने के लिए एक नया खाता बनाया जाएगा"
+
+msgid "Rule Used"
+msgstr "नियम प्रयुक्त"
+
+msgid "Plugin googlesso step"
+msgstr "प्लगइन googlesso कदम"
+
+msgid "Simulator:"
+msgstr "सिम्युलेटर:"
+
+msgid "Account Creation Required"
+msgstr "खाता निर्माण आवश्यक है"
+
+msgid "Domain Rule for \"%s\""
+msgstr "\"%s\" के लिए डोमेन नियम"
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"यह सिम्युलेटर ईमानदारी से संपूर्ण निष्पादन श्रृंखला को पुन: पेश करता है - "
+"प्लगइन तर्क से लेकर आंतरिक जीएलपीआई कोर व्यवहार तक। एक ईमेल दर्ज करें और "
+"चरण-दर-चरण देखें कि वास्तविक लॉगिन में क्या होगा।"
+
+msgid "Back to configuration"
+msgstr "कॉन्फ़िगरेशन पर वापस जाएँ"
+
+msgid "Account Creation Confirmation"
+msgstr "खाता निर्माण पुष्टि"
+
+msgid "Domain Rules"
+msgstr "डोमेन नियम"
+
+msgid "Account Creation Simulator"
+msgstr "खाता निर्माण सिम्युलेटर"
+
+msgid "No"
+msgstr "नहीं"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "<strong>%s</strong> ईमेल वाला कोई उपयोगकर्ता नहीं मिला"
+
+msgid "Login / Email"
+msgstr "भाग लेने का (विद्युत - डाक"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"\"स्वचालित रूप से उपयोगकर्ता बनाएं\" कॉन्फ़िगरेशन <strong>अक्षम</strong> है।"
+" लॉगिन ब्लॉक कर दिया जाएगा."
+
+msgid "(none)"
+msgstr "(कोई नहीं)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "लॉगिन अवरुद्ध: केवल %s डोमेन के खाते स्वीकार किए जाते हैं।"
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "उपयोगकर्ता \"%s\" सफलतापूर्वक बनाया जाएगा."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"प्लगइन GLPI द्वारा निर्दिष्ट गलत प्रोफ़ाइल को हटा देता है और "
+"<code>Profile_User</code> वर्ग का उपयोग करके प्रोफ़ाइल <strong>%s</strong> "
+"और इकाई <strong>%s</strong> को स्पष्ट रूप से लिंक करता है।"
+
+msgid "Email Validation"
+msgstr "ईमेल सत्यापन"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "उपयोगकर्ता ईमेल द्वारा मिला: <strong>%s</strong> (आईडी: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "डोमेन प्रतिबंध जाँच"
+
+msgid "None"
+msgstr "कोई नहीं"
+
+msgid "Session::init() — Login Performed"
+msgstr "सत्र::init() - लॉगिन निष्पादित"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "निष्पादन श्रृंखला (चरण-दर-चरण)"
+
+msgid "Login to Existing Account"
+msgstr "मौजूदा खाते में लॉगिन करें"
+
+msgid "How it works:"
+msgstr "यह काम किस प्रकार करता है:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"जीएलपीआई 11 में, कोर बाहरी प्रमाणीकरण द्वारा पारित प्रोफ़ाइल को अनदेखा करता "
+"है और स्वचालित रूप से नए उपयोगकर्ता को वैश्विक डिफ़ॉल्ट प्रोफ़ाइल (आमतौर पर "
+"स्व-सेवा) प्रदान करता है।"
+
+msgid "Final Entity"
+msgstr "अंतिम इकाई"
+
+msgid "Final Result"
+msgstr "अंतिम परिणाम"
+
+msgid "Back to Login"
+msgstr "लॉगिन पर वापस जाएं"
+
+msgid "Simulated Email:"
+msgstr "नकली ईमेल:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"डोमेन प्रतिबंधित करें: <strong>%s</strong> | स्वतः उपयोगकर्ता बनाएं: "
+"<strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "अंतिम प्रोफ़ाइल"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"उपयोगकर्ता \"%s\" बनाया जाएगा, लेकिन बिना किसी प्रोफ़ाइल के। GLPI तक पहुंच "
+"अस्वीकृत कर दी जाएगी. कृपया डिफ़ॉल्ट नियम या डोमेन नियमों में एक वैध "
+"प्रोफ़ाइल कॉन्फ़िगर करें।"
+
+msgid "GLPI Core step"
+msgstr "जीएलपीआई कोर चरण"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"प्लगइन नियमों में कोई वैध प्रोफ़ाइल (आईडी > 0) नहीं मिली। उपयोगकर्ता बिना "
+"प्रोफ़ाइल के बनाया जाएगा."

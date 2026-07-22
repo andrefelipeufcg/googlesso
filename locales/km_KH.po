@@ -194,5 +194,264 @@ msgstr ""
 "នៅក្រោម <strong>URIs បញ្ជូនបន្តដែលមានការអនុញ្ញាត</strong> ចម្លង និងបិទភ្ជាប់"
 " URL ត្រឡប់មកវិញខាងក្រោម៖"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "ដែនរងក៏ត្រូវបានទទួលយកផងដែរ។ ឧ.៖ \"company.com\" នឹងអនុញ្ញាតឱ្យ user@company.com និង user@sub.company.com ។"
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"ដែនរងក៏ត្រូវបានទទួលយកផងដែរ។ ឧ.៖ \"company.com\" នឹងអនុញ្ញាតឱ្យ "
+"user@company.com និង user@sub.company.com ។"
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"ដើម្បីសាកល្បងច្បាប់នៃការបង្កើតគណនី និងស្វែងយល់ថាតើ Profile/Entity "
+"មួយណានឹងត្រូវបានផ្តល់ឲ្យទៅអ៊ីមែល។"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"កម្មវិធីជំនួយហៅ <code>Session::init()</code>។ ស្នូល GLPI "
+"ផ្ទុកទម្រង់របស់អ្នកប្រើ ហើយចាប់ផ្តើមវគ្គ។ "
+"អ្នកប្រើប្រាស់ត្រូវបានបញ្ជូនបន្តទៅកាន់ផ្ទាំងគ្រប់គ្រង។"
+
+msgid "Error Creating Account"
+msgstr "កំហុសក្នុងការបង្កើតគណនី"
+
+msgid "No Profile Configured"
+msgstr "មិនបានកំណត់រចនាសម្ព័ន្ធ"
+
+msgid "Database Search"
+msgstr "ការស្វែងរកមូលដ្ឋានទិន្នន័យ"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "តើអ្នកចង់បន្ត និងបង្កើតគណនីរបស់អ្នកឥឡូវនេះទេ?"
+
+msgid "click here"
+msgstr "ចុចទីនេះ"
+
+msgid "Auto Creation Disabled"
+msgstr "ការបង្កើតដោយស្វ័យប្រវត្តិត្រូវបានបិទ"
+
+msgid "Rules Simulator"
+msgstr "ច្បាប់ក្លែងធ្វើ"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"ប្រព័ន្ធនឹងចូលទៅក្នុងគណនីដែលមានស្រាប់ <strong>%s</strong> (ID: %d)។ "
+"គ្មានគណនីថ្មីនឹងត្រូវបានបង្កើតទេ។"
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ ក្លែងធ្វើការចូល"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"ដែនដែលបានស្រង់ចេញ៖ <strong>@%s</strong> ។ ច្បាប់ដែលបានអនុវត្ត៖ "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "ការកំណត់រចនាសម្ព័ន្ធអាន"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "អ្នកប្រើប្រាស់ \"%s\" មានរួចហើយ។ ការចូលនឹងត្រូវបានអនុវត្តដោយជោគជ័យ។"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"ដែនអ៊ីមែល \"<strong>%s</strong>\" មិនត្រូវបានអនុញ្ញាតទេ។ "
+"កម្មវិធីជំនួយដាក់កម្រិតការចូលប្រើដែន \"<strong>%s</strong>\" ឬដែនរងរបស់វា។"
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"កម្មវិធីជំនួយហៅ <code>User::add()</code> ដើម្បីបង្កើតអ្នកប្រើប្រាស់ "
+"\"<strong>%s</strong>\"។"
+
+msgid "using the primary email:"
+msgstr "ដោយប្រើអ៊ីមែលចម្បង៖"
+
+msgid "User::add() called"
+msgstr "អ្នកប្រើប្រាស់::add() បានហៅ"
+
+msgid "Profile Determined by Plugin"
+msgstr "កម្រងព័ត៌មានកំណត់ដោយកម្មវិធីជំនួយ"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"កម្រងព័ត៌មាន៖ <strong>%s</strong> (ID៖ %d) | អង្គភាព៖ <strong>%s</strong> "
+"(ID៖ %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr "ដែនអ៊ីមែល \"<strong>%s</strong>\" ត្រូវបានអនុញ្ញាតដោយច្បាប់រឹតបន្តឹង។"
+
+msgid "Core Default Profile Assigned"
+msgstr "ទម្រង់លំនាំដើមស្នូលត្រូវបានចាត់តាំង"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "មានអ៊ីមែលដែលបានផ្ទៀងផ្ទាត់៖ <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "អ្នកប្រើប្រាស់ \"%s\" មិនមានទេ ហើយការបង្កើតដោយស្វ័យប្រវត្តិត្រូវបានបិទ។"
+
+msgid "Profile Correction by Plugin"
+msgstr "ការកែទម្រង់ដោយកម្មវិធីជំនួយ"
+
+msgid "Yes"
+msgstr "បាទ"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr ""
+"ដើម្បីចូលប្រើប្រព័ន្ធតាមរយៈ Google គណនីថ្មីមួយនឹងត្រូវបានបង្កើតឡើងសម្រាប់"
+
+msgid "Rule Used"
+msgstr "ច្បាប់ប្រើ"
+
+msgid "Plugin googlesso step"
+msgstr "កម្មវិធីជំនួយ googlesso ជំហាន"
+
+msgid "Simulator:"
+msgstr "ក្លែងធ្វើ៖"
+
+msgid "Account Creation Required"
+msgstr "ទាមទារការបង្កើតគណនី"
+
+msgid "Domain Rule for \"%s\""
+msgstr "ច្បាប់ដែនសម្រាប់ \"%s\""
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"កម្មវិធីក្លែងធ្វើនេះផលិតឡើងវិញនូវខ្សែសង្វាក់ប្រតិបត្តិទាំងមូលដោយស្មោះត្រង់ —"
+" ពីតក្កវិជ្ជាកម្មវិធីជំនួយទៅឥរិយាបថស្នូល GLPI ខាងក្នុង។ បញ្ចូលអ៊ីមែល "
+"និងមើលជាជំហានៗនូវអ្វីដែលនឹងកើតឡើងនៅក្នុងការចូលពិតប្រាកដ។"
+
+msgid "Back to configuration"
+msgstr "ត្រឡប់ទៅការកំណត់រចនាសម្ព័ន្ធ"
+
+msgid "Account Creation Confirmation"
+msgstr "ការបញ្ជាក់អំពីការបង្កើតគណនី"
+
+msgid "Domain Rules"
+msgstr "ច្បាប់ដែន"
+
+msgid "Account Creation Simulator"
+msgstr "កម្មវិធីក្លែងធ្វើគណនី"
+
+msgid "No"
+msgstr "ទេ"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "រកមិនឃើញអ្នកប្រើប្រាស់ជាមួយអ៊ីមែល <strong>%s</strong> ទេ។"
+
+msgid "Login / Email"
+msgstr "ចូល / អ៊ីមែល"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"ការកំណត់រចនាសម្ព័ន្ធ \"បង្កើតអ្នកប្រើប្រាស់ដោយស្វ័យប្រវត្តិ\" គឺ "
+"<strong>បិទ</strong>។ ការចូលនឹងត្រូវបានរារាំង។"
+
+msgid "(none)"
+msgstr "(គ្មាន)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "ការចូលត្រូវបានរារាំង៖ មានតែគណនីពីដែន %s ប៉ុណ្ណោះដែលត្រូវបានទទួលយក។"
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "អ្នកប្រើប្រាស់ \"%s\" នឹងត្រូវបានបង្កើតដោយជោគជ័យ។"
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"កម្មវិធីជំនួយលុបទម្រង់មិនត្រឹមត្រូវដែលកំណត់ដោយ GLPI ហើយភ្ជាប់ទម្រង់ "
+"<strong>%s</strong> និងអង្គភាព <strong>%s</strong> យ៉ាងច្បាស់ដោយប្រើថ្នាក់ "
+"<code>Profile_User</code> ។"
+
+msgid "Email Validation"
+msgstr "សុពលភាពអ៊ីមែល"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "អ្នកប្រើប្រាស់បានរកឃើញតាមអ៊ីមែល៖ <strong>%s</strong> (ID៖ %d)"
+
+msgid "Domain Restriction Check"
+msgstr "ការត្រួតពិនិត្យការរឹតបន្តឹងដែន"
+
+msgid "None"
+msgstr "គ្មាន"
+
+msgid "Session::init() — Login Performed"
+msgstr "វគ្គ៖:init() — ដំណើរការចូល"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "ខ្សែសង្វាក់ប្រតិបត្តិ (ជំហានដោយជំហាន)"
+
+msgid "Login to Existing Account"
+msgstr "ចូលទៅគណនីដែលមានស្រាប់"
+
+msgid "How it works:"
+msgstr "របៀបដែលវាដំណើរការ៖"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"នៅក្នុង GLPI 11 ស្នូលមិនអើពើនឹងទម្រង់ដែលបានឆ្លងកាត់ដោយការផ្ទៀងផ្ទាត់ខាងក្រៅ "
+"ហើយកំណត់ទម្រង់លំនាំដើមជាសកលដោយស្វ័យប្រវត្តិ (ជាធម្មតាសេវាខ្លួនឯង) "
+"ដល់អ្នកប្រើប្រាស់ថ្មី។"
+
+msgid "Final Entity"
+msgstr "អង្គភាពចុងក្រោយ"
+
+msgid "Final Result"
+msgstr "លទ្ធផលចុងក្រោយ"
+
+msgid "Back to Login"
+msgstr "ត្រឡប់ទៅ ចូល"
+
+msgid "Simulated Email:"
+msgstr "អ៊ីមែលក្លែងធ្វើ៖"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"ដាក់កម្រិតដែន៖ <strong>%s</strong> | បង្កើតអ្នកប្រើប្រាស់ដោយស្វ័យប្រវត្តិ៖ "
+"<strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "ប្រវត្តិរូបចុងក្រោយ"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"អ្នកប្រើប្រាស់ \"%s\" នឹងត្រូវបានបង្កើត ប៉ុន្តែដោយគ្មានទម្រង់ណាមួយឡើយ។ "
+"ការចូលប្រើ GLPI នឹងត្រូវបានបដិសេធ។ "
+"សូមកំណត់រចនាសម្ព័ន្ធទម្រង់ត្រឹមត្រូវនៅក្នុងច្បាប់លំនាំដើម ឬច្បាប់ដែន។"
+
+msgid "GLPI Core step"
+msgstr "ជំហានស្នូល GLPI"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"គ្មានទម្រង់ត្រឹមត្រូវ (ID> 0) ត្រូវបានរកឃើញនៅក្នុងច្បាប់កម្មវិធីជំនួយ។ "
+"អ្នកប្រើប្រាស់នឹងត្រូវបានបង្កើតដោយគ្មានប្រវត្តិរូប។"

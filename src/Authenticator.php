@@ -102,6 +102,7 @@ final class Authenticator
             'firstname'   => (string) ($claims['given_name'] ?? ''),
             'authtype'    => Auth::EXTERNAL,
             'is_active'   => 1,
+            'comment'     => __('Created via Google SSO Plugin', 'googlesso'),
             '_useremails' => [-1 => $email],
         ];
 

@@ -193,3 +193,6 @@ msgid ""
 msgstr ""
 "Kopioi ja liitä täsmälleen alla oleva paluu-URL-osoite kohdassa "
 "<strong>Valtuutetut uudelleenohjaus-URI:t</strong>:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Myös aliverkkotunnukset hyväksytään. Esim. \"company.com\" sallii osoitteet user@company.com ja user@sub.company.com."

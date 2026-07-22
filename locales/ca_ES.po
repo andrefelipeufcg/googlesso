@@ -195,3 +195,6 @@ msgid ""
 msgstr ""
 "A <strong>URI de redirecció autoritzats</strong>, copieu i enganxeu "
 "exactament l'URL de retorn a continuació:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "També s'accepten subdominis. Ex.: \"company.com\" permetrà user@company.com i user@sub.company.com."

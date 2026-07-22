@@ -193,3 +193,6 @@ msgid ""
 msgstr ""
 "V časti <strong>URI autorizovaného presmerovania</strong> skopírujte a "
 "prilepte presne spiatočnú adresu URL nižšie:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Akceptované sú aj subdomény. Napr.: \"company.com\" povolí user@company.com a user@sub.company.com."

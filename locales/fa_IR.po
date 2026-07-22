@@ -187,3 +187,6 @@ msgid ""
 msgstr ""
 "در بخش <strong>URIهای تغییر مسیر مجاز</strong>، دقیقاً URL بازگشتی زیر را "
 "کپی و جای‌گذاری کنید:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "زیر دامنه ها نیز پذیرفته می شوند. به عنوان مثال: \"company.com\" به user@company.com و user@sub.company.com اجازه می دهد."

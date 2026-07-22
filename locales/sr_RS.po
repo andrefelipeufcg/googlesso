@@ -190,3 +190,6 @@ msgid ""
 msgstr ""
 "У одељку <стронг>Овлашћени УРИ-ји за преусмеравање</стронг>, копирајте и "
 "налепите тачно повратну УРЛ адресу у наставку:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Поддомени су такође прихваћени. Нпр.: \"company.com\" ће дозволити user@company.com и user@sub.company.com."

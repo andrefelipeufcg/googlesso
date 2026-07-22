@@ -195,3 +195,6 @@ msgid ""
 msgstr ""
 "У раздзеле <strong>Аўтарызаваныя URI перанакіравання</strong> скапіруйце і "
 "ўстаўце дакладна зваротны URL ніжэй:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Паддамены таксама прымаюцца. Напр.: \"company.com\" дазволіць user@company.com і user@sub.company.com."

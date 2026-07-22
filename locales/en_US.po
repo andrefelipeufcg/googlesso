@@ -95,3 +95,6 @@ msgstr "This user is deactivated in GLPI."
 msgid "or"
 msgstr "or"
 
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."

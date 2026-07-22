@@ -193,3 +193,6 @@ msgid ""
 msgstr ""
 "នៅក្រោម <strong>URIs បញ្ជូនបន្តដែលមានការអនុញ្ញាត</strong> ចម្លង និងបិទភ្ជាប់"
 " URL ត្រឡប់មកវិញខាងក្រោម៖"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "ដែនរងក៏ត្រូវបានទទួលយកផងដែរ។ ឧ.៖ \"company.com\" នឹងអនុញ្ញាតឱ្យ user@company.com និង user@sub.company.com ។"

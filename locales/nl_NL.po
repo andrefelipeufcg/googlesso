@@ -194,3 +194,6 @@ msgid ""
 msgstr ""
 "Kopieer en plak onder <strong>Geautoriseerde omleidings-URI's</strong> "
 "precies de onderstaande retour-URL:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Subdomeinen worden ook geaccepteerd. Bijv.: \"company.com\" staat user@company.com en user@sub.company.com toe."

@@ -194,3 +194,6 @@ msgid ""
 msgstr ""
 "Në <strong>URI-të e autorizuara të ridrejtimit</strong>, kopjoni dhe ngjisni"
 " saktësisht URL-në e kthimit më poshtë:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Nëndomajnet pranohen gjithashtu. P.sh.: \"company.com\" do të lejojë user@company.com dhe user@sub.company.com."

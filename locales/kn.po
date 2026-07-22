@@ -190,3 +190,6 @@ msgid ""
 msgstr ""
 "<strong>ಅಧಿಕೃತ ಮರುನಿರ್ದೇಶನ URI ಗಳು</strong> ಅಡಿಯಲ್ಲಿ, ಕೆಳಗಿನ ರಿಟರ್ನ್ URL "
 "ಅನ್ನು ನಿಖರವಾಗಿ ನಕಲಿಸಿ ಮತ್ತು ಅಂಟಿಸಿ:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "ಉಪಡೊಮೇನ್‌ಗಳನ್ನು ಸಹ ಸ್ವೀಕರಿಸಲಾಗಿದೆ. ಉದಾ.: \"company.com\" user@company.com ಮತ್ತು user@sub.company.com ಅನ್ನು ಅನುಮತಿಸುತ್ತದೆ."

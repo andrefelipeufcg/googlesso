@@ -193,3 +193,6 @@ msgid ""
 msgstr ""
 "У розділі <strong>Авторизовані URI перенаправлення</strong> скопіюйте та "
 "вставте точну зворотну URL-адресу нижче:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Піддомени також приймаються. Наприклад: \"company.com\" дозволить user@company.com і user@sub.company.com."

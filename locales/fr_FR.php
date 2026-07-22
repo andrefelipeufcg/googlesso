@@ -29,4 +29,5 @@ return [
     'If the user email does not match any of the rules above, this profile and entity will be used. Mandatory if automatic creation is enabled.' => 'Si l\'e-mail de l\'utilisateur ne correspond à aucune des règles ci-dessus, ce profil et cette entité seront utilisés. Obligatoire si la création automatique est activée.',
     'Default profile (ELSE)' => 'Profil par défaut (ELSE)',
     'Default entity (ELSE)' => 'Entité par défaut (ELSE)',
+    'Subdomains are also accepted. E.g.: "company.com" will allow user@company.com and user@sub.company.com.' => 'Les sous-domaines sont également acceptés. Ex. : "company.com" autorisera user@company.com et user@sub.company.com.',
 ];

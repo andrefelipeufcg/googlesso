@@ -191,3 +191,6 @@ msgid ""
 msgstr ""
 "In <strong>URI di reindirizzamento autorizzati</strong>, copia e incolla "
 "esattamente l'URL di ritorno riportato di seguito:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Sono accettati anche i sottodomini. Es.: \"company.com\" consentirà user@company.com e user@sub.company.com."

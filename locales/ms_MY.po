@@ -190,3 +190,6 @@ msgid ""
 msgstr ""
 "Di bawah <strong>URI ubah hala yang dibenarkan</strong>, salin dan tampal "
 "dengan tepat URL pulangan di bawah:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Subdomain juga diterima. Cth.: \"company.com\" akan membenarkan user@company.com dan user@sub.company.com."

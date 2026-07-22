@@ -188,3 +188,6 @@ msgid ""
 msgstr ""
 "Sub <strong>rajtigitaj alidirektaj URIoj</strong>, kopiu kaj algluu ĝuste la"
 " revenan URL sube:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Subdomajnoj ankaŭ estas akceptitaj. Ekz.: \"company.com\" permesos user@company.com kaj user@sub.company.com."

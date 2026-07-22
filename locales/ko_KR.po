@@ -177,3 +177,6 @@ msgid ""
 "Under <strong>Authorized redirect URIs</strong>, copy and paste exactly the "
 "return URL below:"
 msgstr "<strong>승인된 리디렉션 URI</strong>에서 아래 반환 URL을 정확하게 복사하여 붙여넣습니다."
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "하위 도메인도 허용됩니다. 예: \"company.com\"은 user@company.com 및 user@sub.company.com을 허용합니다."

@@ -198,3 +198,6 @@ msgid ""
 msgstr ""
 "Kopieren Sie unter <strong>Autorisierte Weiterleitungs-URIs</strong> genau "
 "die folgende Rückgabe-URL und fügen Sie sie ein:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Subdomains werden ebenfalls akzeptiert. Bsp.: \"company.com\" erlaubt user@company.com und user@sub.company.com."

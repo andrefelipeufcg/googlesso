@@ -188,3 +188,6 @@ msgid ""
 msgstr ""
 "ضمن <strong>عناوين URI لإعادة التوجيه المعتمدة</strong>، انسخ والصق عنوان "
 "URL للإرجاع بالضبط أدناه:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "النطاقات الفرعية مقبولة أيضًا. مثال: \"company.com\" سيسمح بـ user@company.com و user@sub.company.com."

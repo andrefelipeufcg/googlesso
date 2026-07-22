@@ -189,3 +189,6 @@ msgid ""
 msgstr ""
 "Afritaðu og límdu nákvæmlega skilavefslóðina hér að neðan undir "
 "<strong>Heimiluð tilvísunarvefslóð</strong>:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Undirlén eru einnig samþykkt. T.d.: \"company.com\" mun leyfa user@company.com og user@sub.company.com."

@@ -189,3 +189,6 @@ msgid ""
 msgstr ""
 "<strong>अधिकृत रीडायरेक्ट यूआरआई</strong> के अंतर्गत, नीचे दिए गए रिटर्न "
 "यूआरएल को बिल्कुल कॉपी और पेस्ट करें:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "उपडोमेन भी स्वीकार किए जाते हैं। उदा.: \"company.com\", user@company.com और user@sub.company.com को अनुमति देगा।"

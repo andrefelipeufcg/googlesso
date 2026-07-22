@@ -188,3 +188,6 @@ msgid ""
 msgstr ""
 "<strong>Yetkili yönlendirme URI'leri</strong> altında, aşağıdaki dönüş "
 "URL'sini tam olarak kopyalayıp yapıştırın:"
+
+msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
+msgstr "Alt alan adları da kabul edilir. Örn.: \"company.com\", user@company.com ve user@sub.company.com'a izin verecektir."

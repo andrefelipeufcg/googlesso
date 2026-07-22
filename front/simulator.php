@@ -185,19 +185,27 @@ if ($isPost && $email !== '') {
                 'source' => 'GLPI Core',
                 'icon' => '🏗️',
                 'desc' => sprintf(
-                    __('The plugin calls User::add() passing <code>_profiles_id=%d</code> and <code>_entities_id=%d</code> directly. The user "<strong>%s</strong>" is created.', 'googlesso'),
-                    $profile_id, $entity_id, htmlspecialchars($email)
+                    __('The plugin calls <code>User::add()</code> to create the user "<strong>%s</strong>".', 'googlesso'),
+                    htmlspecialchars($email)
                 )
+            ];
+
+            $timeline[] = [
+                'step' => __('Core Default Profile Assigned', 'googlesso'),
+                'source' => 'GLPI Core',
+                'icon' => '⚙️',
+                'desc' => __('In GLPI 11, the core ignores the profile passed by external authentications and automatically assigns the global default profile (usually Self-Service) to the new user.', 'googlesso')
             ];
             
             if ($profile_id > 0) {
                 $timeline[] = [
-                    'step' => __('Final Profile Assigned', 'googlesso'),
-                    'source' => 'GLPI Core',
-                    'icon' => '✅',
+                    'step' => __('Profile Correction by Plugin', 'googlesso'),
+                    'source' => 'Plugin',
+                    'icon' => '🔧',
                     'desc' => sprintf(
-                        __('The GLPI core creates the record in <code>glpi_profiles_users</code> directly linking the profile <strong>%s</strong> to the new user.', 'googlesso'),
-                        htmlspecialchars($pluginProfileName)
+                        __('The plugin removes the incorrect profiles assigned by GLPI and explicitly links the profile <strong>%s</strong> and entity <strong>%s</strong> using the <code>Profile_User</code> class.', 'googlesso'),
+                        htmlspecialchars($pluginProfileName),
+                        htmlspecialchars($pluginEntityName)
                     )
                 ];
                 

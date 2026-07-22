@@ -3,14 +3,157 @@
    <key>googlesso</key>
    <state>stable</state>
    <logo>https://raw.githubusercontent.com/andrefelipeufcg/googlesso/main/logo.png</logo>
-   <description>
+      <description>
       <short>
+         Alternative login via Google (OAuth2/OIDC).
+         <ar_IQ>تسجيل دخول بديل عبر Google (OAuth2/OIDC).</ar_IQ>
+         <ar_SA>تسجيل دخول بديل عبر Google (OAuth2/OIDC).</ar_SA>
+         <ar_SY>تسجيل دخول بديل عبر Google (OAuth2/OIDC).</ar_SY>
+         <az_AZ>Google (OAuth2/OIDC) vasitəsilə alternativ giriş.</az_AZ>
+         <be_BY>Альтэрнатыўны ўваход праз Google (OAuth2/OIDC).</be_BY>
+         <bg_BG>Алтернативно влизане чрез Google (OAuth2/OIDC).</bg_BG>
+         <bn_BD>Google-এর মাধ্যমে বিকল্প লগইন (OAuth2/OIDC)।</bn_BD>
+         <ca_ES>Inici de sessió alternatiu via Google (OAuth2/OIDC).</ca_ES>
+         <cs_CZ>Alternativní přihlášení přes Google (OAuth2/OIDC).</cs_CZ>
+         <da_DK>Alternativt login via Google (OAuth2/OIDC).</da_DK>
+         <de_DE>Alternativer Login über Google (OAuth2/OIDC).</de_DE>
+         <el_GR>Εναλλακτική σύνδεση μέσω Google (OAuth2/OIDC).</el_GR>
          <en>Alternative login via Google (OAuth2/OIDC).</en>
+         <en_GB>Alternative login via Google (OAuth2/OIDC).</en_GB>
+         <en_US>Alternative login via Google (OAuth2/OIDC).</en_US>
+         <eo>Alternativa ensaluto per Google (OAuth2/OIDC).</eo>
+         <es_419>Inicio de sesión alternativo a través de Google (OAuth2/OIDC).</es_419>
+         <es_AR>Inicio de sesión alternativo a través de Google (OAuth2/OIDC).</es_AR>
+         <es_CL>Inicio de sesión alternativo a través de Google (OAuth2/OIDC).</es_CL>
+         <es_CO>Inicio de sesión alternativo a través de Google (OAuth2/OIDC).</es_CO>
+         <es_EC>Inicio de sesión alternativo a través de Google (OAuth2/OIDC).</es_EC>
+         <es_ES>Inicio de sesión alternativo a través de Google (OAuth2/OIDC).</es_ES>
+         <es_MX>Inicio de sesión alternativo a través de Google (OAuth2/OIDC).</es_MX>
+         <es_VE>Inicio de sesión alternativo a través de Google (OAuth2/OIDC).</es_VE>
+         <et_EE>Alternatiivne sisselogimine Google&#039;i kaudu (OAuth2/OIDC).</et_EE>
+         <eu_ES>Saio-hasiera alternatiboa Google bidez (OAuth2/OIDC).</eu_ES>
+         <fa_IR>ورود جایگزین از طریق Google (OAuth2/OIDC).</fa_IR>
+         <fi_FI>Vaihtoehtoinen kirjautuminen Googlen kautta (OAuth2/OIDC).</fi_FI>
+         <fr_BE>Connexion alternative via Google (OAuth2/OIDC).</fr_BE>
+         <fr_CA>Connexion alternative via Google (OAuth2/OIDC).</fr_CA>
+         <fr_FR>Connexion alternative via Google (OAuth2/OIDC).</fr_FR>
+         <gl_ES>Inicio de sesión alternativo mediante Google (OAuth2/OIDC).</gl_ES>
+         <he_IL>כניסה חלופית דרך Google (OAuth2/OIDC).</he_IL>
+         <hi_IN>Google (OAuth2/OIDC) के माध्यम से वैकल्पिक लॉगिन।</hi_IN>
+         <hr_HR>Alternativna prijava putem Googlea (OAuth2/OIDC).</hr_HR>
+         <hu_HU>Alternatív bejelentkezés a Google-on keresztül (OAuth2/OIDC).</hu_HU>
+         <id_ID>Masuk alternatif melalui Google (OAuth2/OIDC).</id_ID>
+         <is_IS>Önnur innskráning í gegnum Google (OAuth2/OIDC).</is_IS>
+         <it_IT>Accesso alternativo tramite Google (OAuth2/OIDC).</it_IT>
+         <ja_JP>Google (OAuth2/OIDC) 経由の代替ログイン。</ja_JP>
+         <km_KH>ការចូលជំនួសតាមរយៈ Google (OAuth2/OIDC)។</km_KH>
+         <kn>Google ಮೂಲಕ ಪರ್ಯಾಯ ಲಾಗಿನ್ (OAuth2/OIDC).</kn>
+         <ko_KR>Google을 통한 대체 로그인(OAuth2/OIDC).</ko_KR>
+         <lt_LT>Alternatyvus prisijungimas per Google (OAuth2/OIDC).</lt_LT>
+         <lv_LV>Alternatīva pieteikšanās caur Google (OAuth2/OIDC).</lv_LV>
+         <mn_MN>Google (OAuth2/OIDC)-ээр дамжуулан өөр нэвтрэлт.</mn_MN>
+         <ms_MY>Log masuk alternatif melalui Google (OAuth2/OIDC).</ms_MY>
+         <nb_NO>Alternativ pålogging via Google (OAuth2/OIDC).</nb_NO>
+         <nl_BE>Alternatieve login via Google (OAuth2/OIDC).</nl_BE>
+         <nl_NL>Alternatieve login via Google (OAuth2/OIDC).</nl_NL>
+         <nn_NO>Alternativ pålogging via Google (OAuth2/OIDC).</nn_NO>
+         <pl_PL>Alternatywne logowanie przez Google (OAuth2/OIDC).</pl_PL>
          <pt_BR>Login alternativo via Google (OAuth2/OIDC).</pt_BR>
+         <pt_PT>Login alternativo via Google (OAuth2/OIDC).</pt_PT>
+         <ro_RO>Conectare alternativă prin Google (OAuth2/OIDC).</ro_RO>
+         <ru_RU>Альтернативный вход через Google (OAuth2/OIDC).</ru_RU>
+         <sk_SK>Alternatívne prihlásenie cez Google (OAuth2/OIDC).</sk_SK>
+         <sl_SI>Alternativna prijava prek Googla (OAuth2/OIDC).</sl_SI>
+         <sq_AL>Hyrje alternative përmes Google (OAuth2/OIDC).</sq_AL>
+         <sr_RS>Алтернативна пријава преко Гоогле-а (ОАутх2/ОИДЦ).</sr_RS>
+         <sv_SE>Alternativ inloggning via Google (OAuth2/OIDC).</sv_SE>
+         <th_TH>เข้าสู่ระบบทางเลือกผ่าน Google (OAuth2/OIDC)</th_TH>
+         <tr_TR>Google üzerinden alternatif giriş (OAuth2/OIDC).</tr_TR>
+         <uk_UA>Альтернативний вхід через Google (OAuth2/OIDC).</uk_UA>
+         <vi_VN>Đăng nhập thay thế qua Google (OAuth2/OIDC).</vi_VN>
+         <zh_CN>通过 Google 进行替代登录 (OAuth2/OIDC)。</zh_CN>
+         <zh_HK>透過 Google 進行替代登入 (OAuth2/OIDC)。</zh_HK>
+         <zh_TW>透過 Google 進行替代登入 (OAuth2/OIDC)。</zh_TW>
       </short>
       <long>
-         <en>GLPI 11 plugin that adds a 'Sign in with Google' button (OAuth2/OIDC), enabling alternative authentication while keeping the native local login 100% functional.</en>
-         <pt_BR>Plugin para GLPI 11 que adiciona a opção de login seguro via Google (SSO com OAuth2/OIDC), mantendo a autenticação local nativa 100% funcional.</pt_BR>
+         GLPI 11 plugin that adds a 'Sign in with Google' button (OAuth2/OIDC), enabling alternative authentication while keeping the native local login 100% functional.
+         <ar_IQ>مكون GLPI 11 الإضافي الذي يضيف زر &quot;تسجيل الدخول باستخدام Google&quot; (OAuth2/OIDC)، مما يتيح مصادقة بديلة مع الحفاظ على عمل تسجيل الدخول المحلي الأصلي بنسبة 100%.</ar_IQ>
+         <ar_SA>مكون GLPI 11 الإضافي الذي يضيف زر &quot;تسجيل الدخول باستخدام Google&quot; (OAuth2/OIDC)، مما يتيح مصادقة بديلة مع الحفاظ على عمل تسجيل الدخول المحلي الأصلي بنسبة 100%.</ar_SA>
+         <ar_SY>مكون GLPI 11 الإضافي الذي يضيف زر &quot;تسجيل الدخول باستخدام Google&quot; (OAuth2/OIDC)، مما يتيح مصادقة بديلة مع الحفاظ على عمل تسجيل الدخول المحلي الأصلي بنسبة 100%.</ar_SY>
+         <az_AZ>Orijinal yerli girişi 100% funksional saxlayaraq alternativ identifikasiyanı təmin edən &quot;Google ilə daxil ol&quot; düyməsini (OAuth2/OIDC) əlavə edən GLPI 11 plagini.</az_AZ>
+         <be_BY>Убудова GLPI 11, якая дадае кнопку «Увайсці праз Google» (OAuth2/OIDC), што дазваляе альтэрнатыўную аўтэнтыфікацыю, захоўваючы пры гэтым уласны лакальны ўваход на 100% функцыянальным.</be_BY>
+         <bg_BG>Плъгин за GLPI 11, който добавя бутон „Вход с Google“ (OAuth2/OIDC), позволяващ алтернативно удостоверяване, като същевременно запазва родния локален вход 100% функционален.</bg_BG>
+         <bn_BD>GLPI 11 প্লাগইন যা একটি &quot;Google এর মাধ্যমে সাইন ইন করুন&quot; বোতাম (OAuth2/OIDC) যোগ করে, স্থানীয় লগইন 100% কার্যকরী রেখে বিকল্প প্রমাণীকরণ সক্ষম করে।</bn_BD>
+         <ca_ES>Connector GLPI 11 que afegeix un botó &quot;Inicia la sessió amb Google&quot; (OAuth2/OIDC), permetent una autenticació alternativa alhora que manté l&#039;inici de sessió local natiu 100% funcional.</ca_ES>
+         <cs_CZ>Plugin GLPI 11, který přidává tlačítko „Přihlásit se pomocí Google“ (OAuth2/OIDC), umožňující alternativní ověřování při zachování 100% funkčního nativního místního přihlášení.</cs_CZ>
+         <da_DK>GLPI 11-plugin, der tilføjer en &quot;Log ind med Google&quot;-knap (OAuth2/OIDC), som muliggør alternativ godkendelse, mens det oprindelige lokale login bevares 100 % funktionelt.</da_DK>
+         <de_DE>GLPI 11-Plugin, das eine „Mit Google anmelden“-Schaltfläche (OAuth2/OIDC) hinzufügt und eine alternative Authentifizierung ermöglicht, während das native lokale Login zu 100 % funktionsfähig bleibt.</de_DE>
+         <el_GR>Πρόσθετο GLPI 11 που προσθέτει ένα κουμπί &quot;Είσοδος με Google&quot; (OAuth2/OIDC), επιτρέποντας εναλλακτικό έλεγχο ταυτότητας, διατηρώντας παράλληλα την εγγενή τοπική σύνδεση 100% λειτουργική.</el_GR>
+         <en>GLPI 11 plugin that adds a &#039;Sign in with Google&#039; button (OAuth2/OIDC), enabling alternative authentication while keeping the native local login 100% functional.</en>
+         <en_GB>GLPI 11 plugin that adds a &#039;Sign in with Google&#039; button (OAuth2/OIDC), enabling alternative authentication while keeping the native local login 100% functional.</en_GB>
+         <en_US>GLPI 11 plugin that adds a &#039;Sign in with Google&#039; button (OAuth2/OIDC), enabling alternative authentication while keeping the native local login 100% functional.</en_US>
+         <eo>GLPI 11 kromaĵo, kiu aldonas butonon &quot;Ensalutu kun Google&quot; (OAuth2/OIDC), ebligante alternativan aŭtentikigon konservante la denaskan lokan ensaluton 100% funkcia.</eo>
+         <es_419>Complemento para GLPI 11 que agrega un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), lo que permite una autenticación alternativa mientras mantiene el inicio de sesión local nativo 100% funcional.</es_419>
+         <es_AR>Complemento para GLPI 11 que agrega un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), lo que permite una autenticación alternativa mientras mantiene el inicio de sesión local nativo 100% funcional.</es_AR>
+         <es_CL>Complemento para GLPI 11 que agrega un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), lo que permite una autenticación alternativa mientras mantiene el inicio de sesión local nativo 100% funcional.</es_CL>
+         <es_CO>Complemento para GLPI 11 que agrega un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), lo que permite una autenticación alternativa mientras mantiene el inicio de sesión local nativo 100% funcional.</es_CO>
+         <es_EC>Complemento para GLPI 11 que agrega un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), lo que permite una autenticación alternativa mientras mantiene el inicio de sesión local nativo 100% funcional.</es_EC>
+         <es_ES>Complemento para GLPI 11 que agrega un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), permitiendo una autenticación alternativa mientras mantiene el inicio de sesión local nativo 100% funcional.</es_ES>
+         <es_MX>Complemento para GLPI 11 que agrega un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), lo que permite una autenticación alternativa mientras mantiene el inicio de sesión local nativo 100% funcional.</es_MX>
+         <es_VE>Complemento para GLPI 11 que agrega un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), lo que permite una autenticación alternativa mientras mantiene el inicio de sesión local nativo 100% funcional.</es_VE>
+         <et_EE>GLPI 11 pistikprogramm, mis lisab nupu „Logi sisse Google&#039;iga” (OAuth2/OIDC), mis võimaldab alternatiivset autentimist, hoides samal ajal kohaliku sisselogimise 100% funktsionaalsena.</et_EE>
+         <eu_ES>GLPI 11 plugina, &quot;Hasi saioa Google-rekin&quot; botoia (OAuth2/OIDC) gehitzen duena, autentifikazio alternatiboa ahalbidetuz tokiko saio-hasiera natiboa 100%ean funtzional mantenduz.</eu_ES>
+         <fa_IR>افزونه GLPI 11 که دکمه «ورود با Google» (OAuth2/OIDC) را اضافه می‌کند و احراز هویت جایگزین را فعال می‌کند در حالی که ورود محلی اصلی 100٪ کاربردی است.</fa_IR>
+         <fi_FI>GLPI 11 -laajennus, joka lisää &quot;Kirjaudu sisään Googlella&quot; -painikkeen (OAuth2/OIDC), joka mahdollistaa vaihtoehtoisen todennuksen pitäen samalla alkuperäisen paikallisen kirjautumisen 100 % toimivana.</fi_FI>
+         <fr_BE>Plugin GLPI 11 qui ajoute un bouton « Se connecter avec Google » (OAuth2/OIDC), permettant une authentification alternative tout en gardant la connexion locale native 100 % fonctionnelle.</fr_BE>
+         <fr_CA>Plugin GLPI 11 qui ajoute un bouton « Se connecter avec Google » (OAuth2/OIDC), permettant une authentification alternative tout en gardant la connexion locale native 100 % fonctionnelle.</fr_CA>
+         <fr_FR>Plugin GLPI 11 qui ajoute un bouton « Se connecter avec Google » (OAuth2/OIDC), permettant une authentification alternative tout en gardant la connexion locale native 100 % fonctionnelle.</fr_FR>
+         <gl_ES>Complemento GLPI 11 que engade un botón &quot;Iniciar sesión con Google&quot; (OAuth2/OIDC), que permite a autenticación alternativa mantendo o inicio de sesión local nativo 100 % funcional.</gl_ES>
+         <he_IL>תוסף GLPI 11 שמוסיף כפתור &#039;היכנס באמצעות Google&#039; (OAuth2/OIDC), המאפשר אימות חלופי תוך שמירה על ההתחברות המקומית המקורית בפונקציונליות של 100%.</he_IL>
+         <hi_IN>GLPI 11 प्लगइन जो &quot;Google के साथ साइन इन करें&quot; बटन (OAuth2/OIDC) जोड़ता है, जिससे मूल स्थानीय लॉगिन को 100% कार्यात्मक रखते हुए वैकल्पिक प्रमाणीकरण सक्षम होता है।</hi_IN>
+         <hr_HR>Dodatak GLPI 11 koji dodaje gumb &quot;Prijavite se s Googleom&quot; (OAuth2/OIDC), omogućujući alternativnu autentifikaciju dok izvorna lokalna prijava ostaje 100% funkcionalna.</hr_HR>
+         <hu_HU>GLPI 11 bővítmény, amely hozzáad egy „Bejelentkezés a Google-lal” gombot (OAuth2/OIDC), lehetővé téve az alternatív hitelesítést, miközben a natív helyi bejelentkezés 100%-ban működőképes marad.</hu_HU>
+         <id_ID>Plugin GLPI 11 yang menambahkan tombol &#039;Masuk dengan Google&#039; (OAuth2/OIDC), mengaktifkan autentikasi alternatif sambil menjaga login lokal asli tetap berfungsi 100%.</id_ID>
+         <is_IS>GLPI 11 viðbót sem bætir við &quot;Skráðu þig inn með Google&quot; hnappi (OAuth2/OIDC), sem gerir aðra auðkenningu kleift á meðan hún heldur upprunalegu staðbundnu innskráningunni 100% virkri.</is_IS>
+         <it_IT>Plugin GLPI 11 che aggiunge un pulsante &quot;Accedi con Google&quot; (OAuth2/OIDC), consentendo un&#039;autenticazione alternativa mantenendo il login locale nativo funzionale al 100%.</it_IT>
+         <ja_JP>「Google でログイン」ボタン (OAuth2/OIDC) を追加する GLPI 11 プラグイン。ネイティブのローカル ログインを 100% 機能させながら、代替認証を可能にします。</ja_JP>
+         <km_KH>កម្មវិធីជំនួយ GLPI 11 ដែលបន្ថែមប៊ូតុង &#039;ចូលជាមួយ Google&#039; (OAuth2/OIDC) ដែលអាចឱ្យការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជំនួស ខណៈពេលដែលរក្សាការចូលក្នុងតំបន់ដើម 100% ដំណើរការ។</km_KH>
+         <kn>GLPI 11 ಪ್ಲಗಿನ್ &#039;Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್&#039; ಬಟನ್ ಅನ್ನು ಸೇರಿಸುತ್ತದೆ (OAuth2/OIDC), ಸ್ಥಳೀಯ ಲಾಗಿನ್ 100% ಕಾರ್ಯನಿರ್ವಹಿಸುವಂತೆ ಇಟ್ಟುಕೊಂಡು ಪರ್ಯಾಯ ದೃಢೀಕರಣವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ.</kn>
+         <ko_KR>&#039;Google로 로그인&#039; 버튼(OAuth2/OIDC)을 추가하여 기본 로컬 로그인을 100% 기능적으로 유지하면서 대체 인증을 가능하게 하는 GLPI 11 플러그인입니다.</ko_KR>
+         <lt_LT>GLPI 11 papildinys, pridedantis mygtuką „Prisijungti su Google“ (OAuth2/OIDC), leidžiantis alternatyviai autentifikuoti ir 100 % išlaikant natūralų vietinį prisijungimą.</lt_LT>
+         <lv_LV>GLPI 11 spraudnis, kas pievieno pogu &quot;Pierakstīties ar Google&quot; (OAuth2/OIDC), iespējojot alternatīvu autentifikāciju, vienlaikus saglabājot vietējo vietējo pieteikšanos 100% funkcionālu.</lv_LV>
+         <mn_MN>GLPI 11 залгаас нь &#039;Google-ээр нэвтрэх&#039; товчлуурыг (OAuth2/OIDC) нэмж, үндсэн дотоод нэвтрэлтийг 100% ажиллуулахын зэрэгцээ өөр баталгаажуулалтыг идэвхжүүлдэг.</mn_MN>
+         <ms_MY>Palam masuk GLPI 11 yang menambahkan butang &#039;Log masuk dengan Google&#039; (OAuth2/OIDC), mendayakan pengesahan alternatif sambil mengekalkan log masuk tempatan asli 100% berfungsi.</ms_MY>
+         <nb_NO>GLPI 11-plugin som legger til en &quot;Logg på med Google&quot;-knapp (OAuth2/OIDC), som muliggjør alternativ autentisering samtidig som den opprinnelige lokale påloggingen holdes 100 % funksjonell.</nb_NO>
+         <nl_BE>GLPI 11-plug-in die een knop &#039;Inloggen met Google&#039; (OAuth2/OIDC) toevoegt, waardoor alternatieve authenticatie mogelijk is terwijl de native lokale login 100% functioneel blijft.</nl_BE>
+         <km_KH>កម្មវិធីជំនួយ GLPI 11 ដែលបន្ថែមប៊ូតុង &#039;ចូលជាមួយ Google&#039; (OAuth2/OIDC) ដែលអាចឱ្យការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជំនួស ខណៈពេលដែលរក្សាការចូលក្នុងតំបន់ដើម 100% ដំណើរការ。</km_KH>
+         <kn>GLPI 11 ಪ್ಲಗಿನ್ &#039;Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್&#039; ಬಟನ್ ಅನ್ನು ಸೇರಿಸುತ್ತದೆ (OAuth2/OIDC), ಸ್ಥಳೀಯ ಲಾಗಿನ್ 100% ಕಾರ್ಯನಿರ್ವಹಿಸುವಂತೆ ಇಟ್ಟುಕೊಂಡು ಪರ್ಯಾಯ ದೃಢೀಕರಣವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ。</kn>
+         <ko_KR>&#039;Google로 로그인&#039; 버튼(OAuth2/OIDC)을 추가하여 기본 로컬 로그인을 100% 기능적으로 유지하면서 대체 인증을 가능하게 하는 GLPI 11 플러그인입니다。</ko_KR>
+         <lt_LT>GLPI 11 papildinys, pridedantis mygtuką „Prisijungti su Google“ (OAuth2/OIDC), leidžiantis alternatyviai autentifikuoti ir 100 % išlaikant natūralų vietinį prisijungimą。</lt_LT>
+         <lv_LV>GLPI 11 spraudnis, kas pievieno pogu &quot;Pierakstīties ar Google&quot; (OAuth2/OIDC), iespējojot alternatīvu autentifikāciju, vienlaikus saglabājot vietējo vietējo pieteikšanos 100% funkcionālu。</lv_LV>
+         <mn_MN>GLPI 11 залгаас нь &#039;Google-ээр нэвтрэх&#039; товчлуурыг (OAuth2/OIDC) нэмж, үндсэн дотоод нэвтрэлтийг 100% ажиллуулахын зэрэгцээ өөр баталгаажуулалтыг идэвхжүүлдэг。</mn_MN>
+         <ms_MY>Palam masuk GLPI 11 yang menambahkan butang &#039;Log masuk dengan Google&#039; (OAuth2/OIDC), mendayakan pengesahan alternatif sambil mengekalkan log masuk tempatan asli 100% berfungsi。</ms_MY>
+         <nb_NO>GLPI 11-plugin som legger til en &quot;Logg på med Google&quot;-knapp (OAuth2/OIDC), som muliggjør alternativ autentisering samtidig som den opprinnelige lokale påloggingen holdes 100 % funksjonell。</nb_NO>
+         <nl_BE>GLPI 11-plug-in die een knop &#039;Inloggen met Google&#039; (OAuth2/OIDC) toevoegt, waardoor alternatieve authenticatie mogelijk is terwijl de native lokale login 100% functioneel blijft。</nl_BE>
+         <nl_NL>GLPI 11-plug-in die een knop &#039;Inloggen met Google&#039; (OAuth2/OIDC) toevoegt, waardoor alternatieve authenticatie mogelijk is terwijl de native lokale login 100% functioneel blijft。</nl_NL>
+         <nn_NO>GLPI 11-plugin som legger til en &quot;Logg på med Google&quot;-knapp (OAuth2/OIDC), som muliggjør alternativ autentisering samtidig som den opprinnelige lokale påloggingen holdes 100 % funksjonell。</nn_NO>
+         <pl_PL>Wtyczka GLPI 11, która dodaje przycisk „Zaloguj się przez Google” (OAuth2/OIDC), umożliwiając alternatywne uwierzytelnianie przy jednoczesnym zachowaniu natywnego logowania lokalnego w 100% funkcjonalnego。</pl_PL>
+         <pt_BR>Plugin para GLPI 11 que adiciona a opção de login seguro via Google (SSO com OAuth2/OIDC), mantendo a autenticação local nativa 100% funcional。</pt_BR>
+         <pt_PT>Plugin para GLPI 11 que adiciona a opção de login seguro via Google (SSO com OAuth2/OIDC), mantendo a autenticação local nativa 100% funcional。</pt_PT>
+         <ro_RO>Plugin GLPI 11 care adaugă un buton „Conectați-vă cu Google” (OAuth2/OIDC), permițând autentificarea alternativă, menținând în același timp loginul local nativ 100% funcțional。</ro_RO>
+         <ru_RU>Плагин GLPI 11, который добавляет кнопку «Войти через Google» (OAuth2/OIDC), обеспечивая альтернативную аутентификацию, сохраняя при этом родной локальный вход 100% функциональным。</ru_RU>
+         <sk_SK>Zásuvný modul GLPI 11, ktorý pridáva tlačidlo „Prihlásiť sa pomocou Googlu“ (OAuth2/OIDC), ktoré umožňuje alternatívne overenie, pričom zachováva pôvodné lokálne prihlásenie 100% funkčné。</sk_SK>
+         <sl_SI>Vtičnik GLPI 11, ki doda gumb »Prijavite se z Googlom« (OAuth2/OIDC), s čimer omogoči alternativno preverjanje pristnosti, medtem ko ohranja domačo lokalno prijavo 100 % delujočo。</sl_SI>
+         <sq_AL>Shtojca GLPI 11 që shton një buton &quot;Identifikohu me Google&quot; (OAuth2/OIDC), duke mundësuar vërtetimin alternativ duke mbajtur hyrjen e lindjes lokale 100% funksionale。</sq_AL>
+         <sr_RS>ГЛПИ 11 додатак који додаје дугме „Пријави се са Гуглом“ (ОАутх2/ОИДЦ), омогућавајући алтернативну аутентификацију уз задржавање изворне локалне пријаве 100% функционалним。</sr_RS>
+         <sv_SE>GLPI 11-plugin som lägger till en &quot;Logga in med Google&quot;-knapp (OAuth2/OIDC), som möjliggör alternativ autentisering samtidigt som den ursprungliga lokala inloggningen hålls 100 % funktionell。</sv_SE>
+         <th_TH>ปลั๊กอิน GLPI 11 ที่เพิ่มปุ่ม &#039;ลงชื่อเข้าใช้ด้วย Google&#039; (OAuth2/OIDC) เพื่อเปิดใช้การตรวจสอบสิทธิ์ทางเลือกในขณะที่ยังคงรักษากระบวนการเข้าสู่ระบบดั้งเดิมในพื้นที่ทำงานได้ 100%</th_TH>
+         <tr_TR>Orijinal yerel oturum açma işlemini %100 işlevsel tutarken alternatif kimlik doğrulamasına olanak tanıyan bir &#039;Google ile oturum aç&#039; düğmesi (OAuth2/OIDC) ekleyen GLPI 11 eklentisi。</tr_TR>
+         <uk_UA>Плагін GLPI 11, який додає кнопку «Увійти через Google» (OAuth2/OIDC), уможливлюючи альтернативну автентифікацію, зберігаючи рідний локальний вхід 100% функціональним。</uk_UA>
+         <vi_VN>Plugin GLPI 11 thêm nút &#039;Đăng nhập bằng Google&#039; (OAuth2/OIDC), cho phép xác thực thay thế trong khi vẫn giữ nguyên chức năng đăng nhập cục bộ gốc 100%。</vi_VN>
+         <zh_CN>GLPI 11 插件，添加“通过 Google 登录”按钮 (OAuth2/OIDC)，启用替代身份验证，同时保持本机本地登录 100% 正常运行。</zh_CN>
+         <zh_HK>GLPI 11 外掛程式，新增「透過 Google 登入」按鈕 (OAuth2/OIDC)，啟用替代身分驗證，同時維持本機本機登入 100% 運作。</zh_HK>
+         <zh_TW>GLPI 11 外掛程式，新增「透過 Google 登入」按鈕 (OAuth2/OIDC)，啟用替代身分驗證，同時維持本機本機登入 100% 運作。</zh_TW>
       </long>
    </description>
    <homepage>https://github.com/andrefelipeufcg/googlesso</homepage>
@@ -24,30 +167,514 @@
    </authors>
    <versions>
       <version>
+         <num>1.0.4</num>
+         <compatibility>&gt;=11.0.0</compatibility>
+         <download_url>https://github.com/andrefelipeufcg/googlesso/releases/download/v1.0.4/v1.0.4.zip</download_url>
+      </version>
+      <version>
+         <num>1.0.3</num>
+         <compatibility>&gt;=11.0.0</compatibility>
+         <download_url>https://github.com/andrefelipeufcg/googlesso/archive/refs/tags/v1.0.3.zip</download_url>
+      </version>
+      <version>
+         <num>1.0.2</num>
+         <compatibility>&gt;=11.0.0</compatibility>
+         <download_url>https://github.com/andrefelipeufcg/googlesso/archive/refs/tags/v1.0.2.zip</download_url>
+      </version>
+      <version>
          <num>1.0.1</num>
          <compatibility>&gt;=11.0.0</compatibility>
          <download_url>https://github.com/andrefelipeufcg/googlesso/archive/refs/tags/v1.0.1.zip</download_url>
       </version>
+      <version>
+         <num>1.0.0</num>
+         <compatibility>&gt;=11.0.0</compatibility>
+         <download_url>https://github.com/andrefelipeufcg/googlesso/archive/refs/tags/v1.0.0.zip</download_url>
+      </version>
    </versions>
    <langs>
+      <lang>ar_IQ</lang>
+      <lang>ar_SA</lang>
+      <lang>ar_SY</lang>
+      <lang>az_AZ</lang>
+      <lang>be_BY</lang>
+      <lang>bg_BG</lang>
+      <lang>bn_BD</lang>
+      <lang>ca_ES</lang>
+      <lang>cs_CZ</lang>
+      <lang>da_DK</lang>
+      <lang>de_DE</lang>
+      <lang>el_GR</lang>
+      <lang>en</lang>
       <lang>en_GB</lang>
-      <lang>pt_BR</lang>
+      <lang>en_US</lang>
+      <lang>eo</lang>
+      <lang>es_419</lang>
+      <lang>es_AR</lang>
+      <lang>es_CL</lang>
+      <lang>es_CO</lang>
+      <lang>es_EC</lang>
       <lang>es_ES</lang>
+      <lang>es_MX</lang>
+      <lang>es_VE</lang>
+      <lang>et_EE</lang>
+      <lang>eu_ES</lang>
+      <lang>fa_IR</lang>
+      <lang>fi_FI</lang>
+      <lang>fr_BE</lang>
+      <lang>fr_CA</lang>
       <lang>fr_FR</lang>
+      <lang>gl_ES</lang>
+      <lang>he_IL</lang>
+      <lang>hi_IN</lang>
+      <lang>hr_HR</lang>
+      <lang>hu_HU</lang>
+      <lang>id_ID</lang>
+      <lang>is_IS</lang>
+      <lang>it_IT</lang>
+      <lang>ja_JP</lang>
+      <lang>km_KH</lang>
+      <lang>kn</lang>
+      <lang>ko_KR</lang>
+      <lang>lt_LT</lang>
+      <lang>lv_LV</lang>
+      <lang>mn_MN</lang>
+      <lang>ms_MY</lang>
+      <lang>nb_NO</lang>
+      <lang>nl_BE</lang>
+      <lang>nl_NL</lang>
+      <lang>nn_NO</lang>
+      <lang>pl_PL</lang>
+      <lang>pt_BR</lang>
+      <lang>pt_PT</lang>
+      <lang>ro_RO</lang>
+      <lang>ru_RU</lang>
+      <lang>sk_SK</lang>
+      <lang>sl_SI</lang>
+      <lang>sq_AL</lang>
+      <lang>sr_RS</lang>
+      <lang>sv_SE</lang>
+      <lang>th_TH</lang>
+      <lang>tr_TR</lang>
+      <lang>uk_UA</lang>
+      <lang>vi_VN</lang>
+      <lang>zh_CN</lang>
+      <lang>zh_HK</lang>
+      <lang>zh_TW</lang>
    </langs>
    <license>GPL v2+</license>
-   <tags>
+      <tags>
+      <tag>authentication</tag>
+      <tag>sso</tag>
+      <tag>oauth2</tag>
+      <tag>google</tag>
+      <ar_IQ>
+         <tag>مصادقة</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ar_IQ>
+      <ar_SA>
+         <tag>مصادقة</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ar_SA>
+      <ar_SY>
+         <tag>مصادقة</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ar_SY>
+      <az_AZ>
+         <tag>autentifikasiya</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </az_AZ>
+      <be_BY>
+         <tag>аўтэнтыфікацыя</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </be_BY>
+      <bg_BG>
+         <tag>удостоверяване</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </bg_BG>
+      <bn_BD>
+         <tag>প্রমাণীকরণ</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </bn_BD>
+      <ca_ES>
+         <tag>autenticació</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ca_ES>
+      <cs_CZ>
+         <tag>autentizace</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </cs_CZ>
+      <da_DK>
+         <tag>godkendelse</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </da_DK>
+      <de_DE>
+         <tag>authentifizierung</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </de_DE>
+      <el_GR>
+         <tag>έλεγχος ταυτότητας</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </el_GR>
       <en>
          <tag>authentication</tag>
          <tag>sso</tag>
          <tag>oauth2</tag>
          <tag>google</tag>
       </en>
+      <en_GB>
+         <tag>authentication</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </en_GB>
+      <en_US>
+         <tag>authentication</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </en_US>
+      <eo>
+         <tag>aŭtentikigo</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </eo>
+      <es_419>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </es_419>
+      <es_AR>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </es_AR>
+      <es_CL>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </es_CL>
+      <es_CO>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </es_CO>
+      <es_EC>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </es_EC>
+      <es_ES>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </es_ES>
+      <es_MX>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </es_MX>
+      <es_VE>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </es_VE>
+      <et_EE>
+         <tag>autentimine</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </et_EE>
+      <eu_ES>
+         <tag>autentifikazioa</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </eu_ES>
+      <fa_IR>
+         <tag>احراز هویت</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </fa_IR>
+      <fi_FI>
+         <tag>todennus</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </fi_FI>
+      <fr_BE>
+         <tag>authentification</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </fr_BE>
+      <fr_CA>
+         <tag>authentification</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </fr_CA>
+      <fr_FR>
+         <tag>authentification</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </fr_FR>
+      <gl_ES>
+         <tag>autenticación</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </gl_ES>
+      <he_IL>
+         <tag>אימות</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </he_IL>
+      <hi_IN>
+         <tag>प्रमाणीकरण</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </hi_IN>
+      <hr_HR>
+         <tag>autentifikacija</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </hr_HR>
+      <hu_HU>
+         <tag>hitelesítés</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </hu_HU>
+      <id_ID>
+         <tag>autentikasi</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </id_ID>
+      <is_IS>
+         <tag>auðkenning</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </is_IS>
+      <it_IT>
+         <tag>autenticazione</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </it_IT>
+      <ja_JP>
+         <tag>認証</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ja_JP>
+      <km_KH>
+         <tag>ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </km_KH>
+      <kn>
+         <tag>ದೃಢೀಕರಣ</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </kn>
+      <ko_KR>
+         <tag>인증</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ko_KR>
+      <lt_LT>
+         <tag>autentifikavimas</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </lt_LT>
+      <lv_LV>
+         <tag>autentifikācija</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </lv_LV>
+      <mn_MN>
+         <tag>баталгаажуулалт</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </mn_MN>
+      <ms_MY>
+         <tag>pengesahan</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ms_MY>
+      <nb_NO>
+         <tag>autentisering</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </nb_NO>
+      <nl_BE>
+         <tag>authenticatie</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </nl_BE>
+      <nl_NL>
+         <tag>authenticatie</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </nl_NL>
+      <nn_NO>
+         <tag>autentisering</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </nn_NO>
+      <pl_PL>
+         <tag>uwierzytelnianie</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </pl_PL>
       <pt_BR>
          <tag>autenticacao</tag>
          <tag>sso</tag>
          <tag>oauth2</tag>
          <tag>google</tag>
       </pt_BR>
+      <pt_PT>
+         <tag>autenticacao</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </pt_PT>
+      <ro_RO>
+         <tag>autentificare</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ro_RO>
+      <ru_RU>
+         <tag>аутентификация</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </ru_RU>
+      <sk_SK>
+         <tag>autentifikácia</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </sk_SK>
+      <sl_SI>
+         <tag>preverjanje pristnosti</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </sl_SI>
+      <sq_AL>
+         <tag>vërtetim</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </sq_AL>
+      <sr_RS>
+         <tag>аутентификација</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </sr_RS>
+      <sv_SE>
+         <tag>autentisering</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </sv_SE>
+      <th_TH>
+         <tag>การตรวจสอบสิทธิ์</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </th_TH>
+      <tr_TR>
+         <tag>kimlik doğrulama</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </tr_TR>
+      <uk_UA>
+         <tag>аутентифікація</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </uk_UA>
+      <vi_VN>
+         <tag>xác thực</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </vi_VN>
+      <zh_CN>
+         <tag>认证</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </zh_CN>
+      <zh_HK>
+         <tag>认证</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </zh_HK>
+      <zh_TW>
+         <tag>认证</tag>
+         <tag>sso</tag>
+         <tag>oauth2</tag>
+         <tag>google</tag>
+      </zh_TW>
    </tags>
 </root>

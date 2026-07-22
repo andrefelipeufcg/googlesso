@@ -138,13 +138,6 @@ final class Authenticator
         global $CFG_GLPI;
 
         Toolbox::logInFile('googlesso', $message . "\n");
-        /*
-        // TODO: DEBUG
-        echo "<h1>[DEBUG] ERRO NO LOGIN GOOGLE</h1>";
-        echo "<p><strong>Detalhe:</strong> " . htmlspecialchars($message) . "</p>";
-        echo "<a href='" . $CFG_GLPI['url_base'] . "/index.php'>Voltar</a>";
-        die();
-        */
         Session::addMessageAfterRedirect(htmlescape($message), false, ERROR);
 
         // Volta para a página de login nativa; nunca derruba a sessão de

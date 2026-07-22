@@ -11,7 +11,7 @@
 use Glpi\Http\Firewall;
 use Glpi\Plugin\Hooks;
 
-define('PLUGIN_GOOGLESSO_VERSION', '1.0.3');
+define('PLUGIN_GOOGLESSO_VERSION', '1.0.4');
 define('PLUGIN_GOOGLESSO_MIN_GLPI', '11.0.0');
 //define('PLUGIN_GOOGLESSO_MAX_GLPI', '11.0.99');
 
@@ -66,9 +66,5 @@ function plugin_version_googlesso(): array
 
 function plugin_googlesso_check_prerequisites(): bool
 {
-    if (!is_readable(__DIR__ . '/vendor/autoload.php')) {
-        echo 'Execute "composer install --no-dev" no diretório do plugin antes de instalá-lo.';
-        return false;
-    }
     return true;
 }

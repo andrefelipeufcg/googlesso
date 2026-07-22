@@ -11,6 +11,19 @@ on the login page.
 
 ## Installation
 
+**For version 1.0.4 or later (Recommended):**
+1. Download the latest `vX.X.X.zip` release (e.g., `v1.0.5.zip`) from the Releases page.
+2. Extract the contents inside your GLPI plugins folder (`<GLPI>/plugins`).
+3. Ensure the extracted folder is named exactly `googlesso`.
+4. Fix the permissions so the web server can read the files:
+   ```bash
+   chown -R www-data:www-data <GLPI>/plugins/googlesso
+   chmod -R 755 <GLPI>/plugins/googlesso
+   ```
+*(No need to run `composer install`, dependencies are already included).*
+
+**If you are installing version 1.0.3 or earlier from source, use:**
+
 ```bash
 cd <GLPI>/plugins
 cp -r googlesso .
@@ -69,6 +82,19 @@ local de GLPI permanece 100% funcional — el plugin solo agrega un botón
 "Iniciar sesión con Google" en la página de inicio de sesión.
 
 ## Instalación
+
+**Para la versión 1.0.4 o posterior (Recomendado):**
+1. Descargue el último archivo `vX.X.X.zip` (ej. `v1.0.5.zip`) de la página de Releases.
+2. Extraiga el contenido dentro de la carpeta de plugins de GLPI (`<GLPI>/plugins`).
+3. Asegúrese de que la carpeta extraída se llame exactamente `googlesso`.
+4. Corrija los permisos para que el servidor web pueda leer los archivos:
+   ```bash
+   chown -R www-data:www-data <GLPI>/plugins/googlesso
+   chmod -R 755 <GLPI>/plugins/googlesso
+   ```
+*(No es necesario ejecutar `composer install`, las dependencias ya están incluidas).*
+
+**Si está instalando la versión 1.0.3 o anterior desde el código fuente, use:**
 
 ```bash
 cd <GLPI>/plugins
@@ -129,6 +155,19 @@ local de GLPI reste 100% fonctionnel — le plugin ajoute simplement un bouton
 
 ## Installation
 
+**Pour la version 1.0.4 ou ultérieure (Recommandé) :**
+1. Téléchargez le dernier fichier `vX.X.X.zip` (ex. `v1.0.5.zip`) depuis la page Releases.
+2. Extrayez le contenu dans votre dossier de plugins GLPI (`<GLPI>/plugins`).
+3. Assurez-vous que le dossier extrait est nommé exactement `googlesso`.
+4. Corrigez les permissions pour que le serveur web puisse lire les fichiers :
+   ```bash
+   chown -R www-data:www-data <GLPI>/plugins/googlesso
+   chmod -R 755 <GLPI>/plugins/googlesso
+   ```
+*(Inutile d'exécuter `composer install`, les dépendances sont déjà incluses).*
+
+**Si vous installez la version 1.0.3 ou antérieure à partir du code source, utilisez :**
+
 ```bash
 cd <GLPI>/plugins
 cp -r googlesso .
@@ -187,6 +226,19 @@ local do GLPI permanece 100% funcional — o plugin apenas adiciona um botão
 "Entrar com Google" na página de login.
 
 ## Instalação
+
+**Para a versão 1.0.4 ou superior (Recomendado):**
+1. Baixe o arquivo de release mais recente `vX.X.X.zip` (por exemplo, `v1.0.5.zip`) na página de Releases.
+2. Extraia o conteúdo dentro da sua pasta de plugins do GLPI (`<GLPI>/plugins`).
+3. Certifique-se de que a pasta extraída se chame exatamente `googlesso`.
+4. Corrija as permissões para que o servidor web possa ler os arquivos:
+   ```bash
+   chown -R www-data:www-data <GLPI>/plugins/googlesso
+   chmod -R 755 <GLPI>/plugins/googlesso
+   ```
+*(Não é necessário rodar o `composer install`, as dependências já vêm inclusas).*
+
+**Se você estiver instalando a versão 1.0.3 ou anterior a partir do código-fonte, utilize:**
 
 ```bash
 cd <GLPI>/plugins

@@ -194,5 +194,268 @@ msgstr ""
 "Kopioi ja liitä täsmälleen alla oleva paluu-URL-osoite kohdassa "
 "<strong>Valtuutetut uudelleenohjaus-URI:t</strong>:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "Myös aliverkkotunnukset hyväksytään. Esim. \"company.com\" sallii osoitteet user@company.com ja user@sub.company.com."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"Myös aliverkkotunnukset hyväksytään. Esim. \"company.com\" sallii osoitteet "
+"user@company.com ja user@sub.company.com."
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"Testaaksesi tilin luomissääntöjä ja selvittääksesi, mikä profiili/entiteetti"
+" sähköpostiin liitetään,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"Plugin kutsuu <code>Session::init()</code>. GLPI-ydin lataa käyttäjän "
+"profiilit ja aloittaa istunnon. Käyttäjä ohjataan kojelautaan."
+
+msgid "Error Creating Account"
+msgstr "Virhe luotaessa tiliä"
+
+msgid "No Profile Configured"
+msgstr "Profiilia ei ole määritetty"
+
+msgid "Database Search"
+msgstr "Tietokannan haku"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "Haluatko jatkaa ja luoda tilisi nyt?"
+
+msgid "click here"
+msgstr "klikkaa tästä"
+
+msgid "Auto Creation Disabled"
+msgstr "Automaattinen luonti pois käytöstä"
+
+msgid "Rules Simulator"
+msgstr "Sääntösimulaattori"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"Järjestelmä kirjautuisi olemassa olevalle tilille <strong>%s</strong> (ID: "
+"%d). Uutta tiliä ei luoda."
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ Simuloi sisäänkirjautuminen"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"Purettu verkkotunnus: <strong>@%s</strong>. Käytetty sääntö: "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "Asetukset Lue"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr ""
+"Käyttäjä \"%s\" on jo olemassa. Kirjautuminen suoritettaisiin onnistuneesti."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"Sähköpostiverkkotunnus \"<strong>%s</strong>\" ei ole sallittu. Laajennus "
+"rajoittaa pääsyä verkkotunnukseen \"<strong>%s</strong>\" tai sen "
+"aliverkkotunnuksiin."
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"Laajennus kutsuu <code>User::add()</code> ja luo käyttäjän "
+"\"<strong>%s</strong>\"."
+
+msgid "using the primary email:"
+msgstr "käyttämällä ensisijaista sähköpostiosoitetta:"
+
+msgid "User::add() called"
+msgstr "User::add() kutsui"
+
+msgid "Profile Determined by Plugin"
+msgstr "Pluginin määrittämä profiili"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Profiili: <strong>%s</strong> (ID: %d) | Entiteetti: <strong>%s</strong> "
+"(ID: %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr ""
+"Sähköpostiverkkotunnus \"<strong>%s</strong>\" on sallittu rajoitussäännön "
+"mukaan."
+
+msgid "Core Default Profile Assigned"
+msgstr "Ydinoletusprofiili määritetty"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "Vahvistettu sähköpostiosoite: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr ""
+"Käyttäjää \"%s\" EI OLE olemassa ja automaattinen luonti on poistettu "
+"käytöstä."
+
+msgid "Profile Correction by Plugin"
+msgstr "Profiilin korjaus lisäosalla"
+
+msgid "Yes"
+msgstr "Kyllä"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr "Järjestelmään pääsemiseksi Googlen kautta luodaan uusi tili"
+
+msgid "Rule Used"
+msgstr "Käytetty sääntö"
+
+msgid "Plugin googlesso step"
+msgstr "Plugin googlesso vaihe"
+
+msgid "Simulator:"
+msgstr "Simulaattori:"
+
+msgid "Account Creation Required"
+msgstr "Tilin luominen vaaditaan"
+
+msgid "Domain Rule for \"%s\""
+msgstr "Verkkotunnuksen sääntö \"%s\""
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"Tämä simulaattori toistaa uskollisesti koko suoritusketjun - "
+"laajennuslogiikasta sisäiseen GLPI Core -käyttäytymiseen. Kirjoita "
+"sähköpostiosoite ja katso vaihe vaiheelta, mitä tapahtuisi oikealla "
+"kirjautumisella."
+
+msgid "Back to configuration"
+msgstr "Takaisin konfigurointiin"
+
+msgid "Account Creation Confirmation"
+msgstr "Tilin luomisen vahvistus"
+
+msgid "Domain Rules"
+msgstr "Verkkotunnuksen säännöt"
+
+msgid "Account Creation Simulator"
+msgstr "Tilinluontisimulaattori"
+
+msgid "No"
+msgstr "Ei"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "Sähköpostilla <strong>%s</strong> ei löytynyt käyttäjää"
+
+msgid "Login / Email"
+msgstr "Kirjautuminen / Sähköposti"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"Luo käyttäjiä automaattisesti -määritys on <strong>POIS KÄYTÖSTÄ</strong>. "
+"Kirjautuminen estetään."
+
+msgid "(none)"
+msgstr "(ei mitään)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "Kirjautuminen estetty: Vain verkkotunnuksen %s tilit hyväksytään."
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "Käyttäjän \"%s\" luominen onnistuisi."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"Laajennus poistaa GLPI:n määrittämät virheelliset profiilit ja linkittää "
+"profiilin <strong>%s</strong> ja kokonaisuuden <strong>%s</strong> "
+"käyttämällä <code>Profile_User</code>-luokkaa."
+
+msgid "Email Validation"
+msgstr "Sähköpostin vahvistus"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "Käyttäjä löydetty sähköpostitse: <strong>%s</strong> (ID: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "Verkkotunnuksen rajoitusten tarkistus"
+
+msgid "None"
+msgstr "Ei mitään"
+
+msgid "Session::init() — Login Performed"
+msgstr "Istunto::init() — Kirjautuminen suoritettu"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "Suoritusketju (askel askeleelta)"
+
+msgid "Login to Existing Account"
+msgstr "Kirjaudu olemassa olevalle tilille"
+
+msgid "How it works:"
+msgstr "Miten se toimii:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"GLPI 11:ssä ydin jättää huomioimatta ulkoisten todennusten välittämän "
+"profiilin ja määrittää automaattisesti globaalin oletusprofiilin (yleensä "
+"itsepalveluprofiilin) ​​uudelle käyttäjälle."
+
+msgid "Final Entity"
+msgstr "Lopullinen kokonaisuus"
+
+msgid "Final Result"
+msgstr "Lopputulos"
+
+msgid "Back to Login"
+msgstr "Takaisin kirjautumiseen"
+
+msgid "Simulated Email:"
+msgstr "Simuloitu sähköposti:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"Rajoita verkkotunnusta: <strong>%s</strong> | Luo automaattisesti käyttäjiä:"
+" <strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "Lopullinen profiili"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"Käyttäjä \"%s\" luodaan, mutta ilman MITÄÄN profiilia. Pääsy GLPI:ään "
+"estetään. Määritä kelvollinen profiili Oletussäännössä tai Domain Rulesissa."
+
+msgid "GLPI Core step"
+msgstr "GLPI Core -vaihe"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"Liitännäissäännöistä ei löytynyt kelvollista profiilia (ID > 0). Käyttäjä "
+"luodaan ILMAN profiilia."

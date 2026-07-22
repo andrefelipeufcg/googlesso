@@ -192,5 +192,261 @@ msgstr ""
 "Kopeerige ja kleepige jaotises <strong>Lubatud ümbersuunamise URI-d</strong>"
 " täpselt allolev tagastus-URL:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "Vastu võetakse ka alamdomeene. Nt: \"company.com\" lubab user@company.com ja user@sub.company.com."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"Vastu võetakse ka alamdomeene. Nt: \"company.com\" lubab user@company.com ja"
+" user@sub.company.com."
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"Konto loomise reeglite testimiseks ja teada saamiseks, milline profiil/üksus"
+" meilisõnumile määratakse,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"Pistikprogramm kutsub <code>Session::init()</code>. GLPI tuum laadib "
+"kasutaja profiilid ja alustab seanssi. Kasutaja suunatakse armatuurlauale."
+
+msgid "Error Creating Account"
+msgstr "Viga konto loomisel"
+
+msgid "No Profile Configured"
+msgstr "Profiili pole konfigureeritud"
+
+msgid "Database Search"
+msgstr "Otsing andmebaasist"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "Kas soovite jätkata ja kohe oma konto luua?"
+
+msgid "click here"
+msgstr "klõpsake siin"
+
+msgid "Auto Creation Disabled"
+msgstr "Automaatne loomine on keelatud"
+
+msgid "Rules Simulator"
+msgstr "Reeglite simulaator"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"Süsteem logiks sisse olemasolevale kontole <strong>%s</strong> (ID: %d). Uut"
+" kontot ei looda."
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ Simuleeri sisselogimist"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"Ekstraheeritud domeen: <strong>@%s</strong>. Rakendatud reegel: "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "Konfiguratsiooni lugemine"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "Kasutaja \"%s\" on juba olemas. Sisselogimine toimub edukalt."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"Meili domeen \"<strong>%s</strong>\" pole lubatud. Pistikprogramm piirab "
+"juurdepääsu domeenile „<strong>%s</strong>” või selle alamdomeenidele."
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"Pistikprogramm kutsub <code>User::add()</code> kasutaja "
+"\"<strong>%s</strong> loomiseks\"."
+
+msgid "using the primary email:"
+msgstr "kasutades esmast e-posti aadressi:"
+
+msgid "User::add() called"
+msgstr "Kasutaja::add() kutsus"
+
+msgid "Profile Determined by Plugin"
+msgstr "Plugina poolt määratud profiil"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Profiil: <strong>%s</strong> (ID: %d) | Üksus: <strong>%s</strong> (ID: %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr "Meilidomeen \"<strong>%s</strong>\" on piirangureegliga lubatud."
+
+msgid "Core Default Profile Assigned"
+msgstr "Põhiline vaikeprofiil on määratud"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "Olemas kinnitatud e-post: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "Kasutajat \"%s\" EI OLE ja automaatne loomine on keelatud."
+
+msgid "Profile Correction by Plugin"
+msgstr "Profiiliparandus plugina abil"
+
+msgid "Yes"
+msgstr "Jah"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr "Süsteemile Google'i kaudu juurdepääsuks luuakse uus konto"
+
+msgid "Rule Used"
+msgstr "Kasutatud reegel"
+
+msgid "Plugin googlesso step"
+msgstr "Plugin googlesso samm"
+
+msgid "Simulator:"
+msgstr "Simulaator:"
+
+msgid "Account Creation Required"
+msgstr "Nõutav konto loomine"
+
+msgid "Domain Rule for \"%s\""
+msgstr "Domeeni reegel \"%s\" jaoks"
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"See simulaator reprodutseerib tõetruult kogu täitmisahelat – alates "
+"pistikprogrammi loogikast kuni sisemise GLPI Core käitumiseni. Sisestage "
+"meiliaadress ja vaadake samm-sammult, mis juhtuks päris sisselogimisel."
+
+msgid "Back to configuration"
+msgstr "Tagasi konfiguratsiooni juurde"
+
+msgid "Account Creation Confirmation"
+msgstr "Konto loomise kinnitus"
+
+msgid "Domain Rules"
+msgstr "Domeenireeglid"
+
+msgid "Account Creation Simulator"
+msgstr "Konto loomise simulaator"
+
+msgid "No"
+msgstr "Ei"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "E-posti aadressiga <strong>%s</strong> ei leitud ühtegi kasutajat"
+
+msgid "Login / Email"
+msgstr "Sisselogimine / e-post"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"Konfiguratsioon „Loo kasutajad automaatselt” on <strong>KEELATUD</strong>. "
+"Sisselogimine oleks blokeeritud."
+
+msgid "(none)"
+msgstr "(mitte ükski)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr ""
+"Sisselogimine blokeeritud: aktsepteeritakse ainult kontosid domeenist %s."
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "Kasutaja \"%s\" loomine õnnestub."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"Pistikprogramm eemaldab GLPI määratud valed profiilid ja lingib "
+"selgesõnaliselt profiili <strong>%s</strong> ja olemi <strong>%s</strong>, "
+"kasutades klassi <code>Profile_User</code>."
+
+msgid "Email Validation"
+msgstr "Meili kinnitamine"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "Kasutaja leitud meili teel: <strong>%s</strong> (ID: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "Domeenipiirangu kontroll"
+
+msgid "None"
+msgstr "Mitte ühtegi"
+
+msgid "Session::init() — Login Performed"
+msgstr "Seanss::init() — sisselogimine sooritatud"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "Täitmisahel (samm-sammult)"
+
+msgid "Login to Existing Account"
+msgstr "Logige sisse olemasolevale kontole"
+
+msgid "How it works:"
+msgstr "Kuidas see toimib:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"GLPI 11-s ignoreerib tuum välise autentimise kaudu edastatud profiili ja "
+"määrab uuele kasutajale automaatselt globaalse vaikeprofiili (tavaliselt "
+"iseteeninduse)."
+
+msgid "Final Entity"
+msgstr "Lõplik üksus"
+
+msgid "Final Result"
+msgstr "Lõpptulemus"
+
+msgid "Back to Login"
+msgstr "Tagasi sisselogimise juurde"
+
+msgid "Simulated Email:"
+msgstr "Simuleeritud e-post:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"Piira domeen: <strong>%s</strong> | Kasutajate automaatne loomine: "
+"<strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "Lõplik profiil"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"Kasutaja \"%s\" luuakse, kuid ilma ÜHTEGI profiilita. Juurdepääs GLPI-le "
+"oleks keelatud. Seadistage vaikereeglis või domeenireeglis kehtiv profiil."
+
+msgid "GLPI Core step"
+msgstr "GLPI Core samm"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"Plugina reeglitest ei leitud ühtegi kehtivat profiili (ID > 0). Kasutaja "
+"luuakse ILMA profiilita."

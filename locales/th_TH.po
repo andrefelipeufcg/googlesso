@@ -37,7 +37,7 @@ msgid "Failed to create the user in GLPI."
 msgstr "ไม่สามารถสร้างผู้ใช้ใน GLPI"
 
 msgid "Google SSO"
-msgstr "Google SSO"
+msgstr "เอสเอสโอของ Google"
 
 msgid "Google SSO — Configuration"
 msgstr "Google SSO — การกำหนดค่า"
@@ -190,5 +190,256 @@ msgstr ""
 "ใต้ <strong>URI การเปลี่ยนเส้นทางที่ได้รับอนุญาต</strong> ให้คัดลอกและวาง "
 "URL ที่ส่งคืนด้านล่างทุกประการ:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "ยอมรับโดเมนย่อยด้วย เช่น \"company.com\" จะอนุญาต user@company.com และ user@sub.company.com"
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"ยอมรับโดเมนย่อยด้วย เช่น \"company.com\" จะอนุญาต user@company.com และ "
+"user@sub.company.com"
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr "เพื่อทดสอบกฎการสร้างบัญชีและค้นหาโปรไฟล์/เอนทิตีที่จะกำหนดให้กับอีเมล"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"ปลั๊กอินเรียก <code>Session::init()</code> แกน GLPI "
+"จะโหลดโปรไฟล์ของผู้ใช้และเริ่มเซสชัน ผู้ใช้ถูกเปลี่ยนเส้นทางไปยังแดชบอร์ด"
+
+msgid "Error Creating Account"
+msgstr "เกิดข้อผิดพลาดในการสร้างบัญชี"
+
+msgid "No Profile Configured"
+msgstr "ไม่มีการกำหนดค่าโปรไฟล์"
+
+msgid "Database Search"
+msgstr "ค้นหาฐานข้อมูล"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "คุณต้องการดำเนินการและสร้างบัญชีของคุณทันทีหรือไม่?"
+
+msgid "click here"
+msgstr "คลิกที่นี่"
+
+msgid "Auto Creation Disabled"
+msgstr "ปิดการสร้างอัตโนมัติแล้ว"
+
+msgid "Rules Simulator"
+msgstr "เครื่องจำลองกฎ"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"ระบบจะเข้าสู่บัญชีที่มีอยู่ <strong>%s</strong> (ID: %d) "
+"จะไม่มีการสร้างบัญชีใหม่"
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ จำลองการเข้าสู่ระบบ"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr "โดเมนที่แยกออกมา: <strong>@%s</strong> กฎที่ใช้: <strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "อ่านการกำหนดค่า"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "มีผู้ใช้ \"%s\" อยู่แล้ว การเข้าสู่ระบบจะดำเนินการได้สำเร็จ"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"ไม่อนุญาตให้ใช้โดเมนอีเมล \"<strong>%s</strong>\" "
+"ปลั๊กอินจำกัดการเข้าถึงโดเมน \"<strong>%s</strong>\" หรือโดเมนย่อย"
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"ปลั๊กอินเรียก <code>User::add()</code> เพื่อสร้างผู้ใช้ "
+"\"<strong>%s</strong>\""
+
+msgid "using the primary email:"
+msgstr "โดยใช้อีเมลหลัก:"
+
+msgid "User::add() called"
+msgstr "ผู้ใช้::เพิ่ม() เรียกว่า"
+
+msgid "Profile Determined by Plugin"
+msgstr "โปรไฟล์กำหนดโดยปลั๊กอิน"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"โปรไฟล์: <strong>%s</strong> (รหัส: %d) | เอนทิตี: <strong>%s</strong> "
+"(รหัส: %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr "โดเมนอีเมล \"<strong>%s</strong>\" ได้รับอนุญาตตามกฎข้อจำกัด"
+
+msgid "Core Default Profile Assigned"
+msgstr "กำหนดโปรไฟล์เริ่มต้นหลักแล้ว"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "มีอีเมลที่ยืนยันแล้ว: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "ไม่มีผู้ใช้ \"%s\" และการสร้างอัตโนมัติถูกปิดใช้งาน"
+
+msgid "Profile Correction by Plugin"
+msgstr "การแก้ไขโปรไฟล์โดยปลั๊กอิน"
+
+msgid "Yes"
+msgstr "ใช่"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr "หากต้องการเข้าใช้งานระบบผ่าน Google จะมีการสร้างบัญชีใหม่ให้"
+
+msgid "Rule Used"
+msgstr "กฎที่ใช้"
+
+msgid "Plugin googlesso step"
+msgstr "ปลั๊กอินขั้นตอน googlesso"
+
+msgid "Simulator:"
+msgstr "เครื่องจำลอง:"
+
+msgid "Account Creation Required"
+msgstr "จำเป็นต้องสร้างบัญชี"
+
+msgid "Domain Rule for \"%s\""
+msgstr "กฎโดเมนสำหรับ \"%s\""
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"เครื่องจำลองนี้สร้างห่วงโซ่การดำเนินการทั้งหมดอย่างเที่ยงตรง "
+"ตั้งแต่ตรรกะของปลั๊กอินไปจนถึงลักษณะการทำงาน GLPI Core ภายใน "
+"กรอกอีเมลและดูทีละขั้นตอนว่าจะเกิดอะไรขึ้นในการเข้าสู่ระบบจริง"
+
+msgid "Back to configuration"
+msgstr "กลับไปที่การกำหนดค่า"
+
+msgid "Account Creation Confirmation"
+msgstr "การยืนยันการสร้างบัญชี"
+
+msgid "Domain Rules"
+msgstr "กฎโดเมน"
+
+msgid "Account Creation Simulator"
+msgstr "โปรแกรมจำลองการสร้างบัญชี"
+
+msgid "No"
+msgstr "เลขที่"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "ไม่พบผู้ใช้ที่มีอีเมล <strong>%s</strong>"
+
+msgid "Login / Email"
+msgstr "เข้าสู่ระบบ / อีเมล"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"การกำหนดค่า \"สร้างผู้ใช้โดยอัตโนมัติ\" <strong>ปิดใช้งาน</strong> "
+"การเข้าสู่ระบบจะถูกบล็อก"
+
+msgid "(none)"
+msgstr "(ไม่มี)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "การเข้าสู่ระบบถูกบล็อก: ยอมรับเฉพาะบัญชีจากโดเมน %s เท่านั้น"
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "ผู้ใช้ \"%s\" จะถูกสร้างขึ้นได้สำเร็จ"
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"ปลั๊กอินจะลบโปรไฟล์ที่ไม่ถูกต้องที่กำหนดโดย GLPI และเชื่อมโยงโปรไฟล์ "
+"<strong>%s</strong> และเอนทิตี <strong>%s</strong> อย่างชัดเจนโดยใช้คลาส "
+"<code>Profile_User</code>"
+
+msgid "Email Validation"
+msgstr "การตรวจสอบอีเมล์"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "พบผู้ใช้ทางอีเมล: <strong>%s</strong> (ID: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "การตรวจสอบข้อจำกัดโดเมน"
+
+msgid "None"
+msgstr "ไม่มี"
+
+msgid "Session::init() — Login Performed"
+msgstr "เซสชัน::init() — เข้าสู่ระบบแล้ว"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "ห่วงโซ่การดำเนินการ (ทีละขั้นตอน)"
+
+msgid "Login to Existing Account"
+msgstr "เข้าสู่ระบบบัญชีที่มีอยู่"
+
+msgid "How it works:"
+msgstr "มันทำงานอย่างไร:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"ใน GLPI 11 แกนจะละเว้นโปรไฟล์ที่ส่งผ่านการรับรองความถูกต้องภายนอก "
+"และกำหนดโปรไฟล์เริ่มต้นส่วนกลาง (โดยปกติคือบริการตนเอง) "
+"ให้กับผู้ใช้ใหม่โดยอัตโนมัติ"
+
+msgid "Final Entity"
+msgstr "เอนทิตีสุดท้าย"
+
+msgid "Final Result"
+msgstr "ผลลัพธ์สุดท้าย"
+
+msgid "Back to Login"
+msgstr "กลับไปที่เข้าสู่ระบบ"
+
+msgid "Simulated Email:"
+msgstr "อีเมลจำลอง:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"จำกัดโดเมน: <strong>%s</strong> | สร้างผู้ใช้อัตโนมัติ: <strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "โปรไฟล์สุดท้าย"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"ผู้ใช้ \"%s\" จะถูกสร้างขึ้น แต่ไม่มีโปรไฟล์ใดๆ การเข้าถึง GLPI จะถูกปฏิเสธ "
+"โปรดกำหนดค่าโปรไฟล์ที่ถูกต้องในกฎเริ่มต้นหรือกฎของโดเมน"
+
+msgid "GLPI Core step"
+msgstr "ขั้นตอนหลัก GLPI"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"ไม่พบโปรไฟล์ที่ถูกต้อง (ID > 0) ในกฎปลั๊กอิน "
+"ผู้ใช้จะถูกสร้างขึ้นโดยไม่มีโปรไฟล์"

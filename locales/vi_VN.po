@@ -189,5 +189,261 @@ msgstr ""
 "Trong <strong>URI chuyển hướng được ủy quyền</strong>, hãy sao chép và dán "
 "chính xác URL trả về bên dưới:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "Tên miền phụ cũng được chấp nhận. Ví dụ: \"company.com\" sẽ cho phép user@company.com và user@sub.company.com."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"Tên miền phụ cũng được chấp nhận. Ví dụ: \"company.com\" sẽ cho phép "
+"user@company.com và user@sub.company.com."
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"Để kiểm tra các quy tắc tạo tài khoản và khám phá Hồ sơ/Thực thể nào sẽ được"
+" chỉ định cho một email,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"Plugin gọi <code>Session::init()</code>. Lõi GLPI tải hồ sơ của người dùng "
+"và bắt đầu phiên. Người dùng được chuyển hướng đến bảng điều khiển."
+
+msgid "Error Creating Account"
+msgstr "Lỗi khi tạo tài khoản"
+
+msgid "No Profile Configured"
+msgstr "Không có cấu hình hồ sơ"
+
+msgid "Database Search"
+msgstr "Tìm kiếm cơ sở dữ liệu"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "Bạn có muốn tiếp tục và tạo tài khoản của mình ngay bây giờ không?"
+
+msgid "click here"
+msgstr "bấm vào đây"
+
+msgid "Auto Creation Disabled"
+msgstr "Tự động tạo bị vô hiệu hóa"
+
+msgid "Rules Simulator"
+msgstr "Trình mô phỏng quy tắc"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"Hệ thống sẽ đăng nhập vào tài khoản hiện có <strong>%s</strong> (ID: %d). "
+"Không có tài khoản mới sẽ được tạo ra."
+
+msgid "▶️ Simulate Login"
+msgstr "♥️ Mô phỏng đăng nhập"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"Tên miền được trích xuất: <strong>@%s</strong>. Quy tắc được áp dụng: "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "Đọc cấu hình"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "Người dùng \"%s\" đã tồn tại. Đăng nhập sẽ được thực hiện thành công."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"Miền email \"<strong>%s</strong>\" không được phép. Plugin hạn chế quyền "
+"truy cập vào tên miền \"<strong>%s</strong>\" hoặc tên miền phụ của nó."
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"Plugin gọi <code>User::add()</code> để tạo người dùng "
+"\"<strong>%s</strong>\"."
+
+msgid "using the primary email:"
+msgstr "sử dụng email chính:"
+
+msgid "User::add() called"
+msgstr "Người dùng::add() đã gọi"
+
+msgid "Profile Determined by Plugin"
+msgstr "Hồ sơ được xác định bởi Plugin"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Hồ sơ: <strong>%s</strong> (ID: %d) | Thực thể: <strong>%s</strong> (ID: %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr ""
+"Tên miền email \"<strong>%s</strong>\" được cho phép theo quy tắc hạn chế."
+
+msgid "Core Default Profile Assigned"
+msgstr "Cấu hình mặc định cốt lõi được chỉ định"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr "Email đã được xác minh hiện có: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "Người dùng \"%s\" KHÔNG tồn tại và tính năng tự động tạo bị tắt."
+
+msgid "Profile Correction by Plugin"
+msgstr "Chỉnh sửa hồ sơ bằng Plugin"
+
+msgid "Yes"
+msgstr "Đúng"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr "Để truy cập hệ thống qua Google, một tài khoản mới sẽ được tạo cho"
+
+msgid "Rule Used"
+msgstr "Quy tắc được sử dụng"
+
+msgid "Plugin googlesso step"
+msgstr "Bước googlesso của plugin"
+
+msgid "Simulator:"
+msgstr "Trình mô phỏng:"
+
+msgid "Account Creation Required"
+msgstr "Yêu cầu tạo tài khoản"
+
+msgid "Domain Rule for \"%s\""
+msgstr "Quy tắc tên miền cho \"%s\""
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"Trình mô phỏng này tái tạo một cách trung thực toàn bộ chuỗi thực thi — từ "
+"logic plugin đến hành vi GLPI Core bên trong. Nhập email và xem từng bước "
+"điều gì sẽ xảy ra khi đăng nhập thực sự."
+
+msgid "Back to configuration"
+msgstr "Quay lại cấu hình"
+
+msgid "Account Creation Confirmation"
+msgstr "Xác nhận tạo tài khoản"
+
+msgid "Domain Rules"
+msgstr "Quy tắc tên miền"
+
+msgid "Account Creation Simulator"
+msgstr "Trình mô phỏng tạo tài khoản"
+
+msgid "No"
+msgstr "KHÔNG"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr "Không tìm thấy người dùng nào có email <strong>%s</strong>"
+
+msgid "Login / Email"
+msgstr "Đăng nhập / Email"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"Cấu hình \"Tự động tạo người dùng\" <strong>BỊ TẮT</strong>. Việc đăng nhập "
+"sẽ bị chặn."
+
+msgid "(none)"
+msgstr "(không có)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "Đăng nhập bị chặn: Chỉ chấp nhận tài khoản từ miền %s."
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "Người dùng \"%s\" sẽ được tạo thành công."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"Plugin xóa các cấu hình không chính xác do GLPI chỉ định và liên kết rõ ràng"
+" cấu hình <strong>%s</strong> với thực thể <strong>%s</strong> bằng cách sử "
+"dụng lớp <code>Profile_User</code>."
+
+msgid "Email Validation"
+msgstr "Xác thực email"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr "Người dùng được tìm thấy qua email: <strong>%s</strong> (ID: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "Kiểm tra hạn chế tên miền"
+
+msgid "None"
+msgstr "Không có"
+
+msgid "Session::init() — Login Performed"
+msgstr "Session::init() — Đã thực hiện đăng nhập"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "Chuỗi thực thi (Từng bước)"
+
+msgid "Login to Existing Account"
+msgstr "Đăng nhập vào tài khoản hiện có"
+
+msgid "How it works:"
+msgstr "Nó hoạt động như thế nào:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"Trong GLPI 11, lõi bỏ qua cấu hình được chuyển qua xác thực bên ngoài và tự "
+"động gán cấu hình mặc định chung (thường là Tự phục vụ) cho người dùng mới."
+
+msgid "Final Entity"
+msgstr "Thực thể cuối cùng"
+
+msgid "Final Result"
+msgstr "Kết quả cuối cùng"
+
+msgid "Back to Login"
+msgstr "Quay lại Đăng nhập"
+
+msgid "Simulated Email:"
+msgstr "Email mô phỏng:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"Giới hạn miền: <strong>%s</strong> | Tự động tạo người dùng: "
+"<strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "Hồ sơ cuối cùng"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"Người dùng \"%s\" sẽ được tạo nhưng không có BẤT KỲ hồ sơ nào. Quyền truy "
+"cập vào GLPI sẽ bị từ chối. Vui lòng định cấu hình cấu hình hợp lệ trong Quy"
+" tắc mặc định hoặc Quy tắc tên miền."
+
+msgid "GLPI Core step"
+msgstr "Bước cốt lõi GLPI"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"Không tìm thấy hồ sơ hợp lệ (ID > 0) trong quy tắc plugin. Người dùng sẽ "
+"được tạo KHÔNG CÓ hồ sơ."

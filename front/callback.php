@@ -54,7 +54,7 @@ try {
     $owner = $provider->getResourceOwner($token);
 
     // Autentica (ou cria) o usuário e redireciona; não retorna em sucesso.
-    Authenticator::login($owner);
+    Authenticator::login($owner->toArray());
 } catch (\Throwable $e) {
     // No GLPI 11, os redirecionamentos (Html::redirect) funcionam lançando a RedirectException.
     // Nós não podemos engolir essa exceção, ela deve subir para o router do GLPI executar o redirect.

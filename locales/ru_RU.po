@@ -195,5 +195,269 @@ msgstr ""
 "В разделе <strong>URI авторизованного перенаправления</strong> скопируйте и "
 "вставьте указанный ниже URL возврата:"
 
-msgid "Subdomains are also accepted. E.g.: \"company.com\" will allow user@company.com and user@sub.company.com."
-msgstr "Поддомены также принимаются. Например: «company.com» разрешит user@company.com и user@sub.company.com."
+msgid ""
+"Subdomains are also accepted. E.g.: \"company.com\" will allow "
+"user@company.com and user@sub.company.com."
+msgstr ""
+"Поддомены также принимаются. Например: «company.com» разрешит "
+"user@company.com и user@sub.company.com."
+
+msgid ""
+"To test the account creation rules and discover which Profile/Entity will be"
+" assigned to an email,"
+msgstr ""
+"Чтобы протестировать правила создания учетной записи и узнать, какой "
+"профиль/субъект будет назначен электронному письму,"
+
+msgid ""
+"The plugin calls <code>Session::init()</code>. The GLPI core loads the "
+"user\\'s profiles and starts the session. The user is redirected to the "
+"dashboard."
+msgstr ""
+"Плагин вызывает <code>Session::init()</code>. Ядро GLPI загружает профили "
+"пользователя и запускает сеанс. Пользователь перенаправляется на панель "
+"управления."
+
+msgid "Error Creating Account"
+msgstr "Ошибка создания учетной записи"
+
+msgid "No Profile Configured"
+msgstr "Профиль не настроен"
+
+msgid "Database Search"
+msgstr "Поиск в базе данных"
+
+msgid "Do you wish to proceed and create your account now?"
+msgstr "Хотите продолжить и создать учетную запись сейчас?"
+
+msgid "click here"
+msgstr "кликните сюда"
+
+msgid "Auto Creation Disabled"
+msgstr "Автоматическое создание отключено"
+
+msgid "Rules Simulator"
+msgstr "Симулятор правил"
+
+msgid ""
+"The system would log into the existing account <strong>%s</strong> (ID: %d)."
+" No new account would be created."
+msgstr ""
+"Система войдет в существующую учетную запись <strong>%s</strong> (ID: %d). "
+"Новая учетная запись не будет создана."
+
+msgid "▶️ Simulate Login"
+msgstr "▶️ Имитировать вход"
+
+msgid ""
+"Extracted domain: <strong>@%s</strong>. Applied rule: <strong>%s</strong>"
+msgstr ""
+"Извлеченный домен: <strong>@%s</strong>. Примененное правило: "
+"<strong>%s</strong>"
+
+msgid "Configuration Read"
+msgstr "Чтение конфигурации"
+
+msgid "User \"%s\" already exists. Login would be performed successfully."
+msgstr "Пользователь \"%s\" уже существует. Вход будет выполнен успешно."
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is not allowed. The plugin "
+"restricts access to the domain \"<strong>%s</strong>\" or its subdomains."
+msgstr ""
+"Домен электронной почты «<strong>%s</strong>» запрещен. Плагин ограничивает "
+"доступ к домену «<strong>%s</strong>» или его поддоменам."
+
+msgid ""
+"The plugin calls <code>User::add()</code> to create the user "
+"\"<strong>%s</strong>\"."
+msgstr ""
+"Плагин вызывает <code>User::add()</code> для создания пользователя "
+"«<strong>%s</strong>»."
+
+msgid "using the primary email:"
+msgstr "используя основной адрес электронной почты:"
+
+msgid "User::add() called"
+msgstr "Пользователь::add() вызывается"
+
+msgid "Profile Determined by Plugin"
+msgstr "Профиль определяется плагином"
+
+msgid ""
+"Profile: <strong>%s</strong> (ID: %d) | Entity: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Профиль: <strong>%s</strong> (ID: %d) | Объект: <strong>%s</strong> "
+"(идентификатор: %d)"
+
+msgid ""
+"The email domain \"<strong>%s</strong>\" is allowed by the restriction rule."
+msgstr ""
+"Домен электронной почты «<strong>%s</strong>» разрешен правилом ограничения."
+
+msgid "Core Default Profile Assigned"
+msgstr "Назначен основной профиль по умолчанию"
+
+msgid "Verified email present: <strong>%s</strong>"
+msgstr ""
+"Подтвержденный адрес электронной почты присутствует: <strong>%s</strong>"
+
+msgid "The user \"%s\" DOES NOT exist and auto-creation is disabled."
+msgstr "Пользователь «%s» НЕ существует, и автоматическое создание отключено."
+
+msgid "Profile Correction by Plugin"
+msgstr "Коррекция профиля плагином"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "To access the system via Google, a new account will be created for"
+msgstr ""
+"Для доступа к системе через Google будет создана новая учетная запись для"
+
+msgid "Rule Used"
+msgstr "Используемое правило"
+
+msgid "Plugin googlesso step"
+msgstr "Шаг плагина Googlesso"
+
+msgid "Simulator:"
+msgstr "Симулятор:"
+
+msgid "Account Creation Required"
+msgstr "Требуется создание учетной записи"
+
+msgid "Domain Rule for \"%s\""
+msgstr "Правило домена для «%s»"
+
+msgid ""
+"This simulator faithfully reproduces the entire execution chain — from the "
+"plugin logic to the internal GLPI Core behavior. Enter an email and see "
+"step-by-step what would happen in a real login."
+msgstr ""
+"Этот симулятор точно воспроизводит всю цепочку выполнения — от логики "
+"плагина до внутреннего поведения ядра GLPI. Введите адрес электронной почты "
+"и посмотрите шаг за шагом, что произойдет при реальном входе в систему."
+
+msgid "Back to configuration"
+msgstr "Вернуться к настройке"
+
+msgid "Account Creation Confirmation"
+msgstr "Подтверждение создания учетной записи"
+
+msgid "Domain Rules"
+msgstr "Правила домена"
+
+msgid "Account Creation Simulator"
+msgstr "Симулятор создания аккаунта"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "No user found with the email <strong>%s</strong>"
+msgstr ""
+"Ни один пользователь не найден с адресом электронной почты "
+"<strong>%s</strong>."
+
+msgid "Login / Email"
+msgstr "Войти / Электронная почта"
+
+msgid ""
+"The \"Automatically create users\" configuration is "
+"<strong>DISABLED</strong>. The login would be blocked."
+msgstr ""
+"Конфигурация «Автоматически создавать пользователей» "
+"<strong>ОТКЛЮЧЕНА</strong>. Вход в систему будет заблокирован."
+
+msgid "(none)"
+msgstr "(никто)"
+
+msgid "Login blocked: Only accounts from the %s domain are accepted."
+msgstr "Вход заблокирован: принимаются только учетные записи из домена %s."
+
+msgid "The user \"%s\" would be created successfully."
+msgstr "Пользователь «%s» будет успешно создан."
+
+msgid ""
+"The plugin removes the incorrect profiles assigned by GLPI and explicitly "
+"links the profile <strong>%s</strong> and entity <strong>%s</strong> using "
+"the <code>Profile_User</code> class."
+msgstr ""
+"Плагин удаляет неправильные профили, назначенные GLPI, и явно связывает "
+"профиль <strong>%s</strong> и объект <strong>%s</strong> с помощью класса "
+"<code>Profile_User</code>."
+
+msgid "Email Validation"
+msgstr "Проверка электронной почты"
+
+msgid "User found by email: <strong>%s</strong> (ID: %d)"
+msgstr ""
+"Пользователь найден по электронной почте: <strong>%s</strong> (ID: %d)"
+
+msgid "Domain Restriction Check"
+msgstr "Проверка ограничения домена"
+
+msgid "None"
+msgstr "Никто"
+
+msgid "Session::init() — Login Performed"
+msgstr "Session::init() — Вход выполнен"
+
+msgid "Execution Chain (Step-by-Step)"
+msgstr "Цепочка выполнения (шаг за шагом)"
+
+msgid "Login to Existing Account"
+msgstr "Войти в существующую учетную запись"
+
+msgid "How it works:"
+msgstr "Как это работает:"
+
+msgid ""
+"In GLPI 11, the core ignores the profile passed by external authentications "
+"and automatically assigns the global default profile (usually Self-Service) "
+"to the new user."
+msgstr ""
+"В GLPI 11 ядро ​​игнорирует профиль, передаваемый при внешней "
+"аутентификации, и автоматически назначает новому пользователю глобальный "
+"профиль по умолчанию (обычно самообслуживание)."
+
+msgid "Final Entity"
+msgstr "Конечная сущность"
+
+msgid "Final Result"
+msgstr "Окончательный результат"
+
+msgid "Back to Login"
+msgstr "Вернуться к входу"
+
+msgid "Simulated Email:"
+msgstr "Имитация электронной почты:"
+
+msgid ""
+"Restrict domain: <strong>%s</strong> | Auto create users: "
+"<strong>%s</strong>"
+msgstr ""
+"Ограничить домен: <strong>%s</strong> | Автоматическое создание "
+"пользователей: <strong>%s</strong>"
+
+msgid "Final Profile"
+msgstr "Окончательный профиль"
+
+msgid ""
+"The user \"%s\" would be created, but without ANY profile. Access to GLPI "
+"would be denied. Please configure a valid profile in the Default Rule or "
+"Domain Rules."
+msgstr ""
+"Пользователь «%s» будет создан, но без ЛЮБОГО профиля. Доступ к GLPI будет "
+"запрещен. Настройте действительный профиль в правиле по умолчанию или "
+"правилах домена."
+
+msgid "GLPI Core step"
+msgstr "Основной шаг GLPI"
+
+msgid ""
+"No valid profile (ID > 0) was found in the plugin rules. The user would be "
+"created WITHOUT a profile."
+msgstr ""
+"В правилах плагина не найден действительный профиль (ID > 0). Пользователь "
+"будет создан БЕЗ профиля."

@@ -18,12 +18,11 @@ use User;
  */
 final class Authenticator
 {
-    public static function login(GoogleUser $owner): void
+    public static function login(array $claims, bool $forceCreate = false): void
     {
         $config = Config::getConfig();
-        $claims = $owner->toArray();
 
-        $email = strtolower(trim((string) $owner->getEmail()));
+        $email = strtolower(trim((string) ($claims['email'] ?? '')));
         if ($email === '' || empty($claims['email_verified'])) {
             self::fail(__('The Google account does not have a verified email.', 'googlesso'));
         }
@@ -45,7 +44,14 @@ final class Authenticator
             if (!$config['auto_create_users']) {
                 self::fail(__('No GLPI user corresponds to this Google account.', 'googlesso'));
             }
-            $user = self::createUser($email, $owner, $config);
+
+            if (!$forceCreate) {
+                global $CFG_GLPI;
+                $_SESSION['googlesso_pending_claims'] = $claims;
+                Html::redirect($CFG_GLPI['root_doc'] . '/plugins/googlesso/front/consent.php');
+            }
+
+            $user = self::createUser($email, $claims, $config);
         }
 
         if ((int) $user->fields['is_deleted'] === 1 || (int) $user->fields['is_active'] !== 1) {
@@ -87,15 +93,16 @@ final class Authenticator
         Auth::redirectIfAuthenticated();
     }
 
-    private static function createUser(string $email, GoogleUser $owner, array $config): User
+    private static function createUser(string $email, array $claims, array $config): User
     {
         $user  = new User();
         $input = [
             'name'        => $email,
-            'realname'    => (string) ($owner->getLastName() ?? ''),
-            'firstname'   => (string) ($owner->getFirstName() ?? ''),
+            'realname'    => (string) ($claims['family_name'] ?? ''),
+            'firstname'   => (string) ($claims['given_name'] ?? ''),
             'authtype'    => Auth::EXTERNAL,
             'is_active'   => 1,
+            'comment'     => __('Created via Google SSO Plugin', 'googlesso'),
             '_useremails' => [-1 => $email],
         ];
 
@@ -118,15 +125,27 @@ final class Authenticator
             $entity_id  = $config['default_entity_id'];
         }
 
-        if ($profile_id > 0) {
-            $input['_profiles_id']  = $profile_id;
-            $input['_entities_id']  = $entity_id;
-            $input['_is_recursive'] = 1;
-        }
-
         $users_id = $user->add($input);
         if (!$users_id) {
             self::fail(__('Failed to create the user in GLPI.', 'googlesso'));
+        }
+
+        // Remove TODOS os perfis auto-atribuídos pelo GLPI (ex: Self-Service)
+        // e adiciona apenas o perfil configurado no plugin.
+        if ($profile_id > 0) {
+            $profUser = new \Profile_User();
+            // Apaga qualquer perfil que o core tenha atribuído automaticamente
+            $autoProfiles = $profUser->find(['users_id' => $users_id]);
+            foreach ($autoProfiles as $ap) {
+                $profUser->delete(['id' => $ap['id']], true);
+            }
+            // Adiciona o perfil correto conforme regras do plugin
+            $profUser->add([
+                'users_id'     => $users_id,
+                'profiles_id'  => $profile_id,
+                'entities_id'  => $entity_id,
+                'is_recursive' => 1
+            ]);
         }
 
         $user->getFromDB($users_id);

@@ -157,6 +157,11 @@
 
             {{ fields.dropdownField('Entity', 'default_entity_id', config.default_entity_id,
                 __('Default entity (ELSE)', 'googlesso')) }}
+
+            <div style="background: #eef9fd; border-left: 4px solid #178abb; padding: 12px 16px; border-radius: 4px; color: #1a3e72; font-size: 14px; margin-top: 15px;">
+                <strong>🧪 {{ __('Simulator:', 'googlesso') }}</strong> {{ __('To test the account creation rules and discover which Profile/Entity will be assigned to an email,', 'googlesso') }}
+                <a href="{{ root_doc }}/plugins/googlesso/front/simulator.php" style="color: #178abb; font-weight: 600; text-decoration: none;">{{ __('click here', 'googlesso') }}</a>.
+            </div>
             </div>
 
             <hr class="my-4">

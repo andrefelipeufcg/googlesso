@@ -39,7 +39,7 @@ function plugin_init_googlesso(): void
     // senão o callback do Google é bloqueado antes de autenticar.
     Firewall::addPluginStrategyForLegacyScripts(
         'googlesso',
-        '#^/front/(authorize|callback)\.php$#',
+        '#^/front/(authorize|callback|consent)\.php$#',
         Firewall::STRATEGY_NO_CHECK
     );
 }

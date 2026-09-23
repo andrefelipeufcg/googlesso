@@ -48,7 +48,7 @@ final class Authenticator
             if (!$forceCreate) {
                 global $CFG_GLPI;
                 $_SESSION['googlesso_pending_claims'] = $claims;
-                Html::redirect($CFG_GLPI['root_doc'] . '/plugins/googlesso/front/consent.php');
+                Html::redirect($CFG_GLPI['root_doc'] . \Plugin::getPhpDir('googlesso', false) . '/front/consent.php');
             }
 
             $user = self::createUser($email, $claims, $config);
@@ -145,6 +145,12 @@ final class Authenticator
                 'profiles_id'  => $profile_id,
                 'entities_id'  => $entity_id,
                 'is_recursive' => 1
+            ]);
+            // Define as preferências (entidade e perfil padrão) de acordo com a regra
+            $user->update([
+                'id'          => $users_id,
+                'entities_id' => $entity_id,
+                'profiles_id' => $profile_id
             ]);
         }
 

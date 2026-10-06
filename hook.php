@@ -38,6 +38,6 @@ function plugin_googlesso_display_login(): void
     }
 
     TemplateRenderer::getInstance()->display('@googlesso/login_button.html.twig', [
-        'authorize_url' => $CFG_GLPI['root_doc'] . '/plugins/googlesso/front/authorize.php',
+        'authorize_url' => $CFG_GLPI['root_doc'] . \Plugin::getPhpDir('googlesso', false) . '/front/authorize.php',
     ]);
 }

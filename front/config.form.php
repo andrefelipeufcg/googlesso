@@ -25,13 +25,13 @@ Html::header(__('Google SSO', 'googlesso'), '', 'config', 'plugins');
 global $DB;
 
 $profiles = [];
-foreach ($DB->request('glpi_profiles') as $p) {
+foreach ($DB->request(['FROM' => 'glpi_profiles']) as $p) {
     $profiles[$p['id']] = $p['name'];
 }
 asort($profiles);
 
 $entities = [];
-foreach ($DB->request('glpi_entities') as $e) {
+foreach ($DB->request(['FROM' => 'glpi_entities']) as $e) {
     $entities[$e['id']] = $e['completename'];
 }
 asort($entities);
@@ -39,7 +39,7 @@ asort($entities);
 TemplateRenderer::getInstance()->display('@googlesso/config.html.twig', [
     'config'       => Config::getConfig(),
     'redirect_uri' => Provider::getRedirectUri(),
-    'action'       => $CFG_GLPI['root_doc'] . '/plugins/googlesso/front/config.form.php',
+    'action'       => $CFG_GLPI['root_doc'] . \Plugin::getPhpDir('googlesso', false) . '/front/config.form.php',
     'profiles'     => $profiles,
     'entities'     => $entities,
 ]);

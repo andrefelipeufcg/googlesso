@@ -248,7 +248,7 @@ if ($isPost && $email !== '') {
     ];
 }
 
-$selfUrl = $CFG_GLPI['root_doc'] . '/plugins/googlesso/front/simulator.php';
+$selfUrl = $CFG_GLPI['root_doc'] . \Plugin::getPhpDir('googlesso', false) . '/front/simulator.php';
 
 $params = [
     'root_doc' => $CFG_GLPI['root_doc'],

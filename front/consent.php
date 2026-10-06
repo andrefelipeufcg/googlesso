@@ -99,7 +99,7 @@ $csrf = $_SESSION['googlesso_custom_csrf'];
 
 $params = [
     'root_doc'   => $CFG_GLPI['root_doc'],
-    'selfUrl'    => $CFG_GLPI['root_doc'] . '/plugins/googlesso/front/consent.php',
+    'selfUrl'    => $CFG_GLPI['root_doc'] . \Plugin::getPhpDir('googlesso', false) . '/front/consent.php',
     'csrf'       => $csrf,
     'name'       => $name,
     'email'      => $maskedEmail

@@ -11,7 +11,7 @@ final class Provider
         global $CFG_GLPI;
 
         // GLPI 11: URL pública canônica do plugin é /plugins/<chave>/...
-        return $CFG_GLPI['url_base'] . '/plugins/googlesso/front/callback.php';
+        return $CFG_GLPI['url_base'] . \Plugin::getPhpDir('googlesso', false) . '/front/callback.php';
     }
 
     public static function create(): Google

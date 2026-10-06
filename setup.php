@@ -19,7 +19,7 @@ function plugin_init_googlesso(): void
 {
     global $PLUGIN_HOOKS;
 
-    $PLUGIN_HOOKS[Hooks::CSRF_COMPLIANT]['googlesso'] = true;
+    $PLUGIN_HOOKS['csrf_compliant']['googlesso'] = true;
 
     // Dependências Composer do próprio plugin (league/oauth2-google)
     $autoload = __DIR__ . '/vendor/autoload.php';
